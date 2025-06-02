@@ -1,0 +1,12 @@
+@prefix : <http://contoh.org/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<file:///C:/coding/Project_SemantikWeb_6_2025/data/naskahSunda01> a :Manuskrip ;
+    :ditulisMenggunakan <file:///C:/coding/Project_SemantikWeb_6_2025/data/AksaraCacarakan> ;
+    dcterms:creator "Anonim" ;
+    dcterms:title "Carita Parahiyangan"@su .
+
+<file:///C:/coding/Project_SemantikWeb_6_2025/data/AksaraCacarakan> a :SistemTulisan ;
+    rdfs:label "Aksara Cacarakan"@id .
+

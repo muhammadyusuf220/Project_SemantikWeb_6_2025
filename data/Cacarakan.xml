@@ -1,0 +1,2555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns="http://contoh.org/ontology#">
+
+   ### DEKLARASI UTAMA ###
+    :naskahSunda01 a :Manuskrip ;
+        dcterms:title "Carita Parahiyangan"@su ;
+        dcterms:alternative "Carita Parahyangan"@su ;
+        dcterms:creator "Anonim" ;
+        dcterms:language "su" ;
+        :ditulisMenggunakan :AksaraCacarakan ;
+        :periode "Abad ke-16" ;
+        :lokasiPenyimpanan "Naskah koleksi pribadi" .
+
+    :AksaraCacarakan a :SistemTulisan ;
+        rdfs:label "Aksara Cacarakan"@id ;
+        :berasalDariWilayah "Tatar Sunda"@id ;
+        :merupakanVarianDari :AksaraSundaKuno .
+
+    ### BAGIAN I TEKS ###
+
+    # Baris 1 (Pembuka)
+    :baris101 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris101 ;
+        :hasTransliteration :translit_baris101 ;
+        :hasTranslation :terjemah_baris101 ;
+        :urutan "1"^^xsd:integer ;
+        dcterms:identifier "CPH-B001" .
+
+    :aksara_baris101 a :TeksAksara ;
+        rdf:value "ꦤ꧀ꦝꦺꦃꦤꦶꦲꦤ꧀ꦕꦫꦶꦠꦦꦫꦲꦶꦪꦸꦔꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "20"^^xsd:integer .
+
+    :translit_baris101 a :Transliterasi ;
+        rdf:value "Ndéh nihan Carita Parahiyangan."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris101 a :Terjemahan ;
+        rdf:value "Inilah kisah Carita Parahiyangan."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 2 (Sang Resi Guru)
+    :baris102 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris102 ;
+        :hasTransliteration :translit_baris102 ;
+        :hasTranslation :terjemah_baris102 ;
+        :urutan "2"^^xsd:integer ;
+        dcterms:identifier "CPH-B002" .
+
+    :aksara_baris102 a :TeksAksara ;
+        rdf:value "ꦱꦔꦫꦺꦱꦶꦓꦸꦫꦸꦩꦔꦾꦸꦓꦫꦴꦗꦦꦸꦠꦽꦫꦴ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "17"^^xsd:integer .
+
+    :translit_baris102 a :Transliterasi ;
+        rdf:value "Sang Resi Guru mangyuga Rajaputra."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris102 a :Terjemahan ;
+        rdf:value "Sang Resi Guru mengangkat Rajaputra."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 3 (Perkawinan)
+    :baris103 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris103 ;
+        :hasTransliteration :translit_baris103 ;
+        :hasTranslation :terjemah_baris103 ;
+        :urutan "3"^^xsd:integer ;
+        dcterms:identifier "CPH-B003" .
+
+    :aksara_baris103 a :TeksAksara ;
+        rdf:value "ꦫꦴꦗꦦꦸꦠꦽꦫꦩꦶꦱꦺꦮꦺꦈꦏꦺꦤ꧀ꦱꦔꦏꦤ꧀ꦢꦶꦲꦮꦤ꧀ꦭꦮꦤ꧀ꦱꦔꦏꦤ꧀ꦢꦶꦲꦮꦠꦶ, ꦱꦶꦢꦱꦦꦶꦭꦤ꧀ꦕꦺꦏꦤ꧀."@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris103 a :Transliterasi ;
+        rdf:value "Rajaputra miseuweukeun Sang Kandiawan lawan Sang Kandiawati, sida sapilanceukan."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris103 a :Terjemahan ;
+        rdf:value "Rajaputra menikahkan Sang Kandiawan dengan Sang Kandiawati, mereka bersatu."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 4 (Gelar Déwaraja)
+    :baris104 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris104 ;
+        :hasTransliteration :translit_baris104 ;
+        :hasTranslation :terjemah_baris104 ;
+        :urutan "4"^^xsd:integer ;
+        dcterms:identifier "CPH-B004" .
+
+    :aksara_baris104 a :TeksAksara ;
+        rdf:value "ꦔꦔꦫꦤꦤ꧀ꦩꦤꦺꦃꦫꦲꦶꦪꦔꦠꦫꦺꦣꦮꦫꦴꦗ."@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "25"^^xsd:integer .
+
+    :translit_baris104 a :Transliterasi ;
+        rdf:value "Ngangaranan manéh Rahiyangta Déwaraja."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris104 a :Terjemahan ;
+        rdf:value "Ia menamai dirinya Rahiyangta Déwaraja."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 5 (Gelar Medangjati)
+    :baris105 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris105 ;
+        :hasTransliteration :translit_baris105 ;
+        :hasTranslation :terjemah_baris105 ;
+        :urutan "5"^^xsd:integer ;
+        dcterms:identifier "CPH-B005" .
+
+    :aksara_baris105 a :TeksAksara ;
+        rdf:value "ꦨꦱꦭꦸꦩꦏꦸꦔꦔꦫꦤꦤ꧀ꦩꦤꦺꦃꦫꦲꦶꦪꦔꦠꦫꦶꦩꦺꦢꦔꦗꦠꦶ, ꦆꦚꦱꦔꦭꦪꦸꦮꦠꦔ꧀, ꦚꦤꦸꦚꦶꦲꦺꦴꦏꦺꦤ꧀ꦱꦔꦲꦶꦪꦔꦮꦠꦔꦆꦒꦺꦴꦔ꧀."@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "80"^^xsd:integer .
+
+    :translit_baris105 a :Transliterasi ;
+        rdf:value "Basa lumaku ngarajaresi ngangaranan manéh Rahiyangta ri Medangjati, inya Sang Layuwatang, nya nu nyieun Sanghiyang Watang Ageung."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris105 a :Terjemahan ;
+        rdf:value "Ketika memerintah dan menjadi resi, ia bernama Rahiyangta ri Medangjati, yaitu Sang Layuwatang, dia yang menciptakan Sanghiyang Watang Ageung."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 6 (Moksa)
+    :baris106 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris106 ;
+        :hasTransliteration :translit_baris106 ;
+        :hasTranslation :terjemah_baris106 ;
+        :urutan "6"^^xsd:integer ;
+        dcterms:identifier "CPH-B006" .
+
+    :aksara_baris106 a :TeksAksara ;
+        rdf:value "ꦨꦱꦤꦲꦔꦏꦠ꧀ꦱꦨꦸꦩꦶꦗꦢꦶꦩꦤꦶꦏꦱꦏꦸꦫꦸꦔꦤ꧀, ꦤꦸꦩꦶꦱꦺꦮꦺꦈꦏꦺꦤ꧀ꦦꦤ꧀ꦕꦦꦸꦠꦽꦫꦴ;"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "60"^^xsd:integer .
+
+    :translit_baris106 a :Transliterasi ;
+        rdf:value "Basana angkat sabumi jadi manik sakurungan, nu miseuweukeun pancaputra;"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris106 a :Terjemahan ;
+        rdf:value "Ketika ia meninggalkan dunia dan menjadi manik sakurungan (permata dalam wadah), yang menyaksikannya adalah lima putra;"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 7 (Daftar Putra)
+    :baris107 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris107 ;
+        :hasTransliteration :translit_baris107 ;
+        :hasTranslation :terjemah_baris107 ;
+        :urutan "7"^^xsd:integer ;
+        dcterms:identifier "CPH-B007" .
+
+    :aksara_baris107 a :TeksAksara ;
+        rdf:value "ꦱꦔꦄꦦꦠꦶꦪꦤ꧀ꦱꦔꦏꦸꦱꦶꦏ, ꦱꦔꦓꦽꦓꦱꦔꦩꦺꦱ꧀ꦠꦽꦫꦶ, ꦱꦔꦦꦸꦫꦸꦱ, ꦱꦔꦦꦸꦠꦤ꧀ꦗꦭꦆꦚꦱꦔꦩꦔꦸꦏꦸꦲꦤ꧀, ꦱꦔꦏꦫꦸꦔꦏꦭꦃ, ꦱꦔꦏꦠꦸꦔꦩꦫꦭꦃ, ꦱꦔꦱꦤ꧀ꦢꦔꦽꦓꦨ, ꦱꦔꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀."@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "120"^^xsd:integer .
+
+    :translit_baris107 a :Transliterasi ;
+        rdf:value "Sang Apatiyan Sang Kusika, Sang Garga Sang Mestri, Sang Purusa, Sang Putanjala inya Sang Mangukuhan, Sang Karungkalah, Sang Katungmaralah, Sang Sandanggreba, Sang Wretikandayun."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris107 a :Terjemahan ;
+        rdf:value "Sang Apatiyan, Sang Kusika, Sang Garga, Sang Mestri, Sang Purusa, Sang Putanjala yang juga disebut Sang Mangukuhan, Sang Karungkalah, Sang Katungmaralah, Sang Sandanggreba, Sang Wretikandayun."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    ### BAGIAN II TEKS ###
+
+    # Baris 1 (Burung Uwur-uwur dan Naragati)
+    :baris201 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris201 ;
+        :hasTransliteration :translit_baris201 ;
+        :hasTranslation :terjemah_baris201 ;
+        :urutan "8"^^xsd:integer ;
+        dcterms:identifier "CPH-B008" .
+
+    :aksara_baris201 a :TeksAksara ;
+        rdf:value "ꦲꦤꦥꦏ꧀ꦱꦶꦱꦈꦮꦸꦫꦸꦮꦸꦫ꧀ꦥꦏ꧀ꦱꦶꦱꦤꦫꦓꦠꦶꦚꦪꦁꦢꦶꦠꦶꦠꦿꦪꦠꦿꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris201 a :Transliterasi ;
+        rdf:value "Hana paksi Si Uwur-uwur, paksi Si Naragati, nyayang di titrayatra Bagawat Resi Makandria."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris201 a :Terjemahan ;
+        rdf:value "Ada burung Si Uwur-uwur dan burung Si Naragati yang hinggap di pertapaan Bagawat Resi Makandria."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 2 (Diberi makan suami)
+    :baris202 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris202 ;
+        :hasTransliteration :translit_baris202 ;
+        :hasTranslation :terjemah_baris202 ;
+        :urutan "9"^^xsd:integer ;
+        dcterms:identifier "CPH-B009" .
+
+    :aksara_baris202 a :TeksAksara ;
+        rdf:value "ꦢꦶꦲꦏꦤ꧀ꦏꦸꦱꦭꦏꦶꦤꦢꦶꦱꦺꦲꦸꦱꦺꦎꦭ꧀ꦏꦸꦲꦺꦮꦺꦤ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "25"^^xsd:integer .
+
+    :translit_baris202 a :Transliterasi ;
+        rdf:value "Dihakan anakna ku salakina. Diseuseul ku éwéna."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris202 a :Terjemahan ;
+        rdf:value "Mereka diberi makan oleh suaminya. Dipanggil oleh istrinya."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 3 (Permintaan istri)
+    :baris203 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris203 ;
+        :hasTransliteration :translit_baris203 ;
+        :hasTranslation :terjemah_baris203 ;
+        :urutan "10"^^xsd:integer ;
+        dcterms:identifier "CPH-B010" .
+
+    :aksara_baris203 a :TeksAksara ;
+        rdf:value "ꦕꦫꦺꦏꦲꦺꦮꦺꦤꦄꦕꦫꦺꦏꦲꦺꦮꦺꦤꦄꦥꦥꦈꦫꦁꦭꦩꦸꦤꦈꦫꦁꦠꦺꦈꦢꦶꦲꦤꦏ꧀ꦗꦺꦈꦲꦺꦁꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "60"^^xsd:integer .
+
+    :translit_baris203 a :Transliterasi ;
+        rdf:value "Carék éwéna, 'Papa urang, lamun urang teu dianak, jeueung Bagawat Resi Makandria."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris203 a :Terjemahan ;
+        rdf:value "Berkata istrinya, 'Ayah kita, jika kita tidak diberi anak, sekarang Bagawat Resi Makandria."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 4 (Saran bertapa)
+    :baris204 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris204 ;
+        :hasTransliteration :translit_baris204 ;
+        :hasTranslation :terjemah_baris204 ;
+        :urutan "11"^^xsd:integer ;
+        dcterms:identifier "CPH-B011" .
+
+    :aksara_baris204 a :TeksAksara ;
+        rdf:value "ꦢꦶꦠꦥꦱꦺꦴꦠꦺꦃꦥꦥꦗꦲꦤ꧀ꦠꦺꦈꦢꦶꦲꦤꦏ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "30"^^xsd:integer .
+
+    :translit_baris204 a :Transliterasi ;
+        rdf:value "Ditapa sotéh papa, ja hanteu dianak.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris204 a :Terjemahan ;
+        rdf:value "Bertapalah ayah, agar bisa diberi anak.'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 5 (Tanggapan Bagawat)
+    :baris205 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris205 ;
+        :hasTransliteration :translit_baris205 ;
+        :hasTranslation :terjemah_baris205 ;
+        :urutan "12"^^xsd:integer ;
+        dcterms:identifier "CPH-B012" .
+
+    :aksara_baris205 a :TeksAksara ;
+        rdf:value "ꦕꦫꦺꦏꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲꦢꦶꦲꦤꦏ꧀ꦏꦸꦮꦪꦗꦲꦺꦮꦺꦎꦒꦺꦲꦤ꧀ꦠꦺꦈ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "40"^^xsd:integer .
+
+    :translit_baris205 a :Transliterasi ;
+        rdf:value "Carék Bagawat Resi Makandria, 'Dianak ku waya, ja éwé ogé hanteu.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris205 a :Terjemahan ;
+        rdf:value "Berkata Bagawat Resi Makandria, 'Diberi anak oleh siapa, jika istri juga tidak bisa.'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 6 (Rencana pergi ke Resi Guru)
+    :baris206 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris206 ;
+        :hasTransliteration :translit_baris206 ;
+        :hasTranslation :terjemah_baris206 ;
+        :urutan "13"^^xsd:integer ;
+        dcterms:identifier "CPH-B013" .
+
+    :aksara_baris206 a :TeksAksara ;
+        rdf:value "ꦠꦶꦲꦶꦚꦢꦺꦏ꧀ꦭꦺꦈꦩ꧀ꦥꦁꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦏꦏꦺꦤ꧀ꦢꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "35"^^xsd:integer .
+
+    :translit_baris206 a :Transliterasi ;
+        rdf:value "Ti inya carék Bagawat Resi Makandria, 'Aing dék leumpang ka Sang Resi Guru, ka Kéndan.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris206 a :Terjemahan ;
+        rdf:value "Kemudian berkata Bagawat Resi Makandria, 'Aku akan pergi ke Sang Resi Guru, ke Kéndan.'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    ### KELANJUTAN BAGIAN II ###
+
+    # Baris 7 (Kedatangan di Kéndan)
+    :baris207 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris207 ;
+        :hasTransliteration :translit_baris207 ;
+        :hasTranslation :terjemah_baris207 ;
+        :urutan "14"^^xsd:integer ;
+        dcterms:identifier "CPH-B014" .
+
+    :aksara_baris207 a :TeksAksara ;
+        rdf:value "ꦢꦠꦁꦱꦶꦪꦏꦏꦺꦤ꧀ꦢꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "10"^^xsd:integer .
+
+    :translit_baris207 a :Transliterasi ;
+        rdf:value "Datang siya ka Kéndan."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris207 a :Terjemahan ;
+        rdf:value "Datanglah ia ke Kéndan."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 8 (Pertanyaan Resi Guru)
+    :baris208 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris208 ;
+        :hasTransliteration :translit_baris208 ;
+        :hasTranslation :terjemah_baris208 ;
+        :urutan "15"^^xsd:integer ;
+        dcterms:identifier "CPH-B015" .
+
+    :aksara_baris208 a :TeksAksara ;
+        rdf:value "ꦕꦫꦺꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦤꦲꦤꦲꦱꦶꦪꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲꦩꦤꦱꦶꦪꦢꦠꦁꦏꦢꦶꦤꦶꦃ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris208 a :Transliterasi ;
+        rdf:value "Carék Sang Resi Guru, 'Na naha siya Bagawat Resi Makandria, mana siya datang ka dinih?'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris208 a :Terjemahan ;
+        rdf:value "Berkata Sang Resi Guru, 'Ada apa Bagawat Resi Makandria, mengapa engkau datang ke sini?'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 9 (Jawaban Bagawat)
+    :baris209 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris209 ;
+        :hasTransliteration :translit_baris209 ;
+        :hasTranslation :terjemah_baris209 ;
+        :urutan "16"^^xsd:integer ;
+        dcterms:identifier "CPH-B016" .
+
+    :aksara_baris209 a :TeksAksara ;
+        rdf:value "ꦥꦸꦤ꧀ꦱꦩꦥꦸꦤ꧀ꦲꦪꦨꦗꦏꦩꦶꦥꦸꦤ꧀ꦏꦩꦶꦩꦺꦤ꧀ꦠꦥꦶꦫꦧꦶꦈꦤ꧀ꦥꦸꦤ꧀ꦏꦺꦤꦏꦩꦶꦏꦥꦸꦥꦸꦭꦶꦲꦤ꧀ꦏꦸꦥꦏ꧀ꦱꦶꦱꦈꦮꦸꦫꦸꦮꦸꦫ꧀ꦥꦏ꧀ꦱꦶꦱꦤꦫꦓꦠꦶꦥꦥꦨꦫꦸꦏꦈꦫꦁꦲꦤ꧀ꦠꦺꦈꦢꦶꦲꦤꦏ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "100"^^xsd:integer .
+
+    :translit_baris209 a :Transliterasi ;
+        rdf:value "'Pun samapun, aya béja kami pun, kami ménta pirabieun pun. Kéna kami kapupulihan ku Paksi Si Uwur-uwur, paksi Si Naragati, papa baruk urang hanteu di na anak.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris209 a :Terjemahan ;
+        rdf:value "'Yang mulia, ada kabar kami, kami meminta petunjuk. Kami diganggu oleh Burung Si Uwur-uwur dan Si Naragati, ayah kami tidak diberi anak.'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 10 (Saran Resi Guru)
+    :baris210 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris210 ;
+        :hasTransliteration :translit_baris210 ;
+        :hasTranslation :terjemah_baris210 ;
+        :urutan "17"^^xsd:integer ;
+        dcterms:identifier "CPH-B017" .
+
+    :aksara_baris210 a :TeksAksara ;
+        rdf:value "ꦕꦫꦺꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦭꦺꦈꦩ꧀ꦥꦁꦱꦶꦪꦠꦶꦲꦸꦭꦏꦨꦠꦸꦂꦱꦶꦪꦢꦺꦈꦶꦲꦤꦏꦶꦁꦦꦮꦃꦄꦏ꧀ꦱꦫꦶꦗꦧꦸꦁꦭꦺꦈꦩ꧀ꦥꦁꦲꦸꦱꦶꦂꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "80"^^xsd:integer .
+
+    :translit_baris210 a :Transliterasi ;
+        rdf:value "Carék Sang Resi Guru, 'Leumpang siya ti heula ka batur siya deui, anaking Pwah Aksari Jabung, leumpang husir Bagawat Resi Makandria, na pideungeuneun satapa, anaking.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris210 a :Terjemahan ;
+        rdf:value "Berkata Sang Resi Guru, 'Pergilah engkau dulu ke saudaramu lagi, anakku Pwah Aksari Jabung, pergilah mengikuti Bagawat Resi Makandria, untuk menemani bertapa, anakku.'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 11 (Perjalanan Pwah Rababu)
+    :baris211 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris211 ;
+        :hasTransliteration :translit_baris211 ;
+        :hasTranslation :terjemah_baris211 ;
+        :urutan "18"^^xsd:integer ;
+        dcterms:identifier "CPH-B018" .
+
+    :aksara_baris211 a :TeksAksara ;
+        rdf:value "ꦭꦺꦈꦩ꧀ꦥꦁꦦꦮꦃꦫꦧꦧꦸꦢꦠꦁꦏꦨꦠꦸꦂꦤꦠꦺꦈꦢꦶꦲꦏꦸꦫꦧꦶꦚꦺꦈꦲꦺꦁꦲꦶꦚꦮꦺꦢꦢꦫꦶꦒꦼꦈꦭꦶꦱ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "60"^^xsd:integer .
+
+    :translit_baris211 a :Transliterasi ;
+        rdf:value "Leumpang Pwah Rababu, datang ka baturna, teu diaku rabi. Nyeueung inya wedadari geulis, ti inya nyieun manéh Pwah Manjangandara, na Bagawat Resi Makandria nyieun manéh Rakéyan Kebowulan, sida pasanggaman."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris211 a :Terjemahan ;
+        rdf:value "Pergilah Pwah Rababu, datang ke saudaranya, tidak diakui sebagai istri. Ternyata ia bidadari cantik, lalu ia menyebut dirinya Pwah Manjangandara, dan Bagawat Resi Makandria menyebut dirinya Rakéyan Kebowulan, mereka bersatu."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 12 (Perintah Resi Guru)
+    :baris212 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris212 ;
+        :hasTransliteration :translit_baris212 ;
+        :hasTranslation :terjemah_baris212 ;
+        :urutan "19"^^xsd:integer ;
+        dcterms:identifier "CPH-B019" .
+
+    :aksara_baris212 a :TeksAksara ;
+        rdf:value "ꦕꦫꦺꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦲꦺꦠꦺꦤ꧀ꦲꦤꦏꦶꦁꦦꦮꦃꦱꦁꦲꦶꦪꦁꦱꦿꦶꦭꦺꦈꦩ꧀ꦥꦁꦏꦤꦒꦗꦢꦶꦏꦭꦈꦤꦺꦎꦏꦱꦶꦪꦏꦦꦮꦃꦄꦏ꧀ꦱꦫꦶꦗꦧꦸꦁ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "80"^^xsd:integer .
+
+    :translit_baris212 a :Transliterasi ;
+        rdf:value "Carék Sang Resi Guru, 'Étén anaking, Pwah Sanghiyang Sri! Leumpang kita ngajadi ka lanceuk siya, ka Pwah Aksari Jabung.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris212 a :Terjemahan ;
+        rdf:value "Berkata Sang Resi Guru, 'Nah anakku, Pwah Sanghyang Sri! Pergilah kita menjadi saudara kandungmu, ke Pwah Aksari Jabung.'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 13 (Penjelmaan terakhir)
+    :baris213 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris213 ;
+        :hasTransliteration :translit_baris213 ;
+        :hasTranslation :terjemah_baris213 ;
+        :urutan "20"^^xsd:integer ;
+        dcterms:identifier "CPH-B020" .
+
+    :aksara_baris213 a :TeksAksara ;
+        rdf:value "ꦠꦶꦲꦶꦚꦭꦺꦈꦩ꧀ꦥꦁꦦꦮꦃꦱꦁꦲꦶꦪꦁꦱꦿꦶꦔꦗꦢꦶꦲꦶꦚꦦꦮꦃꦨꦔꦠꦏ꧀ꦩꦔꦭꦺꦔꦭꦺ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris213 a :Transliterasi ;
+        rdf:value "Ti inya leumpang Pwah Sanghiyang Sri ngajadi, inya Pwah Bungatak Mangaléngalé."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris213 a :Terjemahan ;
+        rdf:value "Kemudian pergi Pwah Sanghyang Sri menjelma, ia menjadi Pwah Bungatak Mangaléngalé."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    ### BAGIAN III TEKS ###
+    
+    # Baris 1 (Perintah berburu)
+    :baris301 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris301 ;
+        :hasTransliteration :translit_baris301 ;
+        :hasTranslation :terjemah_baris301 ;
+        :urutan "21"^^xsd:integer ;
+        dcterms:identifier "CPH-B021" .
+
+    :aksara_baris301 a :TeksAksara ;
+        rdf:value "ꦕꦫꦺꦏꦱꦁꦩꦔꦸꦏꦸꦲꦤ꧀ꦤꦩꦄꦢꦶꦲꦶꦁꦏꦭꦶꦃꦈꦫꦁꦔꦨꦎꦫꦎꦭꦺꦈꦩ꧀ꦥꦁꦏꦠꦼꦒꦭ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "40"^^xsd:integer .
+
+    :translit_baris301 a :Transliterasi ;
+        rdf:value "Carék Sang Mangukuhan, 'Nam adiing kalih, urang ngaboro leumpang ka tegal.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris301 a :Terjemahan ;
+        rdf:value "Berkata Sang Mangukuhan 'Nah adik dua kita berburu pergi ke tegal'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 2 (Melihat Pwah Manjangandara)
+    :baris302 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris302 ;
+        :hasTransliteration :translit_baris302 ;
+        :hasTranslation :terjemah_baris302 ;
+        :urutan "22"^^xsd:integer ;
+        dcterms:identifier "CPH-B022" .
+
+    :aksara_baris302 a :TeksAksara ;
+        rdf:value "ꦱꦢꦠꦁꦏꦠꦼꦔꦃꦠꦼꦒꦭ꧀ꦏꦱꦩ꧀ꦥꦏ꧀ꦦꦮꦃꦩꦤ꧀ꦗꦔꦤ꧀ꦢꦫꦢꦺꦈꦁꦫꦏꦺꦪꦤ꧀ꦏꦨꦎꦮꦸꦭꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris302 a :Transliterasi ;
+        rdf:value "Sadatang ka tengah tegal, kasampak Pwah Manjangandara deung Rakéyan Kebowulan."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris302 a :Terjemahan ;
+        rdf:value "Setelah sampai di tengah tegal terlihat Pwah Manjangandara dengan Rakéyan Kebowulan"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 3 (Pengejaran)
+    :baris303 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris303 ;
+        :hasTransliteration :translit_baris303 ;
+        :hasTranslation :terjemah_baris303 ;
+        :urutan "23"^^xsd:integer ;
+        dcterms:identifier "CPH-B023" .
+
+    :aksara_baris303 a :TeksAksara ;
+        rdf:value "ꦢꦶꦒꦺꦫꦺꦏꦺꦈꦤ꧀ꦏꦸꦱꦁꦦꦤ꧀ꦕꦦꦸꦠꦿꦨꦈꦤꦁꦤꦱꦩꦪꦄꦱꦶꦁꦤꦸꦤꦸꦩ꧀ꦨꦏ꧀ꦲꦶꦚꦠꦶꦲꦸꦭꦄꦤꦸꦔꦺꦈꦤꦄꦲꦶꦚꦥꦶꦫꦠꦸꦈꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "80"^^xsd:integer .
+
+    :translit_baris303 a :Transliterasi ;
+        rdf:value "Digérékeun ku sang pancaputra; beunangna samaya, asing nu numbak inya ti heula, nu ngeunaan inya, piratueun."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris303 a :Terjemahan ;
+        rdf:value "Dikejar oleh sang pancaputra hasilnya sama siapa yang menombak dia lebih dulu yang mengenai dia hadiah"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 4 (Tombakan Wretikandayun)
+    :baris304 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris304 ;
+        :hasTransliteration :translit_baris304 ;
+        :hasTranslation :terjemah_baris304 ;
+        :urutan "24"^^xsd:integer ;
+        dcterms:identifier "CPH-B024" .
+
+    :aksara_baris304 a :TeksAksara ;
+        rdf:value "ꦏꦺꦈꦤꦏꦸꦠꦸꦩ꧀ꦨꦏ꧀ꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦏꦨꦎꦮꦸꦭꦤ꧀ꦗꦺꦈꦁꦦꦮꦃꦩꦤ꧀ꦗꦔꦤ꧀ꦢꦫ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "60"^^xsd:integer .
+
+    :translit_baris304 a :Transliterasi ;
+        rdf:value "Keuna ku tumbak Sang Wretikandayun, Kebowulan jeung Pwah Manjangandara."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris304 a :Terjemahan ;
+        rdf:value "Kena tombak Sang Wretikandayun Kebowulan dengan Pwah Manjangandara"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 5 (Kematian dan pengejaran)
+    :baris305 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris305 ;
+        :hasTransliteration :translit_baris305 ;
+        :hasTranslation :terjemah_baris305 ;
+        :urutan "25"^^xsd:integer ;
+        dcterms:identifier "CPH-B025" .
+
+    :aksara_baris305 a :TeksAksara ;
+        rdf:value "ꦭꦸꦩ꧀ꦥꦠ꧀ꦏꦦꦠꦥꦄꦤꦄꦢꦠꦁꦥꦄꦃꦢꦶꦠꦸꦠꦸꦂꦏꦺꦈꦤ꧀ꦏꦸꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris305 a :Transliterasi ;
+        rdf:value "Lumpat ka patapaanana, datang paéh. Dituturkeun ku Sang Wretikandayun."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris305 a :Terjemahan ;
+        rdf:value "Lari ke pertapaannya datang mati Diikuti oleh Sang Wretikandayun"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 6 (Akhir cerita)
+    :baris306 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris306 ;
+        :hasTransliteration :translit_baris306 ;
+        :hasTranslation :terjemah_baris306 ;
+        :urutan "26"^^xsd:integer ;
+        dcterms:identifier "CPH-B026" .
+
+    :aksara_baris306 a :TeksAksara ;
+        rdf:value "ꦦꦮꦃꦨꦔꦠꦏ꧀ꦩꦔꦭꦺꦔꦭꦺꦏꦱꦎꦤ꧀ꦔꦶꦤꦁꦢꦺꦈꦁꦦꦮꦃꦩꦤ꧀ꦗꦔꦤ꧀ꦢꦫꦏꦸꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦢꦶꦨꦄꦤ꧀ꦥꦸꦭꦁꦏꦓꦭꦸꦃꦏꦫꦲꦶꦪꦁꦠꦫꦶꦩꦺꦢꦁꦗꦠꦶ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "80"^^xsd:integer .
+
+    :translit_baris306 a :Transliterasi ;
+        rdf:value "Pwah Bungatak Mangaléngalé kasondong nginang deung Pwah Manjangandara; ku Sang Wretikandayun dibaan pulang ka Galuh, ka Rahiyangta ri Medangjati."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris306 a :Terjemahan ;
+        rdf:value "Pwah Bungatak Mangaléngalé ketemu mengunyah dengan Pwah Manjangandara oleh Sang Wretikandayun dibawa pulang ke Galuh ke Rahiyangta ri Medangjati"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    ### BAGIAN IV TEKS ###
+
+    # Baris 1 (Penggantian kekuasaan)
+    :baris401 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris401 ;
+        :hasTransliteration :translit_baris401 ;
+        :hasTranslation :terjemah_baris401 ;
+        :urutan "27"^^xsd:integer ;
+        dcterms:identifier "CPH-B027" .
+
+    :aksara_baris401 a :TeksAksara ;
+        rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦄꦢꦼꦒ꧀ꦫꦠꦸꦭꦶꦩꦮꦼꦭꦱ꧀ꦠꦲꦸꦤ꧀ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦢꦶꦓꦭꦸꦃ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris401 a :Transliterasi ;
+        rdf:value "Lawasniya adeg ratu lima welas tahun, disilihan ku Sang Wretikandayun di Galuh,"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris401 a :Terjemahan ;
+        rdf:value "Lawasnya berkuasa lima belas tahun digantikan oleh Sang Wretikandayun di Galuh"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 2 (Pendamping)
+    :baris402 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris402 ;
+        :hasTransliteration :translit_baris402 ;
+        :hasTranslation :terjemah_baris402 ;
+        :urutan "28"^^xsd:integer ;
+        dcterms:identifier "CPH-B028" .
+
+    :aksara_baris402 a :TeksAksara ;
+        rdf:value "ꦩꦶꦫꦧꦶꦦꦮꦃꦨꦔꦠꦏ꧀ꦩꦔꦭꦺꦔꦭꦺ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "20"^^xsd:integer .
+
+    :translit_baris402 a :Transliterasi ;
+        rdf:value "mirabi Pwah Bungatak Mangaléngalé."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris402 a :Terjemahan ;
+        rdf:value "Ditemani Pwah Bungatak Mangaléngalé"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 3 (Perubahan profesi para tokoh)
+    :baris403 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris403 ;
+        :hasTransliteration :translit_baris403 ;
+        :hasTranslation :terjemah_baris403 ;
+        :urutan "29"^^xsd:integer ;
+        dcterms:identifier "CPH-B029" .
+
+    :aksara_baris403 a :TeksAksara ;
+        rdf:value "ꦤꦱꦁꦩꦔꦸꦏꦸꦲꦤ꧀ꦚꦶꦲꦺꦎꦤ꧀ꦩꦤꦺꦃꦦꦔꦲꦸꦩꦄꦱꦁꦏꦫꦸꦔꦏꦭꦃꦚꦶꦲꦺꦎꦤ꧀ꦩꦤꦺꦃꦦꦔ꧀ꦓꦺꦫꦺꦏ꧀ꦱꦁꦏꦠꦸꦔꦩꦫꦭꦃꦚꦶꦲꦺꦎꦤ꧀ꦩꦤꦺꦃꦦꦚꦢꦥ꧀ꦱꦁꦱꦤ꧀ꦢꦔꦽꦓꦨꦚꦶꦲꦺꦎꦤ꧀ꦩꦤꦺꦃꦦꦢꦓꦁ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "120"^^xsd:integer .
+
+    :translit_baris403 a :Transliterasi ;
+        rdf:value "Na Sang Mangukuhan nyieun manéh panghuma; Sang Karungkalah nyieun manéh panggérék, Sang Katungmaralah nyieun manéh panyadap; Sang Sandanggreba nyieun manéh padagang."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris403 a :Terjemahan ;
+        rdf:value "Maka Sang Mangukuhan menjadikan diri penggarap ladang; Sang Karungkalah menjadikan diri pengumpul hasil hutan; Sang Katungmaralah menjadikan diri penyadap; Sang Sandanggreba menjadikan diri pedagang."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 4 (Pengangkatan gelar)
+    :baris404 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris404 ;
+        :hasTransliteration :translit_baris404 ;
+        :hasTranslation :terjemah_baris404 ;
+        :urutan "30"^^xsd:integer ;
+        dcterms:identifier "CPH-B030" .
+
+    :aksara_baris404 a :TeksAksara ;
+        rdf:value "ꦏꦸꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦢꦶꦲꦢꦼꦒ꧀ꦏꦺꦈꦤ꧀ꦱꦁꦩꦔꦸꦏꦸꦲꦤ꧀ꦫꦲꦶꦪꦁꦠꦁꦏꦸꦭꦶꦏꦸꦭꦶꦱꦁꦏꦫꦸꦔꦏꦭꦃꦢꦶꦲꦢꦼꦒ꧀ꦏꦺꦈꦤ꧀ꦫꦲꦶꦪꦁꦠꦁꦱꦸꦫꦮꦸꦭꦤ꧀ꦱꦁꦏꦠꦸꦔꦩꦫꦭꦃꦢꦶꦲꦢꦼꦒ꧀ꦏꦺꦈꦤ꧀ꦫꦲꦶꦪꦁꦠꦁꦥꦼꦭꦼꦱꦮꦶꦱꦁꦱꦤ꧀ꦢꦔꦽꦓꦨ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "150"^^xsd:integer .
+
+    :translit_baris404 a :Transliterasi ;
+        rdf:value "Ku Sang Wretikandayun diadegkeun Sang Mangukuhan, Rahiyangtang Kulikuli; sang Karungkalah diadegkeun Rahiyangtang Surawulan; Sang Katungmaralah diadegkeun Rahiyangtang Pelesawi; Sang Sandanggreba diadegkeun Rahiyangtang Rawunglangit."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris404 a :Terjemahan ;
+        rdf:value "Oleh Sang Wretikandayun diangkatlah Sang Mangukuhan menjadi Rahiyangtang Kulikuli; Sang Karungkalah diangkat menjadi Rahiyangtang Surawulan; Sang Katungmaralah diangkat menjadi Rahiyangtang Pelesawi; Sang Sandanggreba diangkat menjadi Rahiyangtang Rawunglangit."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    ### KELANJUTAN BAGIAN IV ###
+
+    # Baris 5 (Pemerintahan Wretikandayun)
+    :baris405 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris405 ;
+        :hasTransliteration :translit_baris405 ;
+        :hasTranslation :terjemah_baris405 ;
+        :urutan "31"^^xsd:integer ;
+        dcterms:identifier "CPH-B031" .
+
+    :aksara_baris405 a :TeksAksara ;
+        rdf:value "ꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦄꦢꦼꦒ꧀ꦢꦶꦓꦭꦸꦃ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "20"^^xsd:integer .
+
+    :translit_baris405 a :Transliterasi ;
+        rdf:value "Sang Wretikandayun adeg di Galuh."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris405 a :Terjemahan ;
+        rdf:value "Sang Wretikandayun berkuasa di Galuh."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 6 (Gelar Rahiyangta ri Menir)
+    :baris406 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris406 ;
+        :hasTransliteration :translit_baris406 ;
+        :hasTranslation :terjemah_baris406 ;
+        :urutan "32"^^xsd:integer ;
+        dcterms:identifier "CPH-B032" .
+
+    :aksara_baris406 a :TeksAksara ;
+        rdf:value "ꦠꦶꦲꦶꦚꦭꦸꦩꦏꦸꦔꦔꦫꦗꦫꦺꦱꦶꦔꦔꦫꦤꦤ꧀ꦩꦤꦺꦃꦫꦲꦶꦪꦁꦠꦫꦶꦩꦺꦤꦶꦂ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris406 a :Transliterasi ;
+        rdf:value "Ti inya lumaku ngarajaresi, ngangaranan manéh Rahiyangta ri Menir."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris406 a :Terjemahan ;
+        rdf:value "Kemudian memerintah dan bertapa bergelar Rahiyangta ri Menir."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 7 (Moksa dan Purbatisti)
+    :baris407 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris407 ;
+        :hasTransliteration :translit_baris407 ;
+        :hasTranslation :terjemah_baris407 ;
+        :urutan "33"^^xsd:integer ;
+        dcterms:identifier "CPH-B033" .
+
+    :aksara_baris407 a :TeksAksara ;
+        rdf:value "ꦨꦱꦤꦄꦔꦏꦠ꧀ꦱꦨꦸꦩꦶꦗꦢꦶꦩꦤꦶꦏꦱꦏꦸꦫꦸꦔꦤ꧀ꦲꦶꦚꦤꦸꦚꦶꦲꦺꦎꦤꦤ꧀ꦦꦸꦂꦨꦠꦶꦱ꧀ꦠꦶ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "60"^^xsd:integer .
+
+    :translit_baris407 a :Transliterasi ;
+        rdf:value "Basana angkat sabumi jadi manik sakurungan, inya nu nyieunna Purbatisti."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris407 a :Terjemahan ;
+        rdf:value "Ketika wafat menjadi manik sakurungan, dialah yang menciptakan Purbatisti."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 8 (Masa pemerintahan 80 tahun)
+    :baris408 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris408 ;
+        :hasTransliteration :translit_baris408 ;
+        :hasTranslation :terjemah_baris408 ;
+        :urutan "34"^^xsd:integer ;
+        dcterms:identifier "CPH-B034" .
+
+    :aksara_baris408 a :TeksAksara ;
+        rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦱꦭꦥꦤ꧀ꦥꦸꦭꦸꦃꦠꦲꦸꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "25"^^xsd:integer .
+
+    :translit_baris408 a :Transliterasi ;
+        rdf:value "Lawasniya ratu salapan puluh tahun."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris408 a :Terjemahan ;
+        rdf:value "Berkuasa delapan puluh tahun."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 9 (Penggantian oleh Kulikuli)
+    :baris409 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris409 ;
+        :hasTransliteration :translit_baris409 ;
+        :hasTranslation :terjemah_baris409 ;
+        :urutan "35"^^xsd:integer ;
+        dcterms:identifier "CPH-B035" .
+
+    :aksara_baris409 a :TeksAksara ;
+        rdf:value "ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦠꦁꦏꦸꦭꦶꦏꦸꦭꦶꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦢꦭꦥꦤ꧀ꦥꦸꦭꦸꦃꦠꦲꦸꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "60"^^xsd:integer .
+
+    :translit_baris409 a :Transliterasi ;
+        rdf:value "Disilihan ku Rahiyangtang Kulikuli, lawasniya ratu dalapan puluh tahun."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris409 a :Terjemahan ;
+        rdf:value "Digantikan oleh Rahiyangtang Kulikuli, berkuasa delapan puluh tahun."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 10 (Penggantian oleh Sarawulan)
+    :baris410 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris410 ;
+        :hasTransliteration :translit_baris410 ;
+        :hasTranslation :terjemah_baris410 ;
+        :urutan "36"^^xsd:integer ;
+        dcterms:identifier "CPH-B036" .
+
+    :aksara_baris410 a :TeksAksara ;
+        rdf:value "ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦠꦁꦱꦫꦮꦸꦭꦤ꧀ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦒꦼꦤꦼꦥ꧀ꦠꦲꦸꦤ꧀ꦏꦠꦸꦗꦸꦃꦤꦦꦤ꧀ꦠꦼꦒ꧀ꦏꦤꦒꦎꦫꦺꦁꦠꦮꦃ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "80"^^xsd:integer .
+
+    :translit_baris410 a :Transliterasi ;
+        rdf:value "Disilihan ku Rahiyangtang Sarawulan, lawasniya ratu genep tahun, katujuhna panteg kana goréng twah."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris410 a :Terjemahan ;
+        rdf:value "Digantikan oleh Rahiyangtang Sarawulan, berkuasa enam tahun, yang ketujuh terkena musibah."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 11 (Penggantian oleh Rawunglangit)
+    :baris411 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda01 ;
+        :mengandungAksara :aksara_baris411 ;
+        :hasTransliteration :translit_baris411 ;
+        :hasTranslation :terjemah_baris411 ;
+        :urutan "37"^^xsd:integer ;
+        dcterms:identifier "CPH-B037" .
+
+    :aksara_baris411 a :TeksAksara ;
+        rdf:value "ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦠꦁꦫꦮꦸꦁꦭꦔꦶꦠ꧀ꦭꦮꦱ꧀ꦤꦶꦪꦄꦢꦼꦒ꧀ꦫꦠꦸꦒꦼꦤꦼꦥ꧀ꦥꦸꦭꦸꦃꦠꦲꦸꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "60"^^xsd:integer .
+
+    :translit_baris411 a :Transliterasi ;
+        rdf:value "Disilihan ku Rahiyangtang Rawunglangit, lawasniya adeg ratu genep puluh tahun."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris411 a :Terjemahan ;
+        rdf:value "Digantikan oleh Rahiyangtang Rawunglangit, berkuasa enam puluh tahun."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+    
+
+    ### BAGIAN V TEKS  ###
+
+    # Baris 1 (Penggantian kekuasaan)
+    :baris501 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris501 ;
+        :hasTransliteration :translit_baris501 ;
+        :hasTranslation :terjemah_baris501 ;
+        :urutan "1"^^xsd:integer ;
+        dcterms:identifier "CPH2-B101" .
+
+    :aksara_baris501 a :TeksAksara ;
+        rdf:value "ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "20"^^xsd:integer .
+
+    :translit_baris501 a :Transliterasi ;
+        rdf:value "Disilihan ku Rahiyangtang Mandiminyak."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris501 a :Terjemahan ;
+        rdf:value "Digantikan oleh Rahiyangtang Mandiminyak."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 2 (Tiga bersaudara)
+    :baris502 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris502 ;
+        :hasTransliteration :translit_baris502 ;
+        :hasTranslation :terjemah_baris502 ;
+        :urutan "2"^^xsd:integer ;
+        dcterms:identifier "CPH2-B102" .
+
+    :aksara_baris502 a :TeksAksara ;
+        rdf:value "ꦱꦺꦈꦮꦺꦈꦫꦲꦶꦪꦁꦠꦫꦶꦩꦺꦤꦶꦂꦠꦺꦭꦸꦄꦤ꧀ꦱꦦꦶꦭꦤ꧀ꦕꦺꦏꦤ꧀ꦄꦤꦸꦕꦶꦏꦭ꧀ꦚꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦄꦢꦼꦒ꧀ꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦢꦶꦓꦭꦸꦁꦓꦸꦁꦫꦲꦶꦪꦁꦠꦁꦏꦺꦢꦸꦭ꧀ꦄꦢꦼꦒ꧀ꦨꦠꦫꦲꦶꦪꦁꦨꦸꦪꦸꦠ꧀ꦢꦶꦢꦺꦤꦸꦃꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦄꦢꦼꦒ꧀ꦢꦶꦓꦭꦸꦃ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "170"^^xsd:integer .
+
+    :translit_baris502 a :Transliterasi ;
+        rdf:value "Seuweu Rahiyangta ri Menir, teluan sapilanceukan; anu cikal nya Rahiyang Sempakwaja, adeg Batara Dangiyang Guru di Galunggung; Rahiyangtang Kedul, adeg Batara Hiyang Buyut di Denuh; Rahiyangtang Mandiminyak adeg di Galuh."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris502 a :Terjemahan ;
+        rdf:value "Ada Rahiyangta ri Menir tiga bersaudara yang sulung bernama Rahiyang Sempakwaja berkuasa sebagai Batara Dangiyang Guru di Galunggung Rahiyangtang Kedul berkuasa sebagai Batara Hiyang Buyut di Denuh Rahiyangtang Mandiminyak berkuasa di Galuh."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 3 (Dialog Resi Guru)
+    :baris503 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris503 ;
+        :hasTransliteration :translit_baris503 ;
+        :hasTranslation :terjemah_baris503 ;
+        :urutan "3"^^xsd:integer ;
+        dcterms:identifier "CPH2-B103" .
+
+    :aksara_baris503 a :TeksAksara ;
+        rdf:value "ꦕꦫꦺꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦏꦫꦚꦄꦲꦶꦁꦏꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦲꦤ꧀ꦠꦺꦈꦢꦶꦨꦎꦓꦲꦺꦮꦺ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "60"^^xsd:integer .
+
+    :translit_baris503 a :Transliterasi ;
+        rdf:value "Carék Sang Resi Guru, 'Karunya aing ka Rahiyang Sempakwaja hanteu diboga éwé.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris503 a :Terjemahan ;
+        rdf:value "Berkata Sang Resi Guru, 'Kasihan aku kepada Rahiyang Sempakwaja tidak memiliki istri.'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 4 (Pwah Rababu)
+    :baris504 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris504 ;
+        :hasTransliteration :translit_baris504 ;
+        :hasTranslation :terjemah_baris504 ;
+        :urutan "4"^^xsd:integer ;
+        dcterms:identifier "CPH2-B104" .
+
+    :aksara_baris504 a :TeksAksara ;
+        rdf:value "ꦄꦤꦏꦶꦁꦦꦮꦃꦫꦧꦧꦸꦏꦶꦠꦭꦺꦈꦩ꧀ꦥꦁꦲꦸꦱꦶꦂꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦏꦺꦤꦲꦶꦚꦥꦶꦢꦺꦈꦔꦺꦈꦤ꧀ꦱꦶꦪꦱꦠꦥ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "80"^^xsd:integer .
+
+    :translit_baris504 a :Transliterasi ;
+        rdf:value "Anaking Pwah Rababu! Kita leumpang husir Rahiyang Sempakwaja, kéna inya pideungeuneun siya satapa."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris504 a :Terjemahan ;
+        rdf:value "Anakku Pwah Rababu! Kau ikut Rahiyang Sempakwaja agar dia menemani bertapa."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 5 (Transformasi debu)
+    :baris505 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris505 ;
+        :hasTransliteration :translit_baris505 ;
+        :hasTranslation :terjemah_baris505 ;
+        :urutan "5"^^xsd:integer ;
+        dcterms:identifier "CPH2-B105" .
+
+    :aksara_baris505 a :TeksAksara ;
+        rdf:value "ꦱꦁꦫꦺꦱꦶꦔꦓꦶꦱꦶꦏ꧀ꦠꦶꦦꦸꦭꦸꦁꦗꦢꦶꦗꦭꦭꦁꦨꦎꦢꦱ꧀ꦭꦺꦈꦩ꧀ꦥꦁꦔꦲꦸꦱꦶꦂꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦲꦺꦈꦏꦸꦂꦩꦺꦭꦶꦠ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "70"^^xsd:integer .
+
+    :translit_baris505 a :Transliterasi ;
+        rdf:value "Sang Resi ngagisik tipulung jadi jalalang bodas, leumpang ngahusir Rahiyang Sempakwaja, eukeur melit."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris505 a :Terjemahan ;
+        rdf:value "Sang Resi mengubah debu menjadi rumput putih berjalan mengikuti Rahiyang Sempakwaja sedang berburu."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    
+    ### BAGIAN VI TEKS ###
+
+    # Baris 1 (Gamelan di Galuh)
+    :baris601 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris601 ;
+        :hasTransliteration :translit_baris601 ;
+        :hasTranslation :terjemah_baris601 ;
+        :urutan "6"^^xsd:integer ;
+        dcterms:identifier "CPH2-B106" .
+
+    :aksara_baris601 a :TeksAksara ;
+        rdf:value "ꦔꦫꦺꦈꦔꦺꦈꦠꦠꦨꦺꦈꦲꦤ꧀ꦲꦸꦩꦸꦁꦓꦸꦩꦸꦫꦸꦃꦠꦤ꧀ꦥꦫꦸꦔꦎꦤ꧀ꦠꦠꦨꦺꦈꦲꦤ꧀ꦢꦶꦓꦭꦸꦃ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "40"^^xsd:integer .
+
+    :translit_baris601 a :Transliterasi ;
+        rdf:value "Ngareungeu tatabeuhan humung gumuruh tanpa parungon, tatabeuhan di Galuh."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris601 a :Terjemahan ;
+        rdf:value "Terdengar bunyi gamelan bergema tanpa henti gamelan di Galuh."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 2 (Pulang menari)
+    :baris602 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris602 ;
+        :hasTransliteration :translit_baris602 ;
+        :hasTranslation :terjemah_baris602 ;
+        :urutan "7"^^xsd:integer ;
+        dcterms:identifier "CPH2-B107" .
+
+    :aksara_baris602 a :TeksAksara ;
+        rdf:value "ꦦꦸꦭꦁꦏꦓꦭꦸꦃꦠꦺꦠꦺꦂꦤꦸꦔꦶꦓꦼꦭ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "15"^^xsd:integer .
+
+    :translit_baris602 a :Transliterasi ;
+        rdf:value "Pulang ka Galuh teter nu ngigel."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris602 a :Terjemahan ;
+        rdf:value "Pulang ke Galuh sambil menari."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 3 (Dialog Mandiminyak)
+    :baris603 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris603 ;
+        :hasTransliteration :translit_baris603 ;
+        :hasTranslation :terjemah_baris603 ;
+        :urutan "8"^^xsd:integer ;
+        dcterms:identifier "CPH2-B108" .
+
+    :aksara_baris603 a :TeksAksara ;
+        rdf:value "ꦱꦢꦠꦁꦏꦨꦸꦫꦸꦄꦤ꧀ꦄꦒꦺꦈꦁꦕꦫꦺꦏꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦱꦁꦄꦦꦠꦶꦃꦤꦲꦱꦲꦺꦠ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris603 a :Transliterasi ;
+        rdf:value "Sadatang ka buruan ageung, carék Rahiyangtang Mandiminyak, 'Sang Apatih, na saha éta?'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris603 a :Terjemahan ;
+        rdf:value "Setelah sampai di alun-alun besar berkata Rahiyangtang Mandiminyak 'Sang Patih siapa itu?'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 4 (Jawaban Patih)
+    :baris604 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris604 ;
+        :hasTransliteration :translit_baris604 ;
+        :hasTranslation :terjemah_baris604 ;
+        :urutan "9"^^xsd:integer ;
+        dcterms:identifier "CPH2-B109" .
+
+    :aksara_baris604 a :TeksAksara ;
+        rdf:value "ꦨꦗꦤꦄꦤꦸꦔꦶꦓꦼꦭ꧀ꦢꦶꦨꦸꦫꦸꦄꦤ꧀ꦄꦒꦺꦈꦁ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "25"^^xsd:integer .
+
+    :translit_baris604 a :Transliterasi ;
+        rdf:value "'Béjana nu ngigel di buruan ageung.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris604 a :Terjemahan ;
+        rdf:value "'Bujang yang menari di alun-alun besar.'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 5 (Perintah Mandiminyak)
+    :baris605 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris605 ;
+        :hasTransliteration :translit_baris605 ;
+        :hasTranslation :terjemah_baris605 ;
+        :urutan "10"^^xsd:integer ;
+        dcterms:identifier "CPH2-B110" .
+
+    :aksara_baris605 a :TeksAksara ;
+        rdf:value "ꦲꦺꦠꦨꦮꦱꦶꦚꦁꦱꦦꦫꦓꦶꦲꦶꦮꦺꦈꦏꦺꦃꦦꦩꦭꦄꦤ꧀ꦄꦲꦶꦁꦠꦺꦲꦺꦂꦨꦮꦏꦸꦏꦶꦠꦏꦺꦈꦢꦺꦈꦏꦺꦈꦢꦺꦈ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "60"^^xsd:integer .
+
+    :translit_baris605 a :Transliterasi ;
+        rdf:value "'Éta bawa sinjang saparagi, iweu kéh pamalaan aing. Téhér bawa ku kita keudeukeudeu!'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris605 a :Terjemahan ;
+        rdf:value "'Itu bawa kain seperigi itu milikku Bawa dia kemari!'"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 6 (Pwah Rababu dibawa)
+    :baris606 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris606 ;
+        :hasTransliteration :translit_baris606 ;
+        :hasTranslation :terjemah_baris606 ;
+        :urutan "11"^^xsd:integer ;
+        dcterms:identifier "CPH2-B111" .
+
+    :aksara_baris606 a :TeksAksara ;
+        rdf:value "ꦭꦺꦈꦩ꧀ꦥꦁꦱꦁꦄꦦꦠꦶꦃꦏꦨꦸꦫꦸꦄꦤ꧀ꦄꦒꦺꦈꦁꦢꦶꦨꦄꦤ꧀ꦏꦏꦢꦠ꧀ꦮꦤ꧀ꦤꦦꦮꦃꦫꦧꦧꦸ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "50"^^xsd:integer .
+
+    :translit_baris606 a :Transliterasi ;
+        rdf:value "Leumpang sang apatih ka buruan ageung, dibaan ka kadatwan na Pwah Rababu."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris606 a :Terjemahan ;
+        rdf:value "Pergi sang patih ke alun-alun besar dibawa ke istana yaitu Pwah Rababu."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 7 (Pernikahan)
+    :baris607 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris607 ;
+        :hasTransliteration :translit_baris607 ;
+        :hasTranslation :terjemah_baris607 ;
+        :urutan "12"^^xsd:integer ;
+        dcterms:identifier "CPH2-B112" .
+
+    :aksara_baris607 a :TeksAksara ;
+        rdf:value "ꦢꦶꦦꦶꦫꦧꦶꦏꦸꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦢꦶꦫꦧꦶꦏꦱꦶꦲꦤ꧀ꦤꦦꦮꦃꦫꦧꦧꦸꦢꦶꦱꦺꦈꦮꦺꦈ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "55"^^xsd:integer .
+
+    :translit_baris607 a :Transliterasi ;
+        rdf:value "Dipirabi ku Rahiyangtang Mandiminyak, dirabi kasiahan na Pwah rababu. Diseuweu"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris607 a :Terjemahan ;
+        rdf:value "Dinikahi oleh Rahiyangtang Mandiminyak dijadikan istri kasihan nah Pwah Rababu Diperistri"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 8 (Kelahiran Sang Salah)
+    :baris608 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris608 ;
+        :hasTransliteration :translit_baris608 ;
+        :hasTranslation :terjemah_baris608 ;
+        :urutan "13"^^xsd:integer ;
+        dcterms:identifier "CPH2-B113" .
+
+    :aksara_baris608 a :TeksAksara ;
+        rdf:value "ꦦꦠꦼꦩꦸꦄꦤ꧀ꦢꦶꦔꦫꦤꦤ꧀ꦱꦁꦱꦭꦃ"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "20"^^xsd:integer .
+
+    :translit_baris608 a :Transliterasi ;
+        rdf:value "patemuan, dingaranan Sang Salah."@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris608 a :Terjemahan ;
+        rdf:value "lahirlah Sang Salah."@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    ### BAGIAN VII TEKS ###
+
+    # Baris 1 (Perintah Rahiyang Sempakwaja) - Corrected to baris701
+:baris701 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris701 ;
+    :hasTransliteration :translit_baris701 ;
+    :hasTranslation :terjemah_baris701 ;
+    :urutan "14"^^xsd:integer ;
+    dcterms:identifier "CPH2-B701" .
+
+:aksara_baris701 a :TeksAksara ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦫꦧꦧꦸꦭꦺꦈꦩ꧀ꦥꦁꦏꦸꦱꦶꦪꦨꦮꦠ꧀ꦏꦺꦈꦤ꧀ꦧꦸꦢꦏ꧀ꦲꦺꦠꦏꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦄꦤ꧀ꦠꦺꦈꦂꦏꦺꦈꦤ꧀ꦦꦠꦼꦩꦸꦄꦤ꧀ꦱꦶꦪꦱꦁꦱꦭꦃꦠꦮꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "80"^^xsd:integer .
+
+:translit_baris701 a :Transliterasi ;
+    rdf:value "Carék Rahiyang Sempakwaja, 'Rababu leumpang! Ku siya bwatkeun budak éta ka Rahiyangtang Mandiminyak. Anteurkeun patemuan siya Sang Salahtwah.'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris701 a :Terjemahan ;
+    rdf:value "Berkata Rahiyang Sempakwaja 'Rababu pergilah Kau bawa anak itu kepada Rahiyangtang Mandiminyak Antar pertemuanmu Sang Salahtwah'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 2 (Pwah Rababu pergi) - Corrected to baris702
+:baris702 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris702 ;
+    :hasTransliteration :translit_baris702 ;
+    :hasTranslation :terjemah_baris702 ;
+    :urutan "15"^^xsd:integer ;
+    dcterms:identifier "CPH2-B702" .
+
+:aksara_baris702 a :TeksAksara ;
+    rdf:value "ꦭꦺꦈꦩ꧀ꦥꦁꦦꦮꦃꦫꦧꦧꦸꦏꦓꦭꦸꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "15"^^xsd:integer .
+
+:translit_baris702 a :Transliterasi ;
+    rdf:value "Leumpang Pwah Rababu ka Galuh."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris702 a :Terjemahan ;
+    rdf:value "Pergi Pwah Rababu ke Galuh."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 3 (Ucapan Pwah Rababu) - Corrected to baris703
+:baris703 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris703 ;
+    :hasTransliteration :translit_baris703 ;
+    :hasTranslation :terjemah_baris703 ;
+    :urutan "16"^^xsd:integer ;
+    dcterms:identifier "CPH2-B703" .
+
+:aksara_baris703 a :TeksAksara ;
+    rdf:value "ꦄꦲꦶꦁꦢꦶꦠꦶꦠꦃꦏꦸꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦩ꧀ꦮꦠ꧀ꦏꦺꦈꦤ꧀ꦧꦸꦢꦏ꧀ꦲꦺꦠꦨꦺꦈꦤꦁꦱꦶꦪꦔꦺꦈꦢꦺꦈꦔꦺꦈꦤ꧀ꦄꦲꦶꦁꦠꦺꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "60"^^xsd:integer .
+
+:translit_baris703 a :Transliterasi ;
+    rdf:value "'Aing dititah ku Rahiyang Sempakwaja mwatkeun budak éta, beunang siya ngeudeungeudeu aing téh.'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris703 a :Terjemahan ;
+    rdf:value "'Aku diperintah oleh Rahiyang Sempakwaja membawa anak ini hasil kau menemui aku tadi'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 4 (Pengakuan Mandiminyak) - Corrected to baris704
+:baris704 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris704 ;
+    :hasTransliteration :translit_baris704 ;
+    :hasTranslation :terjemah_baris704 ;
+    :urutan "17"^^xsd:integer ;
+    dcterms:identifier "CPH2-B704" .
+
+:aksara_baris704 a :TeksAksara ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦄꦤꦏ꧀ꦄꦲꦶꦁꦠꦸꦏꦶꦠꦱꦁꦱꦭꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "40"^^xsd:integer .
+
+:translit_baris704 a :Transliterasi ;
+    rdf:value "Carék Rahiyangtang Mandiminyak, 'Anak aing tu kita, Sang Salah.'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris704 a :Terjemahan ;
+    rdf:value "Berkata Rahiyangtang Mandiminyak 'Anakku itu kau Sang Salah'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 5 (Perintah ke Patih) - Corrected to baris705
+:baris705 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris705 ;
+    :hasTransliteration :translit_baris705 ;
+    :hasTranslation :terjemah_baris705 ;
+    :urutan "18"^^xsd:integer ;
+    dcterms:identifier "CPH2-B705" .
+
+:aksara_baris705 a :TeksAksara ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦱꦁꦄꦦꦠꦶꦃꦏꦸꦱꦶꦪꦠꦺꦈꦤ꧀ꦢꦺꦈꦤ꧀ꦏꦤꦗꦩ꧀ꦨꦔꦤ꧀ꦨꦮꦏꦠꦼꦒꦭ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "50"^^xsd:integer .
+
+:translit_baris705 a :Transliterasi ;
+    rdf:value "Carék Rahiyangtang Mandiminyak, 'Sang Apatih, ku siya teundeun kana jambangan. Bawa ka tegal!'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris705 a :Terjemahan ;
+    rdf:value "Berkata Rahiyangtang Mandiminyak 'Sang Patih oleh kau taruh dalam jambangan Bawa ke tegal'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 6 (Kejadian ajaib) - Corrected to baris706
+:baris706 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris706 ;
+    :hasTransliteration :translit_baris706 ;
+    :hasTranslation :terjemah_baris706 ;
+    :urutan "19"^^xsd:integer ;
+    dcterms:identifier "CPH2-B706" .
+
+:aksara_baris706 a :TeksAksara ;
+    rdf:value "ꦢꦶꦨꦮꦏꦸꦱꦁꦄꦦꦠꦶꦃꦏꦠꦼꦒꦭ꧀ꦱꦦꦩꦸꦁꦏꦸꦂꦱꦁꦄꦦꦠꦶꦃꦠꦶꦠꦼꦒꦭ꧀ꦩꦺꦠꦸꦲꦶꦏꦁꦄꦦꦿꦩꦠꦎꦓ꧀ꦏꦭꦔꦶꦠ꧀ꦏꦨꦶꦫꦺꦈꦔꦺꦈꦃꦏꦸꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "90"^^xsd:integer .
+
+:translit_baris706 a :Transliterasi ;
+    rdf:value "Dibawa ku sang apatih ka tegal, sapamungkur sang apatih, ti tegal metu ikang aprama tog ka langit, kabireungeuh ku Rahiyangtang Mandiminyak."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris706 a :Terjemahan ;
+    rdf:value "Dibawa oleh sang patih ke tegal sekejap sang patih dari tegal keluar ikan ajaib terbang ke langit terdengar oleh Rahiyangtang Mandiminyak"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 7 (Perintah lanjutan) - Corrected to baris707
+:baris707 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris707 ;
+    :hasTransliteration :translit_baris707 ;
+    :hasTranslation :terjemah_baris707 ;
+    :urutan "20"^^xsd:integer ;
+    dcterms:identifier "CPH2-B707" .
+
+:aksara_baris707 a :TeksAksara ;
+    rdf:value "ꦱꦁꦄꦦꦠꦶꦃꦲꦸꦱꦶꦂꦢꦺꦈꦶꦠꦺꦈꦤ꧀ꦢꦺꦈꦤ꧀ꦱꦶꦪꦧꦸꦢꦏ꧀ꦠ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "35"^^xsd:integer .
+
+:translit_baris707 a :Transliterasi ;
+    rdf:value "'Sang Apatih, husir deui teundeun siya, budak ta!'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris707 a :Terjemahan ;
+    rdf:value "'Sang Patih kejar lagi taruh dia anak kita'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 8 (Kelahiran Sang Sénna) - Corrected to baris708
+:baris708 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris708 ;
+    :hasTransliteration :translit_baris708 ;
+    :hasTranslation :terjemah_baris708 ;
+    :urutan "21"^^xsd:integer ;
+    dcterms:identifier "CPH2-B708" .
+
+:aksara_baris708 a :TeksAksara ;
+    rdf:value "ꦢꦶꦲꦸꦱꦶꦂꦏꦸꦱꦁꦄꦦꦠꦶꦃꦏꦠꦼꦒꦭ꧀ꦏꦱꦎꦤ꧀ꦢꦎꦥ꧀ꦲꦶꦫꦸꦥ꧀ꦢꦶꦨꦄꦤ꧀ꦏꦲꦫꦺꦈꦥꦺꦈꦤ꧀ꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦢꦶꦔꦫꦤꦤ꧀ꦱꦁꦱꦺꦤ꧀ꦤ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "70"^^xsd:integer .
+
+:translit_baris708 a :Transliterasi ;
+    rdf:value "Dihusir ku sang apatih ka tegal, kasondong hirup. Dibaan ka hareupeun Rahiyangtang Mandiminyak. Dingaranan Sang Sénna."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris708 a :Terjemahan ;
+    rdf:value "Dikejar oleh sang patih ke tegal ketemu hidup Dibawa ke hadapan Rahiyangtang Mandiminyak Dinamai Sang Sénna"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+    ### BAGIAN VIII TEKS ###
+
+    # Baris 1 (Penggantian kekuasaan)
+:baris801 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris801 ;
+    :hasTransliteration :translit_baris801 ;
+    :hasTranslation :terjemah_baris801 ;
+    :urutan "801"^^xsd:integer ;
+    dcterms:identifier "CPH2-B801" .
+
+:aksara_baris801 a :TeksAksara ;
+    rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦠꦸꦗꦸꦃꦠꦲꦸꦤ꧀ꦤꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦱꦁꦱꦺꦤ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "40"^^xsd:integer .
+
+:translit_baris801 a :Transliterasi ;
+    rdf:value "Lawasniya ratu tujuh tahun. Na Rahiyangtang Mandiminyak disilihan ku Sang Séna."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris801 a :Terjemahan ;
+    rdf:value "Masa pemerintahannya tujuh tahun Maka Rahiyangtang Mandiminyak digantikan oleh Sang Séna"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 2 (Penggulingan oleh Purbasora)
+:baris802 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris802 ;
+    :hasTransliteration :translit_baris802 ;
+    :hasTranslation :terjemah_baris802 ;
+    :urutan "802"^^xsd:integer ;
+    dcterms:identifier "CPH2-B802" .
+
+:aksara_baris802 a :TeksAksara ;
+    rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦠꦸꦗꦸꦃꦠꦲꦸꦤ꧀ꦢꦶꦱꦶꦭꦶꦃꦗꦸꦔꦏ꧀ꦠꦸꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫꦤꦱꦁꦱꦺꦤ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "50"^^xsd:integer .
+
+:translit_baris802 a :Transliterasi ;
+    rdf:value "Lawasniya ratu tujuh tahun, disilih-jungkat ku Rahiyang Purbasora. Na Sang Séna"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris802 a :Terjemahan ;
+    rdf:value "Masa pemerintahannya tujuh tahun digulingkan oleh Rahiyang Purbasora Maka Sang Séna"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 3 (Pengasingan ke Gunung Marapi)
+:baris803 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris803 ;
+    :hasTransliteration :translit_baris803 ;
+    :hasTranslation :terjemah_baris803 ;
+    :urutan "803"^^xsd:integer ;
+    dcterms:identifier "CPH2-B803" .
+
+:aksara_baris803 a :TeksAksara ;
+    rdf:value "ꦢꦶꦲꦶꦤ꧀ꦠꦂꦏꦺꦈꦤ꧀ꦏꦓꦸꦤꦸꦁꦩꦫꦦꦶꦢꦶꦱꦺꦈꦮꦺꦈꦫꦏꦺꦪꦤ꧀ꦗꦩ꧀ꦨꦿꦶ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "45"^^xsd:integer .
+
+:translit_baris803 a :Transliterasi ;
+    rdf:value "diintarkeun ka Gunung Marapi, diseuweu Rakéyan Jambri."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris803 a :Terjemahan ;
+    rdf:value "diasingkan ke Gunung Marapi diperistri Rakéyan Jambri"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 4 (Permintaan dibunuh)
+:baris804 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris804 ;
+    :hasTransliteration :translit_baris804 ;
+    :hasTranslation :terjemah_baris804 ;
+    :urutan "804"^^xsd:integer ;
+    dcterms:identifier "CPH2-B804" .
+
+:aksara_baris804 a :TeksAksara ;
+    rdf:value "ꦄꦒꦺꦈꦁꦱꦏꦩꦤ꧀ꦠꦿꦶꦄꦤ꧀ꦭꦸꦔꦏꦫꦲꦶꦪꦁꦠꦁꦏꦺꦢꦸꦭ꧀ꦏꦢꦺꦤꦸꦃꦩꦺꦤ꧀ꦠꦢꦶꦨꦸꦤꦶꦏꦺꦈꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "50"^^xsd:integer .
+
+:translit_baris804 a :Transliterasi ;
+    rdf:value "Ageung sakamantrian, lunga ka Rahiyangtang Kedul, ka Denuh, ménta dibunikeun."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris804 a :Terjemahan ;
+    rdf:value "Setelah dewasa pergi ke Rahiyangtang Kedul ke Denuh minta dibunuh"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 5 (Percakapan Rahiyangtang Kedul)
+:baris805 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris805 ;
+    :hasTransliteration :translit_baris805 ;
+    :hasTranslation :terjemah_baris805 ;
+    :urutan "805"^^xsd:integer ;
+    dcterms:identifier "CPH2-B805" .
+
+:aksara_baris805 a :TeksAksara ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦠꦁꦏꦺꦢꦸꦭ꧀ꦦꦸꦠꦸꦄꦲꦶꦁꦩꦸꦩꦸꦭ꧀ꦏꦦꦁꦏꦸꦏꦤ꧀ꦏꦸꦱꦶꦪꦱꦸꦓꦤ꧀ꦱꦶꦪꦏꦚꦲꦎꦤ꧀ꦏꦸꦠꦶꦓꦭꦸꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "60"^^xsd:integer .
+
+:translit_baris805 a :Transliterasi ;
+    rdf:value "Carék Rahiyangtang Kedul, "Putu aing mumul kapangkukan ku siya, sugan siya kanyahoan ku ti Galuh."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris805 a :Terjemahan ;
+    rdf:value "Berkata Rahiyangtang Kedul "Cucuku jangan kau rebut kekuasaan siapa tahu kau diketahui dari Galuh""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 6 (Perintah mengikuti Sang Wulan)
+:baris806 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris806 ;
+    :hasTransliteration :translit_baris806 ;
+    :hasTranslation :terjemah_baris806 ;
+    :urutan "806"^^xsd:integer ;
+    dcterms:identifier "CPH2-B806" .
+
+:aksara_baris806 a :TeksAksara ;
+    rdf:value "ꦭꦺꦈꦩ꧀ꦥꦁꦱꦶꦪꦲꦸꦱꦶꦂꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦢꦺꦈꦁꦄꦤꦏ꧀ꦱꦲꦠꦸꦱꦶꦪ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "70"^^xsd:integer .
+
+:translit_baris806 a :Transliterasi ;
+    rdf:value "Leumpang siya husir Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan, deung anak saha tu siya?""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris806 a :Terjemahan ;
+    rdf:value "Pergi kau ikuti Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan, dengan anak siapa itu kau?""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 7 (Jawaban Rakéyan Jambri)
+:baris807 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris807 ;
+    :hasTransliteration :translit_baris807 ;
+    :hasTranslation :terjemah_baris807 ;
+    :urutan "807"^^xsd:integer ;
+    dcterms:identifier "CPH2-B807" .
+
+:aksara_baris807 a :TeksAksara ;
+    rdf:value "ꦕꦫꦺꦏꦫꦏꦺꦪꦤ꧀ꦗꦩ꧀ꦨꦿꦶꦄꦲꦶꦁꦄꦤꦏ꧀ꦫꦲꦶꦪꦁꦱꦁꦱꦺꦤꦢꦶꦗꦸꦔꦏ꧀ꦢꦶꦲꦶꦤ꧀ꦠꦂꦏꦺꦈꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "75"^^xsd:integer .
+
+:translit_baris807 a :Transliterasi ;
+    rdf:value "Carék Rakéyan Jambri, "Aing anak Rahiyang Sang Séna. Dijungkat, diintarkeun ku Rahiyang Purbasora.""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris807 a :Terjemahan ;
+    rdf:value "Berkata Rakéyan Jambri "Aku anak Rahiyang Sang Séna. Digulingkan, diasingkan oleh Rahiyang Purbasora.""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 8 (Tawaran pengasuhan)
+:baris808 a :BarisNaskah ;
+:isFromManuscript :naskahSunda02 ;
+:mengandungAksara :aksara_baris808 ;
+:hasTransliteration :translit_baris808 ;
+:hasTranslation :terjemah_baris808 ;
+:urutan "808"^^xsd:integer ;
+dcterms:identifier "CPH2-B808" .
+
+:aksara_baris808 a :TeksAksara ;
+rdf:value "ꦭꦩꦸꦤ꧀ꦏꦶꦠꦸꦩꦮꦨꦎꦓꦏꦩꦶꦔꦱꦸꦲꦤ꧀ꦔꦤ꧀ꦩꦸꦭꦃꦩꦎꦱꦩ꧀ꦧꦸꦠ꧀ꦱꦩꦪꦄꦲꦶꦁꦩꦎꦓꦄꦸꦭꦃꦩꦺꦈꦤꦁꦦꦫꦔꦤ꧀"@su-x-cacarakan ;
+lexinfo:script :AksaraCacarakan ;
+:jumlahKarakter "80"^^xsd:integer .
+
+:translit_baris808 a :Transliterasi ;
+rdf:value ""Lamun kitu, mawa boga kami ngasuhan. Ngan mulah mo sambut samaya aing. Moga ulah meunang prangan;""@su-Latn ;
+:menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris808 a :Terjemahan ;
+rdf:value ""Kalau begitu, bawa kami asuh. Tapi jangan langgar perintahku. Semoga jangan terjadi perang;""@id ;
+:keBahasa "id" ;
+:dariBahasa "su" .
+
+Baris 9 (Perintah mengabdi ke Sunda)
+:baris809 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris809 ;
+    :hasTransliteration :translit_baris809 ;
+    :hasTranslation :terjemah_baris809 ;
+    :urutan "809"^^xsd:integer ;
+    dcterms:identifier "CPH2-B809" .
+
+:aksara_baris809 a :TeksAksara ;
+    rdf:value "ꦭꦩꦸꦤ꧀ꦱꦶꦪꦔꦭꦒꦦꦫꦁꦏꦏꦩꦶꦔꦤ꧀ꦱꦶꦪꦭꦺꦈꦩ꧀ꦥꦁꦩꦫꦠ꧀ꦏꦺꦈꦤ꧀ꦲꦸꦱꦶꦂꦠꦎꦲꦄꦤ꧀ꦢꦶꦱꦸꦤ꧀ꦢ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "70"^^xsd:integer .
+
+:translit_baris809 a :Transliterasi ;
+    rdf:value ""lamun siya ngalaga prang ka kami. Ngan siya leumpang maratkeun, husir Tohaan di Sunda.""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris809 a :Terjemahan ;
+    rdf:value ""jika kau melawan kami. Tapi kau pergi mengabdi, ikuti Tohaan di Sunda.""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+Baris 10 (Kedatangan di Sunda)
+:baris810 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris810 ;
+    :hasTransliteration :translit_baris810 ;
+    :hasTranslation :terjemah_baris810 ;
+    :urutan "810"^^xsd:integer ;
+    dcterms:identifier "CPH2-B810" .
+
+:aksara_baris810 a :TeksAksara ;
+    rdf:value "ꦱꦢꦠꦁꦏꦠꦎꦲꦄꦤ꧀ꦢꦶꦱꦸꦤ꧀ꦢꦠꦸꦭꦸꦪꦢꦶꦦꦸꦭꦸꦁꦩꦶꦤꦤ꧀ꦠꦸꦏꦸꦠꦎꦲꦄꦤ꧀ꦢꦶꦱꦸꦤ꧀ꦢ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "60"^^xsd:integer .
+
+:translit_baris810 a :Transliterasi ;
+    rdf:value "Sadatang ka Tohaan di Sunda, tuluy dipulung minantu ku Tohaan di Sunda."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris810 a :Terjemahan ;
+    rdf:value "Setelah sampai ke Tohaan di Sunda, lalu dikumpulkan menantu oleh Tohaan di Sunda."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+Baris 11 (Bertemu Rabuyut Sawal)
+:baris811 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris811 ;
+    :hasTransliteration :translit_baris811 ;
+    :hasTranslation :terjemah_baris811 ;
+    :urutan "811"^^xsd:integer ;
+    dcterms:identifier "CPH2-B811" .
+
+:aksara_baris811 a :TeksAksara ;
+    rdf:value "ꦠꦶꦲꦶꦚꦢꦶꦠꦶꦁꦒꦭ꧀ꦏꦺꦈꦤ꧀ꦔꦲꦸꦱꦶꦂꦫꦨꦸꦪꦸꦠ꧀ꦱꦮꦭ꧀ꦕꦫꦺꦏꦫꦨꦸꦪꦸꦠ꧀ꦱꦮꦭ꧀ꦱꦲꦱꦶꦪ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "65"^^xsd:integer .
+
+:translit_baris811 a :Transliterasi ;
+    rdf:value "Ti inya ditinggalkeun, ngahusir Rabuyut Sawal. Carék Rabuyut Sawal, "Saha siya?""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris811 a :Terjemahan ;
+    rdf:value "Dari situ ditinggalkan, mengikuti Rabuyut Sawal. Berkata Rabuyut Sawal "Siapa kau?""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+Baris 12 (Jawaban identitas)
+:baris812 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris812 ;
+    :hasTransliteration :translit_baris812 ;
+    :hasTranslation :terjemah_baris812 ;
+    :urutan "812"^^xsd:integer ;
+    dcterms:identifier "CPH2-B812" .
+
+:aksara_baris812 a :TeksAksara ;
+    rdf:value "ꦄꦲꦶꦁꦦꦸꦤ꧀ꦱꦺꦈꦮꦺꦈꦱꦁꦱꦺꦤꦄꦲꦶꦁꦤꦚꦏꦺꦈꦤ꧀ꦦꦸꦱ꧀ꦠꦏꦨꦮꦫꦨꦸꦪꦸꦠ꧀ꦱꦮꦭ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "60"^^xsd:integer .
+
+:translit_baris812 a :Transliterasi ;
+    rdf:value ""Aing pun seuweu Sang Séna. Aing nanyakeun pustaka bawa Rabuyut Sawal.""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris812 a :Terjemahan ;
+    rdf:value ""Aku bekas istri Sang Séna. Aku minta pustaka bawa Rabuyut Sawal.""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+Baris 13 (Deskripsi pustaka)
+:baris813 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris813 ;
+    :hasTransliteration :translit_baris813 ;
+    :hasTranslation :terjemah_baris813 ;
+    :urutan "813"^^xsd:integer ;
+    dcterms:identifier "CPH2-B813" .
+
+:aksara_baris813 a :TeksAksara ;
+    rdf:value "ꦲꦺꦈꦱꦶꦤꦩꦫꦠꦸꦤꦶꦁꦨꦭꦱꦫꦶꦮꦸꦥꦏꦺꦈꦤ꧀ꦱꦺꦢꦥꦏꦺꦈꦤ꧀ꦱꦏ꧀ꦠꦶꦦꦩꦺꦫꦺꦈꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "70"^^xsd:integer .
+
+:translit_baris813 a :Transliterasi ;
+    rdf:value ""Eusina ma ratuning bala sariwu; pakeun séda, pakeun sakti, paméré Sang Resi Guru.""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris813 a :Terjemahan ;
+    rdf:value ""Isinya tentang ratu bala seribu; untuk mati, untuk sakti, pemberian Sang Resi Guru.""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+Baris 14 (Pemberian pustaka)
+:baris814 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris814 ;
+    :hasTransliteration :translit_baris814 ;
+    :hasTranslation :terjemah_baris814 ;
+    :urutan "814"^^xsd:integer ;
+    dcterms:identifier "CPH2-B814" .
+
+:aksara_baris814 a :TeksAksara ;
+    rdf:value "ꦢꦶꦨꦶꦏꦺꦈꦤ꧀ꦏꦸꦫꦨꦸꦪꦸꦠ꧀ꦱꦮꦭ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "30"^^xsd:integer .
+
+:translit_baris814 a :Transliterasi ;
+    rdf:value "Dibikeun ku Rabuyut Sawal."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris814 a :Terjemahan ;
+    rdf:value "Diberikan oleh Rabuyut Sawal."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+Baris 15 (Kembali ke Galuh dan perang)
+:baris815 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris815 ;
+    :hasTransliteration :translit_baris815 ;
+    :hasTranslation :terjemah_baris815 ;
+    :urutan "815"^^xsd:integer ;
+    dcterms:identifier "CPH2-B815" .
+
+:aksara_baris815 a :TeksAksara ;
+    rdf:value "ꦠꦶꦲꦶꦚꦦꦸꦭꦁꦏꦓꦭꦸꦃꦫꦏꦺꦪꦤ꧀ꦗꦩ꧀ꦨꦿꦶꦠꦸꦭꦸꦪꦢꦶꦦꦫꦁꦢꦺꦈꦁꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "60"^^xsd:integer .
+
+:translit_baris815 a :Transliterasi ;
+    rdf:value "Ti inya pulang ka Galuh Rakéyan Jambri. Tuluy diprang deung Rahiyang Purbasora."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris815 a :Terjemahan ;
+    rdf:value "Dari situ pulang ke Galuh Rakéyan Jambri. Lalu berperang dengan Rahiyang Purbasora."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+Baris 16 (Kematian Purbasora)
+:baris816 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris816 ;
+    :hasTransliteration :translit_baris816 ;
+    :hasTranslation :terjemah_baris816 ;
+    :urutan "816"^^xsd:integer ;
+    dcterms:identifier "CPH2-B816" .
+
+:aksara_baris816 a :TeksAksara ;
+    rdf:value "ꦦꦄꦃꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "25"^^xsd:integer .
+
+:translit_baris816 a :Transliterasi ;
+    rdf:value "Paéh Rahiyang Purbasora."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris816 a :Terjemahan ;
+    rdf:value "Mati Rahiyang Purbasora."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 17 (Penggantian kekuasaan terakhir)
+:baris817 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris817 ;
+    :hasTransliteration :translit_baris817 ;
+    :hasTranslation :terjemah_baris817 ;
+    :urutan "817"^^xsd:integer ;
+    dcterms:identifier "CPH2-B817" .
+
+:aksara_baris817 a :TeksAksara ;
+    rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦠꦸꦗꦸꦃꦠꦲꦸꦤ꧀ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦏꦺꦪꦤ꧀ꦗꦩ꧀ꦨꦿꦶꦲꦶꦚꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "55"^^xsd:integer .
+
+:translit_baris817 a :Transliterasi ;
+    rdf:value "Lawasniya ratu tujuh tahun. Disilihan ku Rakéyan Jambri, inya Rahiyang Sanjaya."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris817 a :Terjemahan ;
+    rdf:value "Masa pemerintahannya tujuh tahun. Digantikan oleh Rakéyan Jambri, yaitu Rahiyang Sanjaya."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+
+### BAGIAN IX TEKS ###
+
+    # Baris 1 (Perintah Rahiyang Sanjaya) - Corrected to baris901
+:baris901 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris901 ;
+    :hasTransliteration :translit_baris901 ;
+    :hasTranslation :terjemah_baris901 ;
+    :urutan "38"^^xsd:integer ;
+    dcterms:identifier "CPH-B901" .
+
+:aksara_baris901 a :TeksAksara ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦱꦁꦄꦦꦠꦶꦃꦭꦺꦈꦩ꧀ꦥꦁꦱꦶꦪꦤꦚꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦏꦸꦦꦶꦦꦫꦶꦤ꧀ꦠꦲꦺꦈꦤ꧀ꦈꦫꦁꦲꦶꦤꦶꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "70"^^xsd:integer .
+
+:translit_baris901 a :Transliterasi ;
+    rdf:value "Carék Rahiyang Sanjaya, 'Sang Apatih, leumpang siya, nanya ka Batara Dangiyang Guru ku piparintaheun urang inih!'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris901 a :Terjemahan ;
+    rdf:value "Berkata Rahiyang Sanjaya 'Sang Patih pergilah kau tanya kepada Batara Dangiyang Guru atas permintaan kami ini!'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 2 (Kedatangan di Galunggung) - Corrected to baris902
+:baris902 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris902 ;
+    :hasTransliteration :translit_baris902 ;
+    :hasTranslation :terjemah_baris902 ;
+    :urutan "39"^^xsd:integer ;
+    dcterms:identifier "CPH-B902" .
+
+:aksara_baris902 a :TeksAksara ;
+    rdf:value "ꦱꦢꦠꦁꦱꦁꦄꦦꦠꦶꦃꦏꦓꦭꦸꦁꦒꦸꦁꦕꦫꦺꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦤꦲꦤꦲꦨꦗꦱꦶꦪꦱꦁꦄꦦꦠꦶꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "60"^^xsd:integer .
+
+:translit_baris902 a :Transliterasi ;
+    rdf:value "Sadatang sang apatih ka Galunggung, carék Batara Dangiyang Guru, 'Na naha béja siya, Sang Apatih?'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris902 a :Terjemahan ;
+    rdf:value "Setelah sang patih sampai di Galunggung berkata Batara Dangiyang Guru 'Ada apa kabarmu Sang Patih?'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 3 (Permintaan untuk Purbasora) - Corrected to baris903
+:baris903 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris903 ;
+    :hasTransliteration :translit_baris903 ;
+    :hasTranslation :terjemah_baris903 ;
+    :urutan "40"^^xsd:integer ;
+    dcterms:identifier "CPH-B903" .
+
+:aksara_baris903 a :TeksAksara ;
+    rdf:value "ꦦꦸꦤ꧀ꦏꦩꦶꦢꦶꦠꦶꦠꦃꦏꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦩꦺꦤ꧀ꦠꦦꦶꦦꦫꦶꦤ꧀ꦠꦲꦺꦈꦤ꧀ꦄꦢꦶꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "60"^^xsd:integer .
+
+:translit_baris903 a :Transliterasi ;
+    rdf:value "'Pun, kami dititah ku Rahiyang Sanjaya ménta piparintaheun, adi Rahiyang Purbasora.'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris903 a :Terjemahan ;
+    rdf:value "'Yang mulia kami diperintah oleh Rahiyang Sanjaya meminta permintaan adik Rahiyang Purbasora.'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 4 (Penolakan Batara Dangiyang Guru) - Corrected to baris904
+:baris904 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris904 ;
+    :hasTransliteration :translit_baris904 ;
+    :hasTranslation :terjemah_baris904 ;
+    :urutan "41"^^xsd:integer ;
+    dcterms:identifier "CPH-B904" .
+
+:aksara_baris904 a :TeksAksara ;
+    rdf:value "ꦲꦤ꧀ꦠꦺꦈꦢꦶꦨꦶꦏꦺꦈꦤ꧀ꦏꦸꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦕꦫꦺꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦭꦺꦈꦩ꧀ꦥꦁꦚꦤ꧀ꦢꦎꦓꦺꦈꦤ꧀ꦩꦤꦺꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "80"^^xsd:integer .
+
+:translit_baris904 a :Transliterasi ;
+    rdf:value "Hanteu dibikeun ku Batara Dangiyang Guru. Carék Batara Dangiyang Guru, 'Rahiyang Sanjaya, leumpang nyandogé manéh.'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris904 a :Terjemahan ;
+    rdf:value "Tidak diberikan oleh Batara Dangiyang Guru. Berkata Batara Dangiyang Guru 'Rahiyang Sanjaya, pergilah rebutlah dirimu.'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 5 (Perintah mengalahkan musuh) - Corrected to baris905
+:baris905 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris905 ;
+    :hasTransliteration :translit_baris905 ;
+    :hasTranslation :terjemah_baris905 ;
+    :urutan "42"^^xsd:integer ;
+    dcterms:identifier "CPH-B905" .
+
+:aksara_baris905 a :TeksAksara ;
+    rdf:value "ꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦦꦒꦼꦂꦮꦺꦱꦶꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦩꦤꦔꦸꦭ꧀ꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦠꦺꦦꦸꦱ꧀ꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦨꦭꦶꦠꦂ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "100"^^xsd:integer .
+
+:translit_baris905 a :Transliterasi ;
+    rdf:value "Éléhkeun Guruhaji Pagerwesi, éléhkeun Guruhaji Mananggul, éléhkeun Guruhaji Tepus, éléhkeun Guruhaji Balitar."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris905 a :Terjemahan ;
+    rdf:value "Kalahkan Guruhaji Pagerwesi, kalahkan Guruhaji Mananggul, kalahkan Guruhaji Tepus, kalahkan Guruhaji Balitar."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 6 (Perintah ke Kuningan) - Corrected to baris906
+:baris906 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris906 ;
+    :hasTransliteration :translit_baris906 ;
+    :hasTranslation :terjemah_baris906 ;
+    :urutan "43"^^xsd:integer ;
+    dcterms:identifier "CPH-B906" .
+
+:aksara_baris906 a :TeksAksara ;
+    rdf:value "ꦭꦸꦔꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "60"^^xsd:integer .
+
+:translit_baris906 a :Transliterasi ;
+    rdf:value "Lunga Rahiyang Sanjaya; éléhkeun Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris906 a :Terjemahan ;
+    rdf:value "Pergi Rahiyang Sanjaya; kalahkan Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 7 (Peringatan tentang kesaktian) - Corrected to baris907
+:baris907 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris907 ;
+    :hasTransliteration :translit_baris907 ;
+    :hasTranslation :terjemah_baris907 ;
+    :urutan "44"^^xsd:integer ;
+    dcterms:identifier "CPH-B907" .
+
+:aksara_baris907 a :TeksAksara ;
+    rdf:value "ꦚꦤ꧀ꦢꦎꦓꦺꦈꦤ꧀ꦤꦏꦱꦏ꧀ꦠꦶꦄꦤ꧀ꦏꦺꦤꦤꦠꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦲꦤ꧀ꦠꦺꦈꦏꦮꦶꦱꦺꦱꦢꦔꦶꦪꦁꦓꦸꦫꦸ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "100"^^xsd:integer .
+
+:translit_baris907 a :Transliterasi ;
+    rdf:value "Nyandogé na kasaktian, kénana ta Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan, hanteu kawisésa Dangiyang Guru."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris907 a :Terjemahan ;
+    rdf:value "Rebutlah ilmu kesaktian, jika Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan, tidak mampu Dangiyang Guru."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 8 (Pertempuran di Kuningan) - Corrected to baris908
+:baris908 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris908 ;
+    :hasTransliteration :translit_baris908 ;
+    :hasTranslation :terjemah_baris908 ;
+    :urutan "45"^^xsd:integer ;
+    dcterms:identifier "CPH-B908" .
+
+:aksara_baris908 a :TeksAksara ;
+    rdf:value "ꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦏꦏꦸꦤꦶꦔꦤ꧀ꦠꦸꦭꦸꦪꦢꦶꦦꦫꦁꦲꦺꦊꦃꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "50"^^xsd:integer .
+
+:translit_baris908 a :Transliterasi ;
+    rdf:value "Rahiyang Sanjaya ka Kuningan, tuluy diprang. Éléh Rahiyang Sanjaya."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris908 a :Terjemahan ;
+    rdf:value "Rahiyang Sanjaya ke Kuningan, lalu berperang. Kalah Rahiyang Sanjaya."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 9 (Kekalahan dan mundur) - Corrected to baris909
+:baris909 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris909 ;
+    :hasTransliteration :translit_baris909 ;
+    :hasTranslation :terjemah_baris909 ;
+    :urutan "46"^^xsd:integer ;
+    dcterms:identifier "CPH-B909" .
+
+:aksara_baris909 a :TeksAksara ;
+    rdf:value "ꦩꦤꦲꦶꦁꦒꦺꦊꦃꦏꦺꦈꦤ꧀ꦲꦶꦚꦱꦏ꧀ꦠꦶꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦏꦏꦸꦤꦶꦔꦤ꧀ꦠꦸꦭꦸꦪꦢꦶꦦꦫꦁꦲꦺꦊꦃꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "70"^^xsd:integer .
+
+:translit_baris909 a :Transliterasi ;
+    rdf:value "Mana ingéléhkeun, inya sakti. Rahiyang Sanjaya ka Kuningan, tuluy diprang. Éléh Rahiyang Sanjaya."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris909 a :Terjemahan ;
+    rdf:value "'Jika kau kalahkan, dia sakti.' Rahiyang Sanjaya ke Kuningan, lalu berperang. Kalah Rahiyang Sanjaya."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 10 (Pengakuan kekalahan) - Corrected to baris910
+:baris910 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris910 ;
+    :hasTransliteration :translit_baris910 ;
+    :hasTranslation :terjemah_baris910 ;
+    :urutan "47"^^xsd:integer ;
+    dcterms:identifier "CPH-B910" .
+
+:aksara_baris910 a :TeksAksara ;
+    rdf:value "ꦢꦶꦓꦺꦫꦺꦏꦤ꧀ꦠꦺꦏꦫꦶꦁꦭꦎꦃꦏꦸꦤꦶꦔꦤ꧀ꦈꦤ꧀ꦢꦸꦂꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦢꦫꦄꦲꦶꦁꦦꦫꦢꦶꦤꦶꦃꦢꦶꦓꦺꦫꦺꦏꦤ꧀ꦲꦺꦊꦃꦦꦸꦤ꧀ꦏꦩꦶ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "80"^^xsd:integer .
+
+:translit_baris910 a :Transliterasi ;
+    rdf:value "Digérékan, teka ring loh Kuningan, undur Rahiyang Sanjaya. 'Dara aing para dinih, digérékan. Éléh pun kami.'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris910 a :Terjemahan ;
+    rdf:value "Dikejar, sampai di tanah Kuningan, mundur Rahiyang Sanjaya. 'Sayang aku semua di sini dikejar. Kalah kami.'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 11 (Kembali ke Galuh) - Corrected to baris911
+:baris911 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris911 ;
+    :hasTransliteration :translit_baris911 ;
+    :hasTranslation :terjemah_baris911 ;
+    :urutan "48"^^xsd:integer ;
+    dcterms:identifier "CPH-B911" .
+
+:aksara_baris911 a :TeksAksara ;
+    rdf:value "ꦠꦶꦲꦶꦚꦦꦸꦭꦁꦢꦺꦈꦶꦏꦓꦭꦸꦃꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "30"^^xsd:integer .
+
+:translit_baris911 a :Transliterasi ;
+    rdf:value "Ti inya pulang deui ka Galuh, Rahiyang Sanjaya."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris911 a :Terjemahan ;
+    rdf:value "Kemudian pulang lagi ke Galuh, Rahiyang Sanjaya."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 12 (Kembalinya Sang Wulan) - Corrected to baris912
+:baris912 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris912 ;
+    :hasTransliteration :translit_baris912 ;
+    :hasTranslation :terjemah_baris912 ;
+    :urutan "49"^^xsd:integer ;
+    dcterms:identifier "CPH-B912" .
+
+:aksara_baris912 a :TeksAksara ;
+    rdf:value "ꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦦꦸꦭꦁꦢꦺꦈꦶꦏꦄꦫꦶꦭꦺ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "35"^^xsd:integer .
+
+:translit_baris912 a :Transliterasi ;
+    rdf:value "Sang Wulan, Sang Tumanggal pulang deui ka Arilé."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris912 a :Terjemahan ;
+    rdf:value "Sang Wulan, Sang Tumanggal pulang lagi ke Arilé."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 13 (Pertemuan dengan Batara Dangiyang Guru) - Corrected to baris913
+:baris913 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris913 ;
+    :hasTransliteration :translit_baris913 ;
+    :hasTranslation :terjemah_baris913 ;
+    :urutan "50"^^xsd:integer ;
+    dcterms:identifier "CPH-B913" .
+
+:aksara_baris913 a :TeksAksara ;
+    rdf:value "ꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦠꦸꦭꦸꦪꦩꦫꦺꦏ꧀ꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦕꦫꦺꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦤꦲꦨꦗꦱꦶꦪꦢꦠꦁꦏꦢꦶꦤꦶꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "90"^^xsd:integer .
+
+:translit_baris913 a :Transliterasi ;
+    rdf:value "Rahiyang Sanjaya tuluy marék ka Batara Dangiyang Guru. Carék Batara Dangiyang Guru, 'Rahiyang Sanjaya, naha béja siya datang ka dinih?'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris913 a :Terjemahan ;
+    rdf:value "Rahiyang Sanjaya lalu menghadap Batara Dangiyang Guru. Berkata Batara Dangiyang Guru, 'Rahiyang Sanjaya, ada apa kabarmu datang ke sini?'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 14 (Laporan Kekalahan) - Corrected to baris914
+:baris914 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris914 ;
+    :hasTransliteration :translit_baris914 ;
+    :hasTranslation :terjemah_baris914 ;
+    :urutan "51"^^xsd:integer ;
+    dcterms:identifier "CPH-B914" .
+
+:aksara_baris914 a :TeksAksara ;
+    rdf:value "ꦄꦪꦦꦸꦤ꧀ꦨꦗꦏꦩꦶꦦꦸꦤ꧀ꦏꦩꦶꦢꦶꦦꦶꦮꦫꦁꦲꦺꦊꦃꦦꦸꦤ꧀ꦏꦩꦶꦱꦸꦥꦺꦤ꧀ꦦꦸꦤ꧀ꦏꦩꦶꦏꦩꦶꦩꦺꦈꦤꦁꦏꦸꦗꦢꦶꦦꦸꦤ꧀ꦓꦸꦩꦤ꧀ꦠꦶꦢꦶꦨꦎꦫꦎꦤ꧀ꦏꦸꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "057"^^xsd:integer .
+
+:translit_baris914 a :Transliterasi ;
+    rdf:value "'Aya pun béja kami, pun kami dipiwarang, éléh pun kami, supén pun kami. Kami meunang ku jadi, pun gumanti diboroan ku Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan.'"@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris914 a :Terjemahan ;
+    rdf:value "'Ada kabar kami, kami diperintah, kalah kami, menyerah kami. Kami menang dengan menjadi, sebagai pengganti diurus oleh Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.'"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 15 (Kembali ke Galuh) - Corrected to baris915
+:baris915 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda01 ;
+    :mengandungAksara :aksara_baris915 ;
+    :hasTransliteration :translit_baris915 ;
+    :hasTranslation :terjemah_baris915 ;
+    :urutan "52"^^xsd:integer ;
+    dcterms:identifier "CPH-B915" .
+
+:aksara_baris915 a :TeksAksara ;
+    rdf:value "ꦦꦸꦭꦁꦢꦺꦈꦶꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦏꦓꦭꦸꦃ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "20"^^xsd:integer .
+
+:translit_baris915 a :Transliterasi ;
+    rdf:value "Pulang deui Rahiyang Sanjaya ka Galuh."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris915 a :Terjemahan ;
+    rdf:value "Pulang lagi Rahiyang Sanjaya ke Galuh."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+    ### BAGIAN X TEKS ###
+
+    # Baris 1 (Persembahan ke Galunggung)
+    :baris1001 a :BarisNaskah ;
+        :isFromManuscript :naskahSunda02 ;
+        :mengandungAksara :aksara_baris1001 ;
+        :hasTransliteration :translit_baris1001 ;
+        :hasTranslation :terjemah_baris1001 ;
+        :urutan "30"^^xsd:integer ;
+        dcterms:identifier "CPH2-B1001" .
+
+    :aksara_baris1001 a :TeksAksara ;
+        rdf:value "ꦕꦫꦺꦏꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦩꦮꦦꦶꦱꦗꦶꦈꦤ꧀ꦭꦺꦈꦩ꧀ꦥꦁꦏꦓꦭꦸꦁꦒꦸꦁꦮꦶꦢꦶꦲꦤ꧀ꦱꦗꦸꦓꦭꦩꦦꦭꦁꦏꦮꦸꦭꦸꦁꦩꦸꦤ꧀ꦢꦶꦁꦱꦠꦼꦩ꧀ꦦꦲꦤ꧀ꦨꦿꦱ꧀ꦱꦦꦢꦔꦤ꧀"@su-x-cacarakan ;
+        lexinfo:script :AksaraCacarakan ;
+        :jumlahKarakter "057"^^xsd:integer .
+
+    :translit_baris1001 a :Transliterasi ;
+        rdf:value "Carék Sang Wulan, Sang Tumanggal, Sang pandawa ring Kuningan, 'Mawa pisajieun leumpang ka Galunggung, widihan sajugala ma, palangka wulung, munding satempahan, bras sapadangan.'"@su-Latn ;
+        :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+    :terjemah_baris1001 a :Terjemahan ;
+        rdf:value "Berkata Sang Wulan Sang Tumanggal Sang Pandawa di Kuningan Bawa persembahan pergi ke Galunggung hadiah sajugala ma palangka wulung kerbau setempahan beras sepadangan"@id ;
+        :keBahasa "id" ;
+        :dariBahasa "su" .
+
+    # Baris 2 (Kedatangan di Galunggung)
+:baris1002 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1002 ;
+    :hasTransliteration :translit_baris1002 ;
+    :hasTranslation :terjemah_baris1002 ;
+    :urutan "31"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1002" .
+
+:aksara_baris1002 a :TeksAksara ;
+    rdf:value "ꦱꦠꦺꦏꦱꦶꦪꦏꦓꦭꦸꦁꦒꦸꦁꦩꦤ꧀ꦢꦼꦓ꧀ꦫꦶꦁꦦꦏꦩ꧀ꦨꦔꦤ꧀ꦏꦱꦎꦤ꧀ꦢꦎꦥ꧀ꦏꦸꦦꦏꦩ꧀ꦨꦔꦤ꧀ꦩꦗꦂꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦕꦫꦺꦏꦢꦔꦶꦪꦁꦓꦸꦫꦸꦤꦲꦨꦗꦱꦶꦪ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "100"^^xsd:integer .
+
+:translit_baris1002 a :Transliterasi ;
+    rdf:value "Sateka siya ka Galunggung, mandeg ring Pakembangan. Kasondong ku Pakembangan, majar ka Batara Dangiyang Guru. Carék Dangiyang Guru, \"Naha béja siya?\""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1002 a :Terjemahan ;
+    rdf:value "Setelah mereka sampai di Galunggung berhenti di Pakembangan Ditemui oleh Pakembangan menghadap Batara Dangiyang Guru Berkata Dangiyang Guru \"Ada apa kabarmu?\""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 3 (Jawaban tentang rombongan Kuningan)
+:baris1003 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1003 ;
+    :hasTransliteration :translit_baris1003 ;
+    :hasTranslation :terjemah_baris1003 ;
+    :urutan "32"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1003" .
+
+:aksara_baris1003 a :TeksAksara ;
+    rdf:value "ꦦꦸꦤ꧀ꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦄꦪꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦢꦶꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "60"^^xsd:integer .
+
+:translit_baris1003 a :Transliterasi ;
+    rdf:value "\"Pun Batara Dangiyang Guru! Aya Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1003 a :Terjemahan ;
+    rdf:value "\"Yang mulia Batara Dangiyang Guru! Ada Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 4 (Perintah ke Galuh)
+:baris1004 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1004 ;
+    :hasTransliteration :translit_baris1004 ;
+    :hasTranslation :terjemah_baris1004 ;
+    :urutan "33"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1004" .
+
+:aksara_baris1004 a :TeksAksara ;
+    rdf:value "ꦨꦓꦺꦄꦩꦠ꧀ꦱꦶꦪꦢꦠꦁꦏꦢꦶꦤꦶꦃꦭꦺꦈꦩ꧀ꦥꦁꦱꦶꦪꦏꦓꦭꦸꦃꦄꦭꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦩꦁꦏꦩꦮꦦꦶꦱꦗꦶꦈꦤ꧀ꦮꦶꦢꦶꦲꦤ꧀ꦱꦗꦸꦓꦭꦩꦱꦲꦦꦭꦁꦏꦮꦸꦭꦸꦁꦩꦸꦤ꧀ꦢꦶꦁꦱꦠꦺꦩ꧀ꦦꦲꦤ꧀ꦏꦮꦭꦶꦮꦺꦱꦶꦨꦿꦱ꧀ꦱꦦꦢꦔꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "057"^^xsd:integer .
+
+:translit_baris1004 a :Transliterasi ;
+    rdf:value "\"Bagéa amat, siya datang ka dinih. Leumpang siya ka Galuh. Ala Rahiyang Sanjaya, mangka mawa pisajieun; widihan sajugala ma, saha palangka wulung, munding satémpahan, kawali wesi, bras sapadangan.\""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1004 a :Terjemahan ;
+    rdf:value "\"Bahagia sekali kau datang ke sini Pergilah kau ke Galuh Jemput Rahiyang Sanjaya bawa persembahan hadiah sajugala ma palangka wulung kerbau setempahan kuali besi beras sepadangan\""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 5 (Dialog dengan Sanjaya)
+:baris1005 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1005 ;
+    :hasTransliteration :translit_baris1005 ;
+    :hasTranslation :terjemah_baris1005 ;
+    :urutan "34"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1005" .
+
+:aksara_baris1005 a :TeksAksara ;
+    rdf:value "ꦱꦢꦠꦁꦱꦶꦪꦏꦓꦭꦸꦃꦕꦫꦺꦏꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦤꦲꦨꦗꦱꦶꦪꦦꦏꦩ꧀ꦨꦔꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "50"^^xsd:integer .
+
+:translit_baris1005 a :Transliterasi ;
+    rdf:value "Sadatang siya ka Galuh, carék Rahiyang Sanjaya, \"Naha béja siya, Pakembangan?\""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1005 a :Terjemahan ;
+    rdf:value "Setelah sampai di Galuh berkata Rahiyang Sanjaya \"Ada apa kabarmu Pakembangan?\""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 6 (Jawaban Pakembangan)
+:baris1006 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1006 ;
+    :hasTransliteration :translit_baris1006 ;
+    :hasTranslation :terjemah_baris1006 ;
+    :urutan "35"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1006" .
+
+:aksara_baris1006 a :TeksAksara ;
+    rdf:value "ꦏꦩꦶꦦꦸꦤ꧀ꦢꦶꦱꦸꦫꦸꦃꦏꦸꦢꦔꦶꦪꦁꦓꦸꦫꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦩꦁꦏꦤꦸꦱꦁꦏꦼꦥ꧀ꦩꦮꦦꦶꦱꦗꦶꦈꦤ꧀ꦄꦪꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "90"^^xsd:integer .
+
+:translit_baris1006 a :Transliterasi ;
+    rdf:value "\"Kami pun disuruh ku Dangiyang Guru. Rahiyang Sanjaya mangka nu sangkep mawa pisajieun. Aya Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan.\""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1006 a :Terjemahan ;
+    rdf:value "\"Kami disuruh oleh Dangiyang Guru. Rahiyang Sanjaya yang pantas membawa persembahan. Ada Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 7 (Sanjaya menghadap Guru)
+:baris1007 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1007 ;
+    :hasTransliteration :translit_baris1007 ;
+    :hasTranslation :terjemah_baris1007 ;
+    :urutan "36"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1007" .
+
+:aksara_baris1007 a :TeksAksara ;
+    rdf:value "ꦭꦸꦔꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦠꦺꦏꦫꦶꦲꦫꦺꦈꦥꦺꦈꦤ꧀ꦢꦔꦶꦪꦁꦓꦸꦫꦸꦕꦫꦺꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦭꦩꦸꦤ꧀ꦏꦮꦶꦱꦺꦱꦏꦸꦱꦶꦪꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦄꦲꦶꦁꦤꦸꦫꦸꦠ꧀ꦕꦫꦺꦏꦱꦶꦪꦗꦨꦺꦈꦤ꧀ꦏꦸꦄꦲꦶꦁꦏꦮꦶꦱꦺꦱꦠꦸꦫꦸꦠ꧀ꦕꦫꦺꦏꦺꦁꦗꦄꦲꦶꦁꦮꦺꦤꦁꦤꦸꦢꦸꦃꦠꦤ꧀ꦏꦠꦸꦢꦸꦃꦗꦄꦲꦶꦁꦄꦤꦏ꧀ꦢꦺꦮꦠ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "180"^^xsd:integer .
+
+:translit_baris1007 a :Transliterasi ;
+    rdf:value "Lunga Rahiyang Sanjaya. Téka ri hareupeun Dangiyang Guru, carék Batara Dangiyang Guru, \"Rahiyang Sanjaya! Lamun kawisésa ku siya Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan, aing nurut carék siya. Ja beunang ku aing kawisésa, turut carékéng! Ja aing wenang nuduh tan katuduh. Ja aing anak déwata.\""@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1007 a :Terjemahan ;
+    rdf:value "Pergi Rahiyang Sanjaya Sampai di hadapan Dangiyang Guru berkata Batara Dangiyang Guru \"Rahiyang Sanjaya! Jika kau mampu menguasai Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan aku turut perkataanmu Jika berhasil aku menguasai turut perkataanmu Jika aku berwenang menunjuk yang tak tertunjuk Jika aku anak dewa\""@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 8 (Penguasaan rombongan Kuningan)
+:baris1008 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1008 ;
+    :hasTransliteration :translit_baris1008 ;
+    :hasTranslation :terjemah_baris1008 ;
+    :urutan "37"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1008" .
+
+:aksara_baris1008 a :TeksAksara ;
+    rdf:value "ꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦏꦮꦶꦱꦺꦱꦏꦸꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "70"^^xsd:integer .
+
+:translit_baris1008 a :Transliterasi ;
+    rdf:value "Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan kawisésa ku Batara Dangiyang Guru."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1008 a :Terjemahan ;
+    rdf:value "Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan dikuasai oleh Batara Dangiyang Guru."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Contoh untuk baris 9 (Sang Wulan), pola yang sama diterapkan untuk baris berikutnya
+:baris1009 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1009 ;
+    :hasTransliteration :translit_baris1009 ;
+    :hasTranslation :terjemah_baris1009 ;
+    :urutan "38"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1009" .
+
+:aksara_baris1009 a :TeksAksara ;
+    rdf:value "ꦱꦁꦮꦸꦭꦤ꧀ꦢꦶꦗꦶꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦏꦗꦫꦎꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "30"^^xsd:integer .
+
+:translit_baris1009 a :Transliterasi ;
+    rdf:value "Sang Wulan dijieun Guruhaji Kajaron."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1009 a :Terjemahan ;
+    rdf:value "Sang Wulan dijadikan Guruhaji Kajaron."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 10 (Sang Tumanggal)
+:baris1010 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1010 ;
+    :hasTransliteration :translit_baris1010 ;
+    :hasTranslation :terjemah_baris1010 ;
+    :urutan "39"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1010" .
+
+:aksara_baris1010 a :TeksAksara ;
+    rdf:value "ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦢꦶꦗꦶꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦏꦭꦁꦓꦫꦢꦶꦨꦭꦩꦎꦲ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "40"^^xsd:integer .
+
+:translit_baris1010 a :Transliterasi ;
+    rdf:value "Sang Tumanggal dijieun Guruhaji Kalanggara di Balamoha."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1010 a :Terjemahan ;
+    rdf:value "Sang Tumanggal dijadikan Guruhaji Kalanggara di Balamoha."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 11 (Sang Puki)
+:baris1011 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1011 ;
+    :hasTransliteration :translit_baris1011 ;
+    :hasTranslation :terjemah_baris1011 ;
+    :urutan "40"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1011" .
+
+:aksara_baris1011 a :TeksAksara ;
+    rdf:value "ꦱꦁꦦꦸꦏꦶꦗꦢꦶꦓꦸꦫꦸꦲꦗꦶꦦꦒꦼꦂꦮꦺꦱꦶ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "30"^^xsd:integer .
+
+:translit_baris1011 a :Transliterasi ;
+    rdf:value "Sang Puki jadi Guruhaji Pagerwesi."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1011 a :Terjemahan ;
+    rdf:value "Sang Puki jadi Guruhaji Pagerwesi."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 12 (Sang Manisri)
+:baris1012 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1012 ;
+    :hasTransliteration :translit_baris1012 ;
+    :hasTranslation :terjemah_baris1012 ;
+    :urutan "41"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1012" .
+
+:aksara_baris1012 a :TeksAksara ;
+    rdf:value "ꦱꦁꦩꦤꦶꦱꦿꦶꦢꦶꦗꦶꦈꦤ꧀ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦫꦲꦱꦺꦄꦢꦶꦦꦸꦤ꧀ꦠꦁ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "45"^^xsd:integer .
+
+:translit_baris1012 a :Transliterasi ;
+    rdf:value "Sang Manisri dijieun Buyuthadén Rahaséa, di Puntang."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1012 a :Terjemahan ;
+    rdf:value "Sang Manisri dijadikan Buyuthadén Rahaséa di Puntang."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 13 (Buyuthadén Tunjungputih)
+:baris1013 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1013 ;
+    :hasTransliteration :translit_baris1013 ;
+    :hasTranslation :terjemah_baris1013 ;
+    :urutan "42"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1013" .
+
+:aksara_baris1013 a :TeksAksara ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦠꦸꦚ꧀ꦗꦸꦁꦦꦸꦠꦶꦃꦢꦶꦏꦲꦸꦫꦶꦦꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "35"^^xsd:integer .
+
+:translit_baris1013 a :Transliterasi ;
+    rdf:value "Buyuthadén Tunjungputih di Kahuripan."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1013 a :Terjemahan ;
+    rdf:value "Buyuthadén Tunjungputih di Kahuripan."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 14 (Buyuthadén Sumajajah)
+:baris1014 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1014 ;
+    :hasTransliteration :translit_baris1014 ;
+    :hasTranslation :terjemah_baris1014 ;
+    :urutan "43"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1014" .
+
+:aksara_baris1014 a :TeksAksara ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦱꦸꦩꦗꦗꦃꦢꦶꦦꦒꦗꦲꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "30"^^xsd:integer .
+
+:translit_baris1014 a :Transliterasi ;
+    rdf:value "Buyuthadén Sumajajah di Pagajahan."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1014 a :Terjemahan ;
+    rdf:value "Buyuthadén Sumajajah di Pagajahan."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 15 (Buyuthadén Pasugihan)
+:baris1015 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1015 ;
+    :hasTransliteration :translit_baris1015 ;
+    :hasTranslation :terjemah_baris1015 ;
+    :urutan "44"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1015" .
+
+:aksara_baris1015 a :TeksAksara ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦦꦱꦸꦓꦶꦲꦤ꧀ꦢꦶꦨꦠꦸꦂ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "30"^^xsd:integer .
+
+:translit_baris1015 a :Transliterasi ;
+    rdf:value "Buyuthadén Pasugihan di Batur."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1015 a :Terjemahan ;
+    rdf:value "Buyuthadén Pasugihan di Batur."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 16 (Buyuthadén Padurungan)
+:baris1016 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1016 ;
+    :hasTransliteration :translit_baris1016 ;
+    :hasTranslation :terjemah_baris1016 ;
+    :urutan "45"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1016" .
+
+:aksara_baris1016 a :TeksAksara ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦦꦢꦸꦫꦸꦔꦤ꧀ꦢꦶꦭꦼꦩ꧀ꦨꦸꦲꦸꦪꦸ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "35"^^xsd:integer .
+
+:translit_baris1016 a :Transliterasi ;
+    rdf:value "Buyuthadén Padurungan di Lembuhuyu."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1016 a :Terjemahan ;
+    rdf:value "Buyuthadén Padurungan di Lembuhuyu."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 17 (Buyuthadén Darongdong)
+:baris1017 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1017 ;
+    :hasTransliteration :translit_baris1017 ;
+    :hasTranslation :terjemah_baris1017 ;
+    :urutan "46"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1017" .
+
+:aksara_baris1017 a :TeksAksara ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦢꦫꦎꦁꦢꦎꦁꦢꦶꦨꦭꦫꦗ"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "30"^^xsd:integer .
+
+:translit_baris1017 a :Transliterasi ;
+    rdf:value "Buyuthadén Darongdong di Balaraja."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1017 a :Terjemahan ;
+    rdf:value "Buyuthadén Darongdong di Balaraja."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+# Baris 18 (Buyuthadén Batutihang)
+:baris1018 a :BarisNaskah ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_baris1018 ;
+    :hasTransliteration :translit_baris1018 ;
+    :hasTranslation :terjemah_baris1018 ;
+    :urutan "47"^^xsd:integer ;
+    dcterms:identifier "CPH2-B1018" .
+
+:aksara_baris1018 a :TeksAksara ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦨꦠꦸꦠꦶꦲꦁꦢꦶꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan ;
+    lexinfo:script :AksaraCacarakan ;
+    :jumlahKarakter "30"^^xsd:integer .
+
+:translit_baris1018 a :Transliterasi ;
+    rdf:value "Buyuthadén Batutihang di Kuningan."@su-Latn ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
+
+:terjemah_baris1018 a :Terjemahan ;
+    rdf:value "Buyuthadén Batutihang di Kuningan."@id ;
+    :keBahasa "id" ;
+    :dariBahasa "su" .
+
+    ### ANOTASI TAMBAHAN ###
+    :manikSakurungan a :Konsep ;
+        rdfs:label "manik sakurungan"@su ;
+        rdfs:comment "Permata suci dalam wadah, simbol pencapaian spiritual/moksa"@id ;
+        :merupakanSimbolDari :Moksa .
+
+    :WatangAgeung a :Karya ;
+        rdfs:label "Sanghiyang Watang Ageung"@su ;
+        rdfs:comment "Karya besar yang diciptakan Sang Layuwatang"@id .
+
+    <Manuskrip rdf:about="naskahSunda01">
+        <dcterms:title xml:lang="su">Carita Parahiyangan</dcterms:title>
+        <dcterms:creator>Anonim</dcterms:creator>
+        <ditulisMenggunakan rdf:resource="AksaraCacarakan"/>
+    </Manuskrip>
+
+    <SistemTulisan rdf:about="AksaraCacarakan">
+        <rdfs:label xml:lang="id">Aksara Cacarakan</rdfs:label>
+    </SistemTulisan>
+</rdf:RDF>

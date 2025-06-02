@@ -1,0 +1,7 @@
+PREFIX : <http://contoh.org/ontology#>
+
+SELECT ?tokoh ?peran
+WHERE {
+  ?tokoh a ?peran .
+  FILTER(STRSTARTS(STR(?peran), "http://contoh.org/ontology#"))
+}

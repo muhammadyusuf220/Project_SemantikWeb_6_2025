@@ -1,0 +1,12 @@
+PREFIX : <http://contoh.org/ontology#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?baris ?transliterasi ?terjemahan
+WHERE {
+  ?baris a :BarisNaskah ;
+    :hasTransliteration ?translit ;
+    :hasTranslation ?terjemah .
+  ?translit rdf:value ?transliterasi .
+  ?terjemah rdf:value ?terjemahan .
+}
+LIMIT 10
