@@ -1,21 +1,36 @@
 import streamlit as st
-from rdflib import Graph
+from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
 import re
+import requests
 
 # Konfigurasi halaman
 st.set_page_config(page_title="Mesin Pencarian Naskah Cacarakan", layout="wide")
 
-# Fungsi untuk query dengan RDFlib
-def query_with_rdflib(query, data_file):
+# Konfigurasi Apache Jena Fuseki
+FUSEKI_ENDPOINT = "http://localhost:3030/CaritaParahyangan/sparql"
+FUSEKI_UPDATE_ENDPOINT = "http://localhost:3030/NaskahParahyangan/update"
+
+# Fungsi untuk query dengan SPARQL endpoint
+def query_with_fuseki(sparql_query):
     try:
-        g = Graph()
-        g.parse(data_file, format='turtle')
-        results = g.query(query)
-        return results
+        sparql = SPARQLWrapper(FUSEKI_ENDPOINT)
+        sparql.setQuery(sparql_query)
+        sparql.setReturnFormat(JSON)
+        
+        results = sparql.query().convert()
+        return results["results"]["bindings"]
     except Exception as e:
-        st.error(f"Error loading data: {str(e)}")
+        st.error(f"Error connecting to Fuseki: {str(e)}")
         return []
+
+# Fungsi untuk test koneksi ke Fuseki
+def test_fuseki_connection():
+    try:
+        response = requests.get(f"http://localhost:3030/$/ping", timeout=5)
+        return response.status_code == 200
+    except:
+        return False
 
 # Fungsi pencarian berdasarkan kata kunci
 def search_by_keyword(keyword, search_type="all"):
@@ -61,22 +76,42 @@ def highlight_text(text, keyword):
     pattern = re.compile(re.escape(keyword), re.IGNORECASE)
     return pattern.sub(f"**{keyword.upper()}**", str(text))
 
-# Sidebar navigasi
+# Fungsi untuk mengextract value dari binding SPARQL
+def extract_value(binding, key):
+    if key in binding:
+        return binding[key]["value"]
+    return ""
+
+# Status koneksi di sidebar
 st.sidebar.title("🔍 Menu Pencarian")
+
+# Test koneksi
+connection_status = test_fuseki_connection()
+if connection_status:
+    st.sidebar.success("🟢 Terhubung ke Apache Jena Fuseki")
+else:
+    st.sidebar.error("🔴 Tidak dapat terhubung ke Apache Jena Fuseki")
+    st.sidebar.info("Pastikan Fuseki berjalan di http://localhost:3030")
+
 menu = st.sidebar.radio(
     "Pilih Jenis Pencarian",
-    ["Pencarian Umum", "Pencarian Lanjutan", "Jelajah Data", "Statistik"]
+    ["Pencarian Umum", "Pencarian Lanjutan", "Jelajah Data", "Statistik", "Pengaturan"]
 )
 
 # Header aplikasi
 st.title("🔍 Mesin Pencarian Naskah Cacarakan")
 st.markdown("""
 Portal pencarian berbasis web semantik untuk mengeksplorasi naskah Sunda kuno dalam Aksara Cacarakan.
+Menggunakan Apache Jena Fuseki sebagai triplestore.
 """)
 
 # Halaman Pencarian Umum
 if menu == "Pencarian Umum":
     st.header("Pencarian Kata Kunci")
+    
+    if not connection_status:
+        st.error("⚠️ Tidak dapat terhubung ke server Apache Jena Fuseki. Periksa koneksi dan pastikan server berjalan.")
+        st.stop()
     
     col1, col2 = st.columns([3, 1])
     
@@ -103,9 +138,9 @@ if menu == "Pencarian Umum":
     
     if st.button("🔍 Cari", type="primary"):
         if search_query:
-            with st.spinner("Mencari data..."):
+            with st.spinner("Mencari data di Apache Jena Fuseki..."):
                 query = search_by_keyword(search_query, type_mapping[search_type])
-                results = query_with_rdflib(query, "data/output.ttl")
+                results = query_with_fuseki(query)
                 
                 if results:
                     st.success(f"Ditemukan hasil pencarian untuk: **{search_query}**")
@@ -113,11 +148,15 @@ if menu == "Pencarian Umum":
                     # Tampilkan hasil dalam tabel
                     result_data = []
                     for i, row in enumerate(results, 1):
+                        aksara = extract_value(row, "aksara")
+                        transliterasi = extract_value(row, "transliterasi")
+                        terjemahan = extract_value(row, "terjemahan")
+                        
                         result_data.append({
                             "No": i,
-                            "Aksara Cacarakan": highlight_text(row.aksara, search_query if search_type in ["Semua", "Aksara Cacarakan"] else ""),
-                            "Transliterasi": highlight_text(row.transliterasi, search_query if search_type in ["Semua", "Transliterasi"] else ""),
-                            "Terjemahan": highlight_text(row.terjemahan, search_query if search_type in ["Semua", "Terjemahan"] else "")
+                            "Aksara Cacarakan": highlight_text(aksara, search_query if search_type in ["Semua", "Aksara Cacarakan"] else ""),
+                            "Transliterasi": highlight_text(transliterasi, search_query if search_type in ["Semua", "Transliterasi"] else ""),
+                            "Terjemahan": highlight_text(terjemahan, search_query if search_type in ["Semua", "Terjemahan"] else "")
                         })
                     
                     df = pd.DataFrame(result_data)
@@ -136,6 +175,10 @@ if menu == "Pencarian Umum":
 elif menu == "Pencarian Lanjutan":
     st.header("Pencarian Lanjutan")
     
+    if not connection_status:
+        st.error("⚠️ Tidak dapat terhubung ke server Apache Jena Fuseki.")
+        st.stop()
+    
     # Filter berdasarkan panjang teks
     st.subheader("Filter Berdasarkan Kriteria")
     
@@ -150,7 +193,7 @@ elif menu == "Pencarian Lanjutan":
         sort_by = st.selectbox("Urutkan berdasarkan:", ["Baris", "Panjang Teks", "Alfabetis"])
     
     if st.button("🔍 Cari dengan Filter", type="primary"):
-        with st.spinner("Memproses pencarian lanjutan..."):
+        with st.spinner("Memproses pencarian lanjutan di Fuseki..."):
             # Query dengan filter panjang
             query = f"""
             PREFIX : <http://contoh.org/ontology#>
@@ -179,17 +222,21 @@ elif menu == "Pencarian Lanjutan":
             
             query += "} ORDER BY ?baris LIMIT 100"
             
-            results = query_with_rdflib(query, "data/output.ttl")
+            results = query_with_fuseki(query)
             
             if results:
                 result_data = []
                 for i, row in enumerate(results, 1):
+                    aksara = extract_value(row, "aksara")
+                    transliterasi = extract_value(row, "transliterasi")
+                    terjemahan = extract_value(row, "terjemahan")
+                    
                     result_data.append({
                         "No": i,
-                        "Aksara Cacarakan": str(row.aksara),
-                        "Transliterasi": str(row.transliterasi),
-                        "Terjemahan": str(row.terjemahan),
-                        "Panjang": len(str(row.transliterasi))
+                        "Aksara Cacarakan": aksara,
+                        "Transliterasi": transliterasi,
+                        "Terjemahan": terjemahan,
+                        "Panjang": len(transliterasi)
                     })
                 
                 df = pd.DataFrame(result_data)
@@ -209,6 +256,10 @@ elif menu == "Pencarian Lanjutan":
 elif menu == "Jelajah Data":
     st.header("Jelajah Data Naskah")
     
+    if not connection_status:
+        st.error("⚠️ Tidak dapat terhubung ke server Apache Jena Fuseki.")
+        st.stop()
+    
     # Tampilkan semua data dengan pagination
     st.subheader("Semua Data Naskah")
     
@@ -225,10 +276,10 @@ elif menu == "Jelajah Data":
     }
     """
     
-    count_results = query_with_rdflib(count_query, "data/output.ttl")
+    count_results = query_with_fuseki(count_query)
     total_data = 0
-    for row in count_results:
-        total_data = int(row.total)
+    if count_results:
+        total_data = int(extract_value(count_results[0], "total"))
     
     if total_data > 0:
         max_pages = (total_data + page_size - 1) // page_size
@@ -256,16 +307,16 @@ elif menu == "Jelajah Data":
         OFFSET {offset}
         """
         
-        results = query_with_rdflib(browse_query, "data/output.ttl")
+        results = query_with_fuseki(browse_query)
         
         if results:
             result_data = []
             for i, row in enumerate(results, offset + 1):
                 result_data.append({
                     "No": i,
-                    "Aksara Cacarakan": str(row.aksara),
-                    "Transliterasi": str(row.transliterasi),
-                    "Terjemahan": str(row.terjemahan)
+                    "Aksara Cacarakan": extract_value(row, "aksara"),
+                    "Transliterasi": extract_value(row, "transliterasi"),
+                    "Terjemahan": extract_value(row, "terjemahan")
                 })
             
             df = pd.DataFrame(result_data)
@@ -279,6 +330,10 @@ elif menu == "Jelajah Data":
 # Halaman Statistik
 elif menu == "Statistik":
     st.header("Statistik Data Naskah")
+    
+    if not connection_status:
+        st.error("⚠️ Tidak dapat terhubung ke server Apache Jena Fuseki.")
+        st.stop()
     
     # Query untuk statistik dasar
     stats_query = """
@@ -297,20 +352,20 @@ elif menu == "Statistik":
     }
     """
     
-    stats_results = query_with_rdflib(stats_query, "data/output.ttl")
+    stats_results = query_with_fuseki(stats_query)
     
     if stats_results:
-        for row in stats_results:
-            col1, col2, col3, col4 = st.columns(4)
-            
-            with col1:
-                st.metric("📚 Total Baris", int(row.totalBaris))
-            with col2:
-                st.metric("📏 Rata-rata Panjang", f"{float(row.avgLength):.1f}")
-            with col3:
-                st.metric("📉 Panjang Minimum", int(row.minLength))
-            with col4:
-                st.metric("📈 Panjang Maksimum", int(row.maxLength))
+        row = stats_results[0]
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            st.metric("📚 Total Baris", int(float(extract_value(row, "totalBaris"))))
+        with col2:
+            st.metric("📏 Rata-rata Panjang", f"{float(extract_value(row, 'avgLength')):.1f}")
+        with col3:
+            st.metric("📉 Panjang Minimum", int(float(extract_value(row, "minLength"))))
+        with col4:
+            st.metric("📈 Panjang Maksimum", int(float(extract_value(row, "maxLength"))))
     
     # Distribusi panjang teks
     st.subheader("Distribusi Panjang Transliterasi")
@@ -327,10 +382,10 @@ elif menu == "Statistik":
     }
     """
     
-    length_results = query_with_rdflib(length_query, "data/output.ttl")
+    length_results = query_with_fuseki(length_query)
     
     if length_results:
-        lengths = [len(str(row.transliterasi)) for row in length_results]
+        lengths = [len(extract_value(row, "transliterasi")) for row in length_results]
         
         # Buat histogram sederhana
         length_df = pd.DataFrame({'Panjang': lengths})
@@ -355,6 +410,68 @@ elif menu == "Statistik":
         })
         st.table(dist_df)
 
+# Halaman Pengaturan
+elif menu == "Pengaturan":
+    st.header("Pengaturan Koneksi")
+    
+    st.subheader("Konfigurasi Apache Jena Fuseki")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        current_endpoint = st.text_input("SPARQL Endpoint:", value=FUSEKI_ENDPOINT)
+        
+    with col2:
+        current_update_endpoint = st.text_input("Update Endpoint:", value=FUSEKI_UPDATE_ENDPOINT)
+    
+    if st.button("🔗 Test Koneksi"):
+        with st.spinner("Testing koneksi..."):
+            try:
+                response = requests.get("http://localhost:3030/$/ping", timeout=5)
+                if response.status_code == 200:
+                    st.success("✅ Koneksi ke Apache Jena Fuseki berhasil!")
+                    
+                    # Test query sederhana
+                    test_query = """
+                    PREFIX : <http://contoh.org/ontology#>
+                    SELECT (COUNT(?s) as ?count) WHERE { ?s ?p ?o }
+                    """
+                    results = query_with_fuseki(test_query)
+                    if results:
+                        total_triples = extract_value(results[0], "count")
+                        st.info(f"📊 Total triples dalam dataset: {total_triples}")
+                else:
+                    st.error("❌ Server Fuseki tidak merespons dengan benar")
+            except Exception as e:
+                st.error(f"❌ Gagal terhubung ke Fuseki: {str(e)}")
+    
+    st.subheader("Informasi Dataset")
+    if connection_status:
+        # Query untuk informasi dataset
+        dataset_info_query = """
+        PREFIX : <http://contoh.org/ontology#>
+        SELECT 
+            (COUNT(DISTINCT ?s) as ?subjects)
+            (COUNT(DISTINCT ?p) as ?predicates)
+            (COUNT(DISTINCT ?o) as ?objects)
+            (COUNT(*) as ?triples)
+        WHERE { ?s ?p ?o }
+        """
+        
+        dataset_results = query_with_fuseki(dataset_info_query)
+        if dataset_results:
+            row = dataset_results[0]
+            
+            col1, col2, col3, col4 = st.columns(4)
+            with col1:
+                st.metric("Subjects", extract_value(row, "subjects"))
+            with col2:
+                st.metric("Predicates", extract_value(row, "predicates"))
+            with col3:
+                st.metric("Objects", extract_value(row, "objects"))
+            with col4:
+                st.metric("Total Triples", extract_value(row, "triples"))
+
 # Footer
 st.markdown("---")
-st.markdown("🏛️ **Portal Web Semantik Naskah Cacarakan** - Menggunakan teknologi RDF dan SPARQL untuk eksplorasi data naskah kuno.")
+st.markdown("🏛️ **Portal Web Semantik Naskah Cacarakan** - Menggunakan Apache Jena Fuseki sebagai triplestore dan SPARQL untuk query semantik.")
