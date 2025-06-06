@@ -1,0 +1,2397 @@
+@prefix : <http://contoh.org/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:CPH_B001 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b001 ;
+    :hasTransliteration :translit_cph_b001 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b001 ;
+    :urutan 1 ;
+    dcterms:identifier "CPH-B001" .
+
+:CPH_B002 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b002 ;
+    :hasTransliteration :translit_cph_b002 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b002 ;
+    :urutan 2 ;
+    dcterms:identifier "CPH-B002" .
+
+:CPH_B003 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b003 ;
+    :hasTransliteration :translit_cph_b003 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b003 ;
+    :urutan 3 ;
+    dcterms:identifier "CPH-B003" .
+
+:CPH_B004 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b004 ;
+    :hasTransliteration :translit_cph_b004 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b004 ;
+    :urutan 4 ;
+    dcterms:identifier "CPH-B004" .
+
+:CPH_B005 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b005 ;
+    :hasTransliteration :translit_cph_b005 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b005 ;
+    :urutan 5 ;
+    dcterms:identifier "CPH-B005" .
+
+:CPH_B006 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b006 ;
+    :hasTransliteration :translit_cph_b006 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b006 ;
+    :urutan 6 ;
+    dcterms:identifier "CPH-B006" .
+
+:CPH_B007 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b007 ;
+    :hasTransliteration :translit_cph_b007 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b007 ;
+    :urutan 7 ;
+    dcterms:identifier "CPH-B007" .
+
+:CPH_B008 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b008 ;
+    :hasTransliteration :translit_cph_b008 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b008 ;
+    :urutan 8 ;
+    dcterms:identifier "CPH-B008" .
+
+:CPH_B009 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b009 ;
+    :hasTransliteration :translit_cph_b009 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b009 ;
+    :urutan 9 ;
+    dcterms:identifier "CPH-B009" .
+
+:CPH_B010 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b010 ;
+    :hasTransliteration :translit_cph_b010 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b010 ;
+    :urutan 10 ;
+    dcterms:identifier "CPH-B010" .
+
+:CPH_B011 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b011 ;
+    :hasTransliteration :translit_cph_b011 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b011 ;
+    :urutan 11 ;
+    dcterms:identifier "CPH-B011" .
+
+:CPH_B012 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b012 ;
+    :hasTransliteration :translit_cph_b012 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b012 ;
+    :urutan 12 ;
+    dcterms:identifier "CPH-B012" .
+
+:CPH_B013 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b013 ;
+    :hasTransliteration :translit_cph_b013 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b013 ;
+    :urutan 13 ;
+    dcterms:identifier "CPH-B013" .
+
+:CPH_B014 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b014 ;
+    :hasTransliteration :translit_cph_b014 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b014 ;
+    :urutan 14 ;
+    dcterms:identifier "CPH-B014" .
+
+:CPH_B015 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b015 ;
+    :hasTransliteration :translit_cph_b015 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b015 ;
+    :urutan 15 ;
+    dcterms:identifier "CPH-B015" .
+
+:CPH_B016 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b016 ;
+    :hasTransliteration :translit_cph_b016 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b016 ;
+    :urutan 16 ;
+    dcterms:identifier "CPH-B016" .
+
+:CPH_B017 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b017 ;
+    :hasTransliteration :translit_cph_b017 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b017 ;
+    :urutan 17 ;
+    dcterms:identifier "CPH-B017" .
+
+:CPH_B018 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b018 ;
+    :hasTransliteration :translit_cph_b018 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b018 ;
+    :urutan 18 ;
+    dcterms:identifier "CPH-B018" .
+
+:CPH_B019 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b019 ;
+    :hasTransliteration :translit_cph_b019 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b019 ;
+    :urutan 19 ;
+    dcterms:identifier "CPH-B019" .
+
+:CPH_B020 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b020 ;
+    :hasTransliteration :translit_cph_b020 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b020 ;
+    :urutan 20 ;
+    dcterms:identifier "CPH-B020" .
+
+:CPH_B021 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b021 ;
+    :hasTransliteration :translit_cph_b021 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b021 ;
+    :urutan 21 ;
+    dcterms:identifier "CPH-B021" .
+
+:CPH_B022 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b022 ;
+    :hasTransliteration :translit_cph_b022 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b022 ;
+    :urutan 22 ;
+    dcterms:identifier "CPH-B022" .
+
+:CPH_B023 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b023 ;
+    :hasTransliteration :translit_cph_b023 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b023 ;
+    :urutan 23 ;
+    dcterms:identifier "CPH-B023" .
+
+:CPH_B024 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b024 ;
+    :hasTransliteration :translit_cph_b024 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b024 ;
+    :urutan 24 ;
+    dcterms:identifier "CPH-B024" .
+
+:CPH_B025 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b025 ;
+    :hasTransliteration :translit_cph_b025 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b025 ;
+    :urutan 25 ;
+    dcterms:identifier "CPH-B025" .
+
+:CPH_B026 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b026 ;
+    :hasTransliteration :translit_cph_b026 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b026 ;
+    :urutan 26 ;
+    dcterms:identifier "CPH-B026" .
+
+:CPH_B027 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b027 ;
+    :hasTransliteration :translit_cph_b027 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b027 ;
+    :urutan 27 ;
+    dcterms:identifier "CPH-B027" .
+
+:CPH_B028 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b028 ;
+    :hasTransliteration :translit_cph_b028 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b028 ;
+    :urutan 28 ;
+    dcterms:identifier "CPH-B028" .
+
+:CPH_B029 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b029 ;
+    :hasTransliteration :translit_cph_b029 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b029 ;
+    :urutan 29 ;
+    dcterms:identifier "CPH-B029" .
+
+:CPH_B030 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b030 ;
+    :hasTransliteration :translit_cph_b030 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b030 ;
+    :urutan 30 ;
+    dcterms:identifier "CPH-B030" .
+
+:CPH_B031 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b031 ;
+    :hasTransliteration :translit_cph_b031 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b031 ;
+    :urutan 31 ;
+    dcterms:identifier "CPH-B031" .
+
+:CPH_B032 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b032 ;
+    :hasTransliteration :translit_cph_b032 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b032 ;
+    :urutan 32 ;
+    dcterms:identifier "CPH-B032" .
+
+:CPH_B033 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b033 ;
+    :hasTransliteration :translit_cph_b033 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b033 ;
+    :urutan 33 ;
+    dcterms:identifier "CPH-B033" .
+
+:CPH_B034 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b034 ;
+    :hasTransliteration :translit_cph_b034 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b034 ;
+    :urutan 34 ;
+    dcterms:identifier "CPH-B034" .
+
+:CPH_B035 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b035 ;
+    :hasTransliteration :translit_cph_b035 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b035 ;
+    :urutan 35 ;
+    dcterms:identifier "CPH-B035" .
+
+:CPH_B036 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b036 ;
+    :hasTransliteration :translit_cph_b036 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b036 ;
+    :urutan 36 ;
+    dcterms:identifier "CPH-B036" .
+
+:CPH_B037 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b037 ;
+    :hasTransliteration :translit_cph_b037 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b037 ;
+    :urutan 37 ;
+    dcterms:identifier "CPH-B037" .
+
+:CPH_B038 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b038 ;
+    :hasTransliteration :translit_cph_b038 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b038 ;
+    :urutan 38 ;
+    dcterms:identifier "CPH-B038" .
+
+:CPH_B039 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b039 ;
+    :hasTransliteration :translit_cph_b039 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b039 ;
+    :urutan 39 ;
+    dcterms:identifier "CPH-B039" .
+
+:CPH_B040 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b040 ;
+    :hasTransliteration :translit_cph_b040 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b040 ;
+    :urutan 40 ;
+    dcterms:identifier "CPH-B040" .
+
+:CPH_B041 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b041 ;
+    :hasTransliteration :translit_cph_b041 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b041 ;
+    :urutan 41 ;
+    dcterms:identifier "CPH-B041" .
+
+:CPH_B042 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b042 ;
+    :hasTransliteration :translit_cph_b042 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b042 ;
+    :urutan 42 ;
+    dcterms:identifier "CPH-B042" .
+
+:CPH_B043 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b043 ;
+    :hasTransliteration :translit_cph_b043 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b043 ;
+    :urutan 43 ;
+    dcterms:identifier "CPH-B043" .
+
+:CPH_B044 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b044 ;
+    :hasTransliteration :translit_cph_b044 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b044 ;
+    :urutan 44 ;
+    dcterms:identifier "CPH-B044" .
+
+:CPH_B045 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b045 ;
+    :hasTransliteration :translit_cph_b045 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b045 ;
+    :urutan 45 ;
+    dcterms:identifier "CPH-B045" .
+
+:CPH_B046 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b046 ;
+    :hasTransliteration :translit_cph_b046 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b046 ;
+    :urutan 46 ;
+    dcterms:identifier "CPH-B046" .
+
+:CPH_B047 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b047 ;
+    :hasTransliteration :translit_cph_b047 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b047 ;
+    :urutan 47 ;
+    dcterms:identifier "CPH-B047" .
+
+:CPH_B048 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b048 ;
+    :hasTransliteration :translit_cph_b048 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b048 ;
+    :urutan 48 ;
+    dcterms:identifier "CPH-B048" .
+
+:CPH_B049 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b049 ;
+    :hasTransliteration :translit_cph_b049 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b049 ;
+    :urutan 49 ;
+    dcterms:identifier "CPH-B049" .
+
+:CPH_B050 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b050 ;
+    :hasTransliteration :translit_cph_b050 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b050 ;
+    :urutan 50 ;
+    dcterms:identifier "CPH-B050" .
+
+:CPH_B051 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b051 ;
+    :hasTransliteration :translit_cph_b051 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b051 ;
+    :urutan 51 ;
+    dcterms:identifier "CPH-B051" .
+
+:CPH_B052 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b052 ;
+    :hasTransliteration :translit_cph_b052 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b052 ;
+    :urutan 52 ;
+    dcterms:identifier "CPH-B052" .
+
+:CPH_B053 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b053 ;
+    :hasTransliteration :translit_cph_b053 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b053 ;
+    :urutan 53 ;
+    dcterms:identifier "CPH-B053" .
+
+:CPH_B054 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b054 ;
+    :hasTransliteration :translit_cph_b054 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b054 ;
+    :urutan 54 ;
+    dcterms:identifier "CPH-B054" .
+
+:CPH_B055 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b055 ;
+    :hasTransliteration :translit_cph_b055 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b055 ;
+    :urutan 55 ;
+    dcterms:identifier "CPH-B055" .
+
+:CPH_B056 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b056 ;
+    :hasTransliteration :translit_cph_b056 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b056 ;
+    :urutan 56 ;
+    dcterms:identifier "CPH-B056" .
+
+:CPH_B057 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b057 ;
+    :hasTransliteration :translit_cph_b057 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b057 ;
+    :urutan 57 ;
+    dcterms:identifier "CPH-B057" .
+
+:CPH_B058 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b058 ;
+    :hasTransliteration :translit_cph_b058 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b058 ;
+    :urutan 58 ;
+    dcterms:identifier "CPH-B058" .
+
+:CPH_B059 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b059 ;
+    :hasTransliteration :translit_cph_b059 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b059 ;
+    :urutan 59 ;
+    dcterms:identifier "CPH-B059" .
+
+:CPH_B060 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b060 ;
+    :hasTransliteration :translit_cph_b060 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b060 ;
+    :urutan 60 ;
+    dcterms:identifier "CPH-B060" .
+
+:CPH_B061 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b061 ;
+    :hasTransliteration :translit_cph_b061 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b061 ;
+    :urutan 61 ;
+    dcterms:identifier "CPH-B061" .
+
+:CPH_B062 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b062 ;
+    :hasTransliteration :translit_cph_b062 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b062 ;
+    :urutan 62 ;
+    dcterms:identifier "CPH-B062" .
+
+:CPH_B063 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b063 ;
+    :hasTransliteration :translit_cph_b063 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b063 ;
+    :urutan 63 ;
+    dcterms:identifier "CPH-B063" .
+
+:CPH_B064 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b064 ;
+    :hasTransliteration :translit_cph_b064 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b064 ;
+    :urutan 64 ;
+    dcterms:identifier "CPH-B064" .
+
+:CPH_B065 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b065 ;
+    :hasTransliteration :translit_cph_b065 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b065 ;
+    :urutan 65 ;
+    dcterms:identifier "CPH-B065" .
+
+:CPH_B066 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b066 ;
+    :hasTransliteration :translit_cph_b066 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b066 ;
+    :urutan 66 ;
+    dcterms:identifier "CPH-B066" .
+
+:CPH_B067 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b067 ;
+    :hasTransliteration :translit_cph_b067 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b067 ;
+    :urutan 67 ;
+    dcterms:identifier "CPH-B067" .
+
+:CPH_B068 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b068 ;
+    :hasTransliteration :translit_cph_b068 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b068 ;
+    :urutan 68 ;
+    dcterms:identifier "CPH-B068" .
+
+:CPH_B069 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b069 ;
+    :hasTransliteration :translit_cph_b069 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b069 ;
+    :urutan 69 ;
+    dcterms:identifier "CPH-B069" .
+
+:CPH_B070 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b070 ;
+    :hasTransliteration :translit_cph_b070 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b070 ;
+    :urutan 70 ;
+    dcterms:identifier "CPH-B070" .
+
+:CPH_B071 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b071 ;
+    :hasTransliteration :translit_cph_b071 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b071 ;
+    :urutan 71 ;
+    dcterms:identifier "CPH-B071" .
+
+:CPH_B072 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b072 ;
+    :hasTransliteration :translit_cph_b072 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b072 ;
+    :urutan 72 ;
+    dcterms:identifier "CPH-B072" .
+
+:CPH_B073 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b073 ;
+    :hasTransliteration :translit_cph_b073 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b073 ;
+    :urutan 73 ;
+    dcterms:identifier "CPH-B073" .
+
+:CPH_B074 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b074 ;
+    :hasTransliteration :translit_cph_b074 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b074 ;
+    :urutan 74 ;
+    dcterms:identifier "CPH-B074" .
+
+:CPH_B075 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b075 ;
+    :hasTransliteration :translit_cph_b075 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b075 ;
+    :urutan 75 ;
+    dcterms:identifier "CPH-B075" .
+
+:CPH_B076 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b076 ;
+    :hasTransliteration :translit_cph_b076 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b076 ;
+    :urutan 76 ;
+    dcterms:identifier "CPH-B076" .
+
+:CPH_B077 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b077 ;
+    :hasTransliteration :translit_cph_b077 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b077 ;
+    :urutan 77 ;
+    dcterms:identifier "CPH-B077" .
+
+:CPH_B078 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b078 ;
+    :hasTransliteration :translit_cph_b078 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b078 ;
+    :urutan 78 ;
+    dcterms:identifier "CPH-B078" .
+
+:CPH_B079 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b079 ;
+    :hasTransliteration :translit_cph_b079 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b079 ;
+    :urutan 79 ;
+    dcterms:identifier "CPH-B079" .
+
+:CPH_B080 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b080 ;
+    :hasTransliteration :translit_cph_b080 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b080 ;
+    :urutan 80 ;
+    dcterms:identifier "CPH-B080" .
+
+:CPH_B081 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b081 ;
+    :hasTransliteration :translit_cph_b081 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b081 ;
+    :urutan 81 ;
+    dcterms:identifier "CPH-B081" .
+
+:CPH_B082 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b082 ;
+    :hasTransliteration :translit_cph_b082 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b082 ;
+    :urutan 82 ;
+    dcterms:identifier "CPH-B082" .
+
+:CPH_B083 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b083 ;
+    :hasTransliteration :translit_cph_b083 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b083 ;
+    :urutan 83 ;
+    dcterms:identifier "CPH-B083" .
+
+:CPH_B084 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b084 ;
+    :hasTransliteration :translit_cph_b084 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b084 ;
+    :urutan 84 ;
+    dcterms:identifier "CPH-B084" .
+
+:CPH_B085 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b085 ;
+    :hasTransliteration :translit_cph_b085 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b085 ;
+    :urutan 85 ;
+    dcterms:identifier "CPH-B085" .
+
+:CPH_B086 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b086 ;
+    :hasTransliteration :translit_cph_b086 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b086 ;
+    :urutan 86 ;
+    dcterms:identifier "CPH-B086" .
+
+:CPH_B087 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b087 ;
+    :hasTransliteration :translit_cph_b087 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b087 ;
+    :urutan 87 ;
+    dcterms:identifier "CPH-B087" .
+
+:CPH_B088 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b088 ;
+    :hasTransliteration :translit_cph_b088 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b088 ;
+    :urutan 88 ;
+    dcterms:identifier "CPH-B088" .
+
+:CPH_B089 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b089 ;
+    :hasTransliteration :translit_cph_b089 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b089 ;
+    :urutan 89 ;
+    dcterms:identifier "CPH-B089" .
+
+:CPH_B090 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b090 ;
+    :hasTransliteration :translit_cph_b090 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b090 ;
+    :urutan 90 ;
+    dcterms:identifier "CPH-B090" .
+
+:CPH_B091 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b091 ;
+    :hasTransliteration :translit_cph_b091 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b091 ;
+    :urutan 91 ;
+    dcterms:identifier "CPH-B091" .
+
+:CPH_B092 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b092 ;
+    :hasTransliteration :translit_cph_b092 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b092 ;
+    :urutan 92 ;
+    dcterms:identifier "CPH-B092" .
+
+:CPH_B093 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b093 ;
+    :hasTransliteration :translit_cph_b093 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b093 ;
+    :urutan 93 ;
+    dcterms:identifier "CPH-B093" .
+
+:CPH_B094 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b094 ;
+    :hasTransliteration :translit_cph_b094 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b094 ;
+    :urutan 94 ;
+    dcterms:identifier "CPH-B094" .
+
+:CPH_B095 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b095 ;
+    :hasTransliteration :translit_cph_b095 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b095 ;
+    :urutan 95 ;
+    dcterms:identifier "CPH-B095" .
+
+:CPH_B096 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b096 ;
+    :hasTransliteration :translit_cph_b096 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b096 ;
+    :urutan 96 ;
+    dcterms:identifier "CPH-B096" .
+
+:CPH_B097 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b097 ;
+    :hasTransliteration :translit_cph_b097 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b097 ;
+    :urutan 97 ;
+    dcterms:identifier "CPH-B097" .
+
+:CPH_B098 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b098 ;
+    :hasTransliteration :translit_cph_b098 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b098 ;
+    :urutan 98 ;
+    dcterms:identifier "CPH-B098" .
+
+:CPH_B099 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b099 ;
+    :hasTransliteration :translit_cph_b099 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b099 ;
+    :urutan 99 ;
+    dcterms:identifier "CPH-B099" .
+
+:CPH_B100 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b100 ;
+    :hasTransliteration :translit_cph_b100 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b100 ;
+    :urutan 100 ;
+    dcterms:identifier "CPH-B100" .
+
+:CPH_B101 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b101 ;
+    :hasTransliteration :translit_cph_b101 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b101 ;
+    :urutan 101 ;
+    dcterms:identifier "CPH-B101" .
+
+:CPH_B102 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b102 ;
+    :hasTransliteration :translit_cph_b102 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b102 ;
+    :urutan 102 ;
+    dcterms:identifier "CPH-B102" .
+
+:CPH_B103 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b103 ;
+    :hasTransliteration :translit_cph_b103 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b103 ;
+    :urutan 103 ;
+    dcterms:identifier "CPH-B103" .
+
+:CPH_B104 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b104 ;
+    :hasTransliteration :translit_cph_b104 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b104 ;
+    :urutan 104 ;
+    dcterms:identifier "CPH-B104" .
+
+:CPH_B105 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b105 ;
+    :hasTransliteration :translit_cph_b105 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b105 ;
+    :urutan 105 ;
+    dcterms:identifier "CPH-B105" .
+
+:CPH_B106 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b106 ;
+    :hasTransliteration :translit_cph_b106 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b106 ;
+    :urutan 106 ;
+    dcterms:identifier "CPH-B106" .
+
+:CPH_B107 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b107 ;
+    :hasTransliteration :translit_cph_b107 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b107 ;
+    :urutan 107 ;
+    dcterms:identifier "CPH-B107" .
+
+:CPH_B108 a :BarisNaskah ;
+    :hasTranslation :terjemah_cph_b108 ;
+    :hasTransliteration :translit_cph_b108 ;
+    :isFromManuscript :naskahSunda02 ;
+    :mengandungAksara :aksara_cph_b108 ;
+    :urutan 108 ;
+    dcterms:identifier "CPH-B108" .
+
+:aksara_cph_b001 a :TeksAksara ;
+    :jumlahKarakter 23 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦤ꧀ꦝꦺꦃꦤꦶꦲꦤ꧀ꦕꦫꦶꦠꦦꦫꦲꦶꦪꦸꦔꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b002 a :TeksAksara ;
+    :jumlahKarakter 24 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦔꦫꦺꦱꦶꦓꦸꦫꦸꦩꦔꦾꦸꦓꦫꦴꦗꦦꦸꦠꦽꦫꦴ"@su-x-cacarakan .
+
+:aksara_cph_b003 a :TeksAksara ;
+    :jumlahKarakter 60 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦫꦴꦗꦦꦸꦠꦽꦫꦩꦶꦱꦺꦮꦺꦈꦏꦺꦤ꧀ꦱꦔꦏꦤ꧀ꦢꦶꦲꦮꦤ꧀ꦭꦮꦤ꧀ꦱꦔꦏꦤ꧀ꦢꦶꦲꦮꦠꦶ ꦱꦶꦢꦱꦦꦶꦭꦤ꧀ꦕꦺꦏꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b004 a :TeksAksara ;
+    :jumlahKarakter 24 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦔꦔꦫꦤꦤ꧀ꦩꦤꦺꦃꦫꦲꦶꦪꦔꦠꦫꦺꦣꦮꦫꦴꦗ."@su-x-cacarakan .
+
+:aksara_cph_b005 a :TeksAksara ;
+    :jumlahKarakter 72 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦱꦭꦸꦩꦏꦸꦔꦔꦫꦤꦤ꧀ꦩꦤꦺꦃꦫꦲꦶꦪꦔꦠꦫꦶꦩꦺꦢꦔꦗꦠꦶ ꦆꦚꦱꦔꦭꦪꦸꦮꦠꦔ꧀ ꦚꦤꦸꦚꦶꦲꦺꦴꦏꦺꦤ꧀ꦱꦔꦲꦶꦪꦔꦮꦠꦔꦆꦒꦺꦴꦔ꧀"@su-x-cacarakan .
+
+:aksara_cph_b006 a :TeksAksara ;
+    :jumlahKarakter 53 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦱꦤꦲꦔꦏꦠ꧀ꦱꦨꦸꦩꦶꦗꦢꦶꦩꦤꦶꦏꦱꦏꦸꦫꦸꦔꦤ꧀, ꦤꦸꦩꦶꦱꦺꦮꦺꦈꦏꦺꦤ꧀ꦦꦤ꧀ꦕꦦꦸꦠꦽꦫꦴ"@su-x-cacarakan .
+
+:aksara_cph_b007 a :TeksAksara ;
+    :jumlahKarakter 116 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦔꦄꦦꦠꦶꦪꦤ꧀ꦱꦔꦏꦸꦱꦶꦏ, ꦱꦔꦓꦽꦓꦱꦔꦩꦺꦱ꧀ꦠꦽꦫꦶ, ꦱꦔꦦꦸꦫꦸꦱ, ꦱꦔꦦꦸꦠꦤ꧀ꦗꦭꦆꦚꦱꦔꦩꦔꦸꦏꦸꦲꦤ꧀, ꦱꦔꦏꦫꦸꦔꦏꦭꦃ, ꦱꦔꦏꦠꦸꦔꦩꦫꦭꦃ, ꦱꦔꦱꦤ꧀ꦢꦔꦽꦓꦨ, ꦱꦔꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b008 a :TeksAksara ;
+    :jumlahKarakter 56 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦲꦤꦥꦏ꧀ꦱꦶꦱꦈꦮꦸꦫꦸꦮꦸꦫ꧀ꦥꦏ꧀ꦱꦶꦱꦤꦫꦓꦠꦶꦚꦪꦁꦢꦶꦠꦶꦠꦿꦪꦠꦿꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲ"@su-x-cacarakan .
+
+:aksara_cph_b009 a :TeksAksara ;
+    :jumlahKarakter 31 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦲꦏꦤ꧀ꦏꦸꦱꦭꦏꦶꦤꦢꦶꦱꦺꦲꦸꦱꦺꦎꦭ꧀ꦏꦸꦲꦺꦮꦺꦤ"@su-x-cacarakan .
+
+:aksara_cph_b010 a :TeksAksara ;
+    :jumlahKarakter 63 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦲꦺꦮꦺꦤꦄꦕꦫꦺꦏꦲꦺꦮꦺꦤꦄꦥꦥꦈꦫꦁꦭꦩꦸꦤꦈꦫꦁꦠꦺꦈꦢꦶꦲꦤꦏ꧀ꦗꦺꦈꦲꦺꦁꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲ"@su-x-cacarakan .
+
+:aksara_cph_b011 a :TeksAksara ;
+    :jumlahKarakter 25 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦠꦥꦱꦺꦴꦠꦺꦃꦥꦥꦗꦲꦤ꧀ꦠꦺꦈꦢꦶꦲꦤꦏ꧀"@su-x-cacarakan .
+
+:aksara_cph_b012 a :TeksAksara ;
+    :jumlahKarakter 44 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲꦢꦶꦲꦤꦏ꧀ꦏꦸꦮꦪꦗꦲꦺꦮꦺꦎꦒꦺꦲꦤ꧀ꦠꦺꦈ"@su-x-cacarakan .
+
+:aksara_cph_b013 a :TeksAksara ;
+    :jumlahKarakter 35 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦠꦶꦲꦶꦚꦢꦺꦏ꧀ꦭꦺꦈꦩ꧀ꦥꦁꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦏꦏꦺꦤ꧀ꦢꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b014 a :TeksAksara ;
+    :jumlahKarakter 14 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦠꦁꦱꦶꦪꦏꦏꦺꦤ꧀ꦢꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b015 a :TeksAksara ;
+    :jumlahKarakter 51 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦤꦲꦤꦲꦱꦶꦪꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲꦩꦤꦱꦶꦪꦢꦠꦁꦏꦢꦶꦤꦶꦃ"@su-x-cacarakan .
+
+:aksara_cph_b016 a :TeksAksara ;
+    :jumlahKarakter 106 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦥꦸꦤ꧀ꦱꦩꦥꦸꦤ꧀ꦲꦪꦨꦗꦏꦩꦶꦥꦸꦤ꧀ꦏꦩꦶꦩꦺꦤ꧀ꦠꦥꦶꦫꦧꦶꦈꦤ꧀ꦥꦸꦤ꧀ꦏꦺꦤꦏꦩꦶꦏꦥꦸꦥꦸꦭꦶꦲꦤ꧀ꦏꦸꦥꦏ꧀ꦱꦶꦱꦈꦮꦸꦫꦸꦮꦸꦫ꧀ꦥꦏ꧀ꦱꦶꦱꦤꦫꦓꦠꦶꦥꦥꦨꦫꦸꦏꦈꦫꦁꦲꦤ꧀ꦠꦺꦈꦢꦶꦲꦤꦏ꧀"@su-x-cacarakan .
+
+:aksara_cph_b017 a :TeksAksara ;
+    :jumlahKarakter 87 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦭꦺꦈꦩ꧀ꦥꦁꦱꦶꦪꦠꦶꦲꦸꦭꦏꦨꦠꦸꦂꦱꦶꦪꦢꦺꦈꦶꦲꦤꦏꦶꦁꦦꦮꦃꦄꦏ꧀ꦱꦫꦶꦗꦧꦸꦁꦭꦺꦈꦩ꧀ꦥꦁꦲꦸꦱꦶꦂꦨꦒꦮꦠꦿꦺꦱꦶꦩꦏꦤ꧀ꦢꦿꦶꦲ"@su-x-cacarakan .
+
+:aksara_cph_b018 a :TeksAksara ;
+    :jumlahKarakter 55 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦺꦈꦩ꧀ꦥꦁꦦꦮꦃꦫꦧꦧꦸꦢꦠꦁꦏꦨꦠꦸꦂꦤꦠꦺꦈꦢꦶꦲꦏꦸꦫꦧꦶꦚꦺꦈꦲꦺꦁꦲꦶꦚꦮꦺꦢꦢꦫꦶꦒꦼꦈꦭꦶꦱ"@su-x-cacarakan .
+
+:aksara_cph_b019 a :TeksAksara ;
+    :jumlahKarakter 74 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦲꦺꦠꦺꦤ꧀ꦲꦤꦏꦶꦁꦦꦮꦃꦱꦁꦲꦶꦪꦁꦱꦿꦶꦭꦺꦈꦩ꧀ꦥꦁꦏꦤꦒꦗꦢꦶꦏꦭꦈꦤꦺꦎꦏꦱꦶꦪꦏꦦꦮꦃꦄꦏ꧀ꦱꦫꦶꦗꦧꦸꦁ"@su-x-cacarakan .
+
+:aksara_cph_b020 a :TeksAksara ;
+    :jumlahKarakter 46 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦠꦶꦲꦶꦚꦭꦺꦈꦩ꧀ꦥꦁꦦꦮꦃꦱꦁꦲꦶꦪꦁꦱꦿꦶꦔꦗꦢꦶꦲꦶꦚꦦꦮꦃꦨꦔꦠꦏ꧀ꦩꦔꦭꦺꦔꦭꦺ"@su-x-cacarakan .
+
+:aksara_cph_b021 a :TeksAksara ;
+    :jumlahKarakter 47 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦱꦁꦩꦔꦸꦏꦸꦲꦤ꧀ꦤꦩꦄꦢꦶꦲꦶꦁꦏꦭꦶꦃꦈꦫꦁꦔꦨꦎꦫꦎꦭꦺꦈꦩ꧀ꦥꦁꦏꦠꦼꦒꦭ꧀"@su-x-cacarakan .
+
+:aksara_cph_b022 a :TeksAksara ;
+    :jumlahKarakter 51 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦢꦠꦁꦏꦠꦼꦔꦃꦠꦼꦒꦭ꧀ꦏꦱꦩ꧀ꦥꦏ꧀ꦦꦮꦃꦩꦤ꧀ꦗꦔꦤ꧀ꦢꦫꦢꦺꦈꦁꦫꦏꦺꦪꦤ꧀ꦏꦨꦎꦮꦸꦭꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b023 a :TeksAksara ;
+    :jumlahKarakter 71 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦒꦺꦫꦺꦏꦺꦈꦤ꧀ꦏꦸꦱꦁꦦꦤ꧀ꦕꦦꦸꦠꦿꦨꦈꦤꦁꦤꦱꦩꦪꦄꦱꦶꦁꦤꦸꦤꦸꦩ꧀ꦨꦏ꧀ꦲꦶꦚꦠꦶꦲꦸꦭꦄꦤꦸꦔꦺꦈꦤꦄꦲꦶꦚꦥꦶꦫꦠꦸꦈꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b024 a :TeksAksara ;
+    :jumlahKarakter 51 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦏꦺꦈꦤꦏꦸꦠꦸꦩ꧀ꦨꦏ꧀ꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦏꦨꦎꦮꦸꦭꦤ꧀ꦗꦺꦈꦁꦦꦮꦃꦩꦤ꧀ꦗꦔꦤ꧀ꦢꦫ"@su-x-cacarakan .
+
+:aksara_cph_b025 a :TeksAksara ;
+    :jumlahKarakter 48 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦸꦩ꧀ꦥꦠ꧀ꦏꦦꦠꦥꦄꦤꦄꦢꦠꦁꦥꦄꦃꦢꦶꦠꦸꦠꦸꦂꦏꦺꦈꦤ꧀ꦏꦸꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b026 a :TeksAksara ;
+    :jumlahKarakter 87 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦦꦮꦃꦨꦔꦠꦏ꧀ꦩꦔꦭꦺꦔꦭꦺꦏꦱꦎꦤ꧀ꦔꦶꦤꦁꦢꦺꦈꦁꦦꦮꦃꦩꦤ꧀ꦗꦔꦤ꧀ꦢꦫꦏꦸꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦢꦶꦨꦄꦤ꧀ꦥꦸꦭꦁꦏꦓꦭꦸꦃꦏꦫꦲꦶꦪꦁꦠꦫꦶꦩꦺꦢꦁꦗꦠꦶ"@su-x-cacarakan .
+
+:aksara_cph_b027 a :TeksAksara ;
+    :jumlahKarakter 59 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦄꦢꦼꦒ꧀ꦫꦠꦸꦭꦶꦩꦮꦼꦭꦱ꧀ꦠꦲꦸꦤ꧀ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦢꦶꦓꦭꦸꦃ"@su-x-cacarakan .
+
+:aksara_cph_b028 a :TeksAksara ;
+    :jumlahKarakter 20 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦩꦶꦫꦧꦶꦦꦮꦃꦨꦔꦠꦏ꧀ꦩꦔꦭꦺꦔꦭꦺ"@su-x-cacarakan .
+
+:aksara_cph_b029 a :TeksAksara ;
+    :jumlahKarakter 108 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦤꦱꦁꦩꦔꦸꦏꦸꦲꦤ꧀ꦚꦶꦲꦺꦎꦤ꧀ꦩꦤꦺꦃꦦꦔꦲꦸꦩꦄꦱꦁꦏꦫꦸꦔꦏꦭꦃꦚꦶꦲꦺꦎꦤ꧀ꦩꦤꦺꦃꦦꦔ꧀ꦓꦺꦫꦺꦏ꧀ꦱꦁꦏꦠꦸꦔꦩꦫꦭꦃꦚꦶꦲꦺꦎꦤ꧀ꦩꦤꦺꦃꦦꦚꦢꦥ꧀ꦱꦁꦱꦤ꧀ꦢꦔꦽꦓꦨꦚꦶꦲꦺꦎꦤ꧀ꦩꦤꦺꦃꦦꦢꦓꦁ"@su-x-cacarakan .
+
+:aksara_cph_b030 a :TeksAksara ;
+    :jumlahKarakter 135 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦏꦸꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦢꦶꦲꦢꦼꦒ꧀ꦏꦺꦈꦤ꧀ꦱꦁꦩꦔꦸꦏꦸꦲꦤ꧀ꦫꦲꦶꦪꦁꦠꦁꦏꦸꦭꦶꦏꦸꦭꦶꦱꦁꦏꦫꦸꦔꦏꦭꦃꦢꦶꦲꦢꦼꦒ꧀ꦏꦺꦈꦤ꧀ꦫꦲꦶꦪꦁꦠꦁꦱꦸꦫꦮꦸꦭꦤ꧀ꦱꦁꦏꦠꦸꦔꦩꦫꦭꦃꦢꦶꦲꦢꦼꦒ꧀ꦏꦺꦈꦤ꧀ꦫꦲꦶꦪꦁꦠꦁꦥꦼꦭꦼꦱꦮꦶꦱꦁꦱꦤ꧀ꦢꦔꦽꦓꦨ"@su-x-cacarakan .
+
+:aksara_cph_b031 a :TeksAksara ;
+    :jumlahKarakter 25 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦁꦮꦽꦠꦶꦏꦤ꧀ꦢꦪꦸꦤ꧀ꦄꦢꦼꦒ꧀ꦢꦶꦓꦭꦸꦃ"@su-x-cacarakan .
+
+:aksara_cph_b032 a :TeksAksara ;
+    :jumlahKarakter 41 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦠꦶꦲꦶꦚꦭꦸꦩꦏꦸꦔꦔꦫꦗꦫꦺꦱꦶꦔꦔꦫꦤꦤ꧀ꦩꦤꦺꦃꦫꦲꦶꦪꦁꦠꦫꦶꦩꦺꦤꦶꦂ"@su-x-cacarakan .
+
+:aksara_cph_b033 a :TeksAksara ;
+    :jumlahKarakter 51 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦱꦤꦄꦔꦏꦠ꧀ꦱꦨꦸꦩꦶꦗꦢꦶꦩꦤꦶꦏꦱꦏꦸꦫꦸꦔꦤ꧀ꦲꦶꦚꦤꦸꦚꦶꦲꦺꦎꦤꦤ꧀ꦦꦸꦂꦨꦠꦶꦱ꧀ꦠꦶ"@su-x-cacarakan .
+
+:aksara_cph_b034 a :TeksAksara ;
+    :jumlahKarakter 25 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦱꦭꦥꦤ꧀ꦥꦸꦭꦸꦃꦠꦲꦸꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b035 a :TeksAksara ;
+    :jumlahKarakter 51 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦠꦁꦏꦸꦭꦶꦏꦸꦭꦶꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦢꦭꦥꦤ꧀ꦥꦸꦭꦸꦃꦠꦲꦸꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b036 a :TeksAksara ;
+    :jumlahKarakter 70 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦠꦁꦱꦫꦮꦸꦭꦤ꧀ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦒꦼꦤꦼꦥ꧀ꦠꦲꦸꦤ꧀ꦏꦠꦸꦗꦸꦃꦤꦦꦤ꧀ꦠꦼꦒ꧀ꦏꦤꦒꦎꦫꦺꦁꦠꦮꦃ"@su-x-cacarakan .
+
+:aksara_cph_b037 a :TeksAksara ;
+    :jumlahKarakter 58 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦠꦁꦫꦮꦸꦁꦭꦔꦶꦠ꧀ꦭꦮꦱ꧀ꦤꦶꦪꦄꦢꦼꦒ꧀ꦫꦠꦸꦒꦼꦤꦼꦥ꧀ꦥꦸꦭꦸꦃꦠꦲꦸꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b038 a :TeksAksara ;
+    :jumlahKarakter 28 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀"@su-x-cacarakan .
+
+:aksara_cph_b039 a :TeksAksara ;
+    :jumlahKarakter 152 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦺꦈꦮꦺꦈꦫꦲꦶꦪꦁꦠꦫꦶꦩꦺꦤꦶꦂꦠꦺꦭꦸꦄꦤ꧀ꦱꦦꦶꦭꦤ꧀ꦕꦺꦏꦤ꧀ꦄꦤꦸꦕꦶꦏꦭ꧀ꦚꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦄꦢꦼꦒ꧀ꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦢꦶꦓꦭꦸꦁꦓꦸꦁꦫꦲꦶꦪꦁꦠꦁꦏꦺꦢꦸꦭ꧀ꦄꦢꦼꦒ꧀ꦨꦠꦫꦲꦶꦪꦁꦨꦸꦪꦸꦠ꧀ꦢꦶꦢꦺꦤꦸꦃꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦄꦢꦼꦒ꧀ꦢꦶꦓꦭꦸꦃ"@su-x-cacarakan .
+
+:aksara_cph_b040 a :TeksAksara ;
+    :jumlahKarakter 51 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸꦏꦫꦚꦄꦲꦶꦁꦏꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦲꦤ꧀ꦠꦺꦈꦢꦶꦨꦎꦓꦲꦺꦮꦺ"@su-x-cacarakan .
+
+:aksara_cph_b041 a :TeksAksara ;
+    :jumlahKarakter 63 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦄꦤꦏꦶꦁꦦꦮꦃꦫꦧꦧꦸꦏꦶꦠꦭꦺꦈꦩ꧀ꦥꦁꦲꦸꦱꦶꦂꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦏꦺꦤꦲꦶꦚꦥꦶꦢꦺꦈꦔꦺꦈꦤ꧀ꦱꦶꦪꦱꦠꦥ"@su-x-cacarakan .
+
+:aksara_cph_b042 a :TeksAksara ;
+    :jumlahKarakter 71 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦁꦫꦺꦱꦶꦔꦓꦶꦱꦶꦏ꧀ꦠꦶꦦꦸꦭꦸꦁꦗꦢꦶꦗꦭꦭꦁꦨꦎꦢꦱ꧀ꦭꦺꦈꦩ꧀ꦥꦁꦔꦲꦸꦱꦶꦂꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦲꦺꦈꦏꦸꦂꦩꦺꦭꦶꦠ꧀"@su-x-cacarakan .
+
+:aksara_cph_b043 a :TeksAksara ;
+    :jumlahKarakter 51 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦔꦫꦺꦈꦔꦺꦈꦠꦠꦨꦺꦈꦲꦤ꧀ꦲꦸꦩꦸꦁꦓꦸꦩꦸꦫꦸꦃꦠꦤ꧀ꦥꦫꦸꦔꦎꦤ꧀ꦠꦠꦨꦺꦈꦲꦤ꧀ꦢꦶꦓꦭꦸꦃ"@su-x-cacarakan .
+
+:aksara_cph_b044 a :TeksAksara ;
+    :jumlahKarakter 22 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦦꦸꦭꦁꦏꦓꦭꦸꦃꦠꦺꦠꦺꦂꦤꦸꦔꦶꦓꦼꦭ꧀"@su-x-cacarakan .
+
+:aksara_cph_b045 a :TeksAksara ;
+    :jumlahKarakter 51 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦢꦠꦁꦏꦨꦸꦫꦸꦄꦤ꧀ꦄꦒꦺꦈꦁꦕꦫꦺꦏꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦱꦁꦄꦦꦠꦶꦃꦤꦲꦱꦲꦺꦠ"@su-x-cacarakan .
+
+:aksara_cph_b046 a :TeksAksara ;
+    :jumlahKarakter 26 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦗꦤꦄꦤꦸꦔꦶꦓꦼꦭ꧀ꦢꦶꦨꦸꦫꦸꦄꦤ꧀ꦄꦒꦺꦈꦁ"@su-x-cacarakan .
+
+:aksara_cph_b047 a :TeksAksara ;
+    :jumlahKarakter 56 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦲꦺꦠꦨꦮꦱꦶꦚꦁꦱꦦꦫꦓꦶꦲꦶꦮꦺꦈꦏꦺꦃꦦꦩꦭꦄꦤ꧀ꦄꦲꦶꦁꦠꦺꦲꦺꦂꦨꦮꦏꦸꦏꦶꦠꦏꦺꦈꦢꦺꦈꦏꦺꦈꦢꦺꦈ"@su-x-cacarakan .
+
+:aksara_cph_b048 a :TeksAksara ;
+    :jumlahKarakter 49 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦺꦈꦩ꧀ꦥꦁꦱꦁꦄꦦꦠꦶꦃꦏꦨꦸꦫꦸꦄꦤ꧀ꦄꦒꦺꦈꦁꦢꦶꦨꦄꦤ꧀ꦏꦏꦢꦠ꧀ꦮꦤ꧀ꦤꦦꦮꦃꦫꦧꦧꦸ"@su-x-cacarakan .
+
+:aksara_cph_b049 a :TeksAksara ;
+    :jumlahKarakter 53 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦦꦶꦫꦧꦶꦏꦸꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦢꦶꦫꦧꦶꦏꦱꦶꦲꦤ꧀ꦤꦦꦮꦃꦫꦧꦧꦸꦢꦶꦱꦺꦈꦮꦺꦈ"@su-x-cacarakan .
+
+:aksara_cph_b050 a :TeksAksara ;
+    :jumlahKarakter 20 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦦꦠꦼꦩꦸꦄꦤ꧀ꦢꦶꦔꦫꦤꦤ꧀ꦱꦁꦱꦭꦃ"@su-x-cacarakan .
+
+:aksara_cph_b051 a :TeksAksara ;
+    :jumlahKarakter 100 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦫꦧꦧꦸꦭꦺꦈꦩ꧀ꦥꦁꦏꦸꦱꦶꦪꦨꦮꦠ꧀ꦏꦺꦈꦤ꧀ꦧꦸꦢꦏ꧀ꦲꦺꦠꦏꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦄꦤ꧀ꦠꦺꦈꦂꦏꦺꦈꦤ꧀ꦦꦠꦼꦩꦸꦄꦤ꧀ꦱꦶꦪꦱꦁꦱꦭꦃꦠꦮꦃ"@su-x-cacarakan .
+
+:aksara_cph_b052 a :TeksAksara ;
+    :jumlahKarakter 19 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦺꦈꦩ꧀ꦥꦁꦦꦮꦃꦫꦧꦧꦸꦏꦓꦭꦸꦃ"@su-x-cacarakan .
+
+:aksara_cph_b053 a :TeksAksara ;
+    :jumlahKarakter 70 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦄꦲꦶꦁꦢꦶꦠꦶꦠꦃꦏꦸꦫꦲꦶꦪꦁꦱꦺꦩ꧀ꦦꦏ꧀ꦮꦗꦩ꧀ꦮꦠ꧀ꦏꦺꦈꦤ꧀ꦧꦸꦢꦏ꧀ꦲꦺꦠꦨꦺꦈꦤꦁꦱꦶꦪꦔꦺꦈꦢꦺꦈꦔꦺꦈꦤ꧀ꦄꦲꦶꦁꦠꦺꦃ"@su-x-cacarakan .
+
+:aksara_cph_b054 a :TeksAksara ;
+    :jumlahKarakter 39 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦄꦤꦏ꧀ꦄꦲꦶꦁꦠꦸꦏꦶꦠꦱꦁꦱꦭꦃ"@su-x-cacarakan .
+
+:aksara_cph_b055 a :TeksAksara ;
+    :jumlahKarakter 60 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦱꦁꦄꦦꦠꦶꦃꦏꦸꦱꦶꦪꦠꦺꦈꦤ꧀ꦢꦺꦈꦤ꧀ꦏꦤꦗꦩ꧀ꦨꦔꦤ꧀ꦨꦮꦏꦠꦼꦒꦭ꧀"@su-x-cacarakan .
+
+:aksara_cph_b056 a :TeksAksara ;
+    :jumlahKarakter 92 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦨꦮꦏꦸꦱꦁꦄꦦꦠꦶꦃꦏꦠꦼꦒꦭ꧀ꦱꦦꦩꦸꦁꦏꦸꦂꦱꦁꦄꦦꦠꦶꦃꦠꦶꦠꦼꦒꦭ꧀ꦩꦺꦠꦸꦲꦶꦏꦁꦄꦦꦿꦩꦠꦎꦓ꧀ꦏꦭꦔꦶꦠ꧀ꦏꦨꦶꦫꦺꦈꦔꦺꦈꦃꦏꦸꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀"@su-x-cacarakan .
+
+:aksara_cph_b057 a :TeksAksara ;
+    :jumlahKarakter 35 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦁꦄꦦꦠꦶꦃꦲꦸꦱꦶꦂꦢꦺꦈꦶꦠꦺꦈꦤ꧀ꦢꦺꦈꦤ꧀ꦱꦶꦪꦧꦸꦢꦏ꧀ꦠ"@su-x-cacarakan .
+
+:aksara_cph_b058 a :TeksAksara ;
+    :jumlahKarakter 84 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦲꦸꦱꦶꦂꦏꦸꦱꦁꦄꦦꦠꦶꦃꦏꦠꦼꦒꦭ꧀ꦏꦱꦎꦤ꧀ꦢꦎꦥ꧀ꦲꦶꦫꦸꦥ꧀ꦢꦶꦨꦄꦤ꧀ꦏꦲꦫꦺꦈꦥꦺꦈꦤ꧀ꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦢꦶꦔꦫꦤꦤ꧀ꦱꦁꦱꦺꦤ꧀ꦤ"@su-x-cacarakan .
+
+:aksara_cph_b059 a :TeksAksara ;
+    :jumlahKarakter 54 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦠꦸꦗꦸꦃꦠꦲꦸꦤ꧀ꦤꦫꦲꦶꦪꦁꦠꦁꦩꦤ꧀ꦢꦶꦩꦶꦚꦏ꧀ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦱꦁꦱꦺꦤ"@su-x-cacarakan .
+
+:aksara_cph_b060 a :TeksAksara ;
+    :jumlahKarakter 52 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦠꦸꦗꦸꦃꦠꦲꦸꦤ꧀ꦢꦶꦱꦶꦭꦶꦃꦗꦸꦔꦏ꧀ꦠꦸꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫꦤꦱꦁꦱꦺꦤ"@su-x-cacarakan .
+
+:aksara_cph_b061 a :TeksAksara ;
+    :jumlahKarakter 43 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦲꦶꦤ꧀ꦠꦂꦏꦺꦈꦤ꧀ꦏꦓꦸꦤꦸꦁꦩꦫꦦꦶꦢꦶꦱꦺꦈꦮꦺꦈꦫꦏꦺꦪꦤ꧀ꦗꦩ꧀ꦨꦿꦶ"@su-x-cacarakan .
+
+:aksara_cph_b062 a :TeksAksara ;
+    :jumlahKarakter 55 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦄꦒꦺꦈꦁꦱꦏꦩꦤ꧀ꦠꦿꦶꦄꦤ꧀ꦭꦸꦔꦏꦫꦲꦶꦪꦁꦠꦁꦏꦺꦢꦸꦭ꧀ꦏꦢꦺꦤꦸꦃꦩꦺꦤ꧀ꦠꦢꦶꦨꦸꦤꦶꦏꦺꦈꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b063 a :TeksAksara ;
+    :jumlahKarakter 66 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦠꦁꦏꦺꦢꦸꦭ꧀ꦦꦸꦠꦸꦄꦲꦶꦁꦩꦸꦩꦸꦭ꧀ꦏꦦꦁꦏꦸꦏꦤ꧀ꦏꦸꦱꦶꦪꦱꦸꦓꦤ꧀ꦱꦶꦪꦏꦚꦲꦎꦤ꧀ꦏꦸꦠꦶꦓꦭꦸꦃ"@su-x-cacarakan .
+
+:aksara_cph_b064 a :TeksAksara ;
+    :jumlahKarakter 63 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦺꦈꦩ꧀ꦥꦁꦱꦶꦪꦲꦸꦱꦶꦂꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦢꦺꦈꦁꦄꦤꦏ꧀ꦱꦲꦠꦸꦱꦶꦪ"@su-x-cacarakan .
+
+:aksara_cph_b065 a :TeksAksara ;
+    :jumlahKarakter 68 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦫꦏꦺꦪꦤ꧀ꦗꦩ꧀ꦨꦿꦶꦄꦲꦶꦁꦄꦤꦏ꧀ꦫꦲꦶꦪꦁꦱꦁꦱꦺꦤꦢꦶꦗꦸꦔꦏ꧀ꦢꦶꦲꦶꦤ꧀ꦠꦂꦏꦺꦈꦤ꧀ꦏꦸꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫ"@su-x-cacarakan .
+
+:aksara_cph_b066 a :TeksAksara ;
+    :jumlahKarakter 63 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦩꦸꦤ꧀ꦏꦶꦠꦸꦩꦮꦨꦎꦓꦏꦩꦶꦔꦱꦸꦲꦤ꧀ꦔꦤ꧀ꦩꦸꦭꦃꦩꦎꦱꦩ꧀ꦧꦸꦠ꧀ꦱꦩꦪꦄꦲꦶꦁꦩꦎꦓꦄꦸꦭꦃꦩꦺꦈꦤꦁꦦꦫꦔꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b067 a :TeksAksara ;
+    :jumlahKarakter 58 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦩꦸꦤ꧀ꦱꦶꦪꦔꦭꦒꦦꦫꦁꦏꦏꦩꦶꦔꦤ꧀ꦱꦶꦪꦭꦺꦈꦩ꧀ꦥꦁꦩꦫꦠ꧀ꦏꦺꦈꦤ꧀ꦲꦸꦱꦶꦂꦠꦎꦲꦄꦤ꧀ꦢꦶꦱꦸꦤ꧀ꦢ"@su-x-cacarakan .
+
+:aksara_cph_b068 a :TeksAksara ;
+    :jumlahKarakter 52 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦢꦠꦁꦏꦠꦎꦲꦄꦤ꧀ꦢꦶꦱꦸꦤ꧀ꦢꦠꦸꦭꦸꦪꦢꦶꦦꦸꦭꦸꦁꦩꦶꦤꦤ꧀ꦠꦸꦏꦸꦠꦎꦲꦄꦤ꧀ꦢꦶꦱꦸꦤ꧀ꦢ"@su-x-cacarakan .
+
+:aksara_cph_b069 a :TeksAksara ;
+    :jumlahKarakter 55 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦠꦶꦲꦶꦚꦢꦶꦠꦶꦁꦒꦭ꧀ꦏꦺꦈꦤ꧀ꦔꦲꦸꦱꦶꦂꦫꦨꦸꦪꦸꦠ꧀ꦱꦮꦭ꧀ꦕꦫꦺꦏꦫꦨꦸꦪꦸꦠ꧀ꦱꦮꦭ꧀ꦱꦲꦱꦶꦪ"@su-x-cacarakan .
+
+:aksara_cph_b070 a :TeksAksara ;
+    :jumlahKarakter 49 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦄꦲꦶꦁꦦꦸꦤ꧀ꦱꦺꦈꦮꦺꦈꦱꦁꦱꦺꦤꦄꦲꦶꦁꦤꦚꦏꦺꦈꦤ꧀ꦦꦸꦱ꧀ꦠꦏꦨꦮꦫꦨꦸꦪꦸꦠ꧀ꦱꦮꦭ꧀"@su-x-cacarakan .
+
+:aksara_cph_b071 a :TeksAksara ;
+    :jumlahKarakter 56 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦲꦺꦈꦱꦶꦤꦩꦫꦠꦸꦤꦶꦁꦨꦭꦱꦫꦶꦮꦸꦥꦏꦺꦈꦤ꧀ꦱꦺꦢꦥꦏꦺꦈꦤ꧀ꦱꦏ꧀ꦠꦶꦦꦩꦺꦫꦺꦈꦱꦁꦫꦺꦱꦶꦓꦸꦫꦸ"@su-x-cacarakan .
+
+:aksara_cph_b072 a :TeksAksara ;
+    :jumlahKarakter 22 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦨꦶꦏꦺꦈꦤ꧀ꦏꦸꦫꦨꦸꦪꦸꦠ꧀ꦱꦮꦭ꧀"@su-x-cacarakan .
+
+:aksara_cph_b073 a :TeksAksara ;
+    :jumlahKarakter 52 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦠꦶꦲꦶꦚꦦꦸꦭꦁꦏꦓꦭꦸꦃꦫꦏꦺꦪꦤ꧀ꦗꦩ꧀ꦨꦿꦶꦠꦸꦭꦸꦪꦢꦶꦦꦫꦁꦢꦺꦈꦁꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫ"@su-x-cacarakan .
+
+:aksara_cph_b074 a :TeksAksara ;
+    :jumlahKarakter 15 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦦꦄꦃꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫ"@su-x-cacarakan .
+
+:aksara_cph_b075 a :TeksAksara ;
+    :jumlahKarakter 56 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦮꦱ꧀ꦤꦶꦪꦫꦠꦸꦠꦸꦗꦸꦃꦠꦲꦸꦤ꧀ꦢꦶꦱꦶꦭꦶꦲꦤ꧀ꦏꦸꦫꦏꦺꦪꦤ꧀ꦗꦩ꧀ꦨꦿꦶꦲꦶꦚꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪ"@su-x-cacarakan .
+
+:aksara_cph_b076 a :TeksAksara ;
+    :jumlahKarakter 69 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦱꦁꦄꦦꦠꦶꦃꦭꦺꦈꦩ꧀ꦥꦁꦱꦶꦪꦤꦚꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦏꦸꦦꦶꦦꦫꦶꦤ꧀ꦠꦲꦺꦈꦤ꧀ꦈꦫꦁꦲꦶꦤꦶꦃ"@su-x-cacarakan .
+
+:aksara_cph_b077 a :TeksAksara ;
+    :jumlahKarakter 51 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦢꦠꦁꦱꦁꦄꦦꦠꦶꦃꦏꦓꦭꦸꦁꦒꦸꦁꦕꦫꦺꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦤꦲꦤꦲꦨꦗꦱꦶꦪꦱꦁꦄꦦꦠꦶꦃ"@su-x-cacarakan .
+
+:aksara_cph_b078 a :TeksAksara ;
+    :jumlahKarakter 58 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦦꦸꦤ꧀ꦏꦩꦶꦢꦶꦠꦶꦠꦃꦏꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦩꦺꦤ꧀ꦠꦦꦶꦦꦫꦶꦤ꧀ꦠꦲꦺꦈꦤ꧀ꦄꦢꦶꦫꦲꦶꦪꦁꦦꦸꦂꦨꦱꦎꦫ"@su-x-cacarakan .
+
+:aksara_cph_b079 a :TeksAksara ;
+    :jumlahKarakter 76 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦲꦤ꧀ꦠꦺꦈꦢꦶꦨꦶꦏꦺꦈꦤ꧀ꦏꦸꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦕꦫꦺꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦭꦺꦈꦩ꧀ꦥꦁꦚꦤ꧀ꦢꦎꦓꦺꦈꦤ꧀ꦩꦤꦺꦃ"@su-x-cacarakan .
+
+:aksara_cph_b080 a :TeksAksara ;
+    :jumlahKarakter 89 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦦꦒꦼꦂꦮꦺꦱꦶꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦩꦤꦔꦸꦭ꧀ꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦠꦺꦦꦸꦱ꧀ꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦨꦭꦶꦠꦂ"@su-x-cacarakan .
+
+:aksara_cph_b081 a :TeksAksara ;
+    :jumlahKarakter 55 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦸꦔꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦲꦺꦊꦃꦏꦺꦈꦤ꧀ꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b082 a :TeksAksara ;
+    :jumlahKarakter 79 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦚꦤ꧀ꦢꦎꦓꦺꦈꦤ꧀ꦤꦏꦱꦏ꧀ꦠꦶꦄꦤ꧀ꦏꦺꦤꦤꦠꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦲꦤ꧀ꦠꦺꦈꦏꦮꦶꦱꦺꦱꦢꦔꦶꦪꦁꦓꦸꦫꦸ"@su-x-cacarakan .
+
+:aksara_cph_b083 a :TeksAksara ;
+    :jumlahKarakter 42 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦏꦏꦸꦤꦶꦔꦤ꧀ꦠꦸꦭꦸꦪꦢꦶꦦꦫꦁꦲꦺꦊꦃꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪ"@su-x-cacarakan .
+
+:aksara_cph_b084 a :TeksAksara ;
+    :jumlahKarakter 64 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦩꦤꦲꦶꦁꦒꦺꦊꦃꦏꦺꦈꦤ꧀ꦲꦶꦚꦱꦏ꧀ꦠꦶꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦏꦏꦸꦤꦶꦔꦤ꧀ꦠꦸꦭꦸꦪꦢꦶꦦꦫꦁꦲꦺꦊꦃꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪ"@su-x-cacarakan .
+
+:aksara_cph_b085 a :TeksAksara ;
+    :jumlahKarakter 74 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦢꦶꦓꦺꦫꦺꦏꦤ꧀ꦠꦺꦏꦫꦶꦁꦭꦎꦃꦏꦸꦤꦶꦔꦤ꧀ꦈꦤ꧀ꦢꦸꦂꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦢꦫꦄꦲꦶꦁꦦꦫꦢꦶꦤꦶꦃꦢꦶꦓꦺꦫꦺꦏꦤ꧀ꦲꦺꦊꦃꦦꦸꦤ꧀ꦏꦩꦶ"@su-x-cacarakan .
+
+:aksara_cph_b086 a :TeksAksara ;
+    :jumlahKarakter 28 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦠꦶꦲꦶꦚꦦꦸꦭꦁꦢꦺꦈꦶꦏꦓꦭꦸꦃꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪ"@su-x-cacarakan .
+
+:aksara_cph_b087 a :TeksAksara ;
+    :jumlahKarakter 30 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦦꦸꦭꦁꦢꦺꦈꦶꦏꦄꦫꦶꦭꦺ"@su-x-cacarakan .
+
+:aksara_cph_b088 a :TeksAksara ;
+    :jumlahKarakter 75 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦠꦸꦭꦸꦪꦩꦫꦺꦏ꧀ꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦕꦫꦺꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦤꦲꦨꦗꦱꦶꦪꦢꦠꦁꦏꦢꦶꦤꦶꦃ"@su-x-cacarakan .
+
+:aksara_cph_b089 a :TeksAksara ;
+    :jumlahKarakter 116 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦄꦪꦦꦸꦤ꧀ꦨꦗꦏꦩꦶꦦꦸꦤ꧀ꦏꦩꦶꦢꦶꦦꦶꦮꦫꦁꦲꦺꦊꦃꦦꦸꦤ꧀ꦏꦩꦶꦱꦸꦥꦺꦤ꧀ꦦꦸꦤ꧀ꦏꦩꦶꦏꦩꦶꦩꦺꦈꦤꦁꦏꦸꦗꦢꦶꦦꦸꦤ꧀ꦓꦸꦩꦤ꧀ꦠꦶꦢꦶꦨꦎꦫꦎꦤ꧀ꦏꦸꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b090 a :TeksAksara ;
+    :jumlahKarakter 23 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦦꦸꦭꦁꦢꦺꦈꦶꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦏꦓꦭꦸꦃ"@su-x-cacarakan .
+
+:aksara_cph_b091 a :TeksAksara ;
+    :jumlahKarakter 110 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦕꦫꦺꦏꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦩꦮꦦꦶꦱꦗꦶꦈꦤ꧀ꦭꦺꦈꦩ꧀ꦥꦁꦏꦓꦭꦸꦁꦒꦸꦁꦮꦶꦢꦶꦲꦤ꧀ꦱꦗꦸꦓꦭꦩꦦꦭꦁꦏꦮꦸꦭꦸꦁꦩꦸꦤ꧀ꦢꦶꦁꦱꦠꦼꦩ꧀ꦦꦲꦤ꧀ꦨꦿꦱ꧀ꦱꦦꦢꦔꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b092 a :TeksAksara ;
+    :jumlahKarakter 88 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦠꦺꦏꦱꦶꦪꦏꦓꦭꦸꦁꦒꦸꦁꦩꦤ꧀ꦢꦼꦓ꧀ꦫꦶꦁꦦꦏꦩ꧀ꦨꦔꦤ꧀ꦏꦱꦎꦤ꧀ꦢꦎꦥ꧀ꦏꦸꦦꦏꦩ꧀ꦨꦔꦤ꧀ꦩꦗꦂꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦕꦫꦺꦏꦢꦔꦶꦪꦁꦓꦸꦫꦸꦤꦲꦨꦗꦱꦶꦪ"@su-x-cacarakan .
+
+:aksara_cph_b093 a :TeksAksara ;
+    :jumlahKarakter 50 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦦꦸꦤ꧀ꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦄꦪꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦢꦶꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b094 a :TeksAksara ;
+    :jumlahKarakter 117 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦓꦺꦄꦩꦠ꧀ꦱꦶꦪꦢꦠꦁꦏꦢꦶꦤꦶꦃꦭꦺꦈꦩ꧀ꦥꦁꦱꦶꦪꦏꦓꦭꦸꦃꦄꦭꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦩꦁꦏꦩꦮꦦꦶꦱꦗꦶꦈꦤ꧀ꦮꦶꦢꦶꦲꦤ꧀ꦱꦗꦸꦓꦭꦩꦱꦲꦦꦭꦁꦏꦮꦸꦭꦸꦁꦩꦸꦤ꧀ꦢꦶꦁꦱꦠꦺꦩ꧀ꦦꦲꦤ꧀ꦏꦮꦭꦶꦮꦺꦱꦶꦨꦿꦱ꧀ꦱꦦꦢꦔꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b095 a :TeksAksara ;
+    :jumlahKarakter 41 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦢꦠꦁꦱꦶꦪꦏꦓꦭꦸꦃꦕꦫꦺꦏꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦤꦲꦨꦗꦱꦶꦪꦦꦏꦩ꧀ꦨꦔꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b096 a :TeksAksara ;
+    :jumlahKarakter 91 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦏꦩꦶꦦꦸꦤ꧀ꦢꦶꦱꦸꦫꦸꦃꦏꦸꦢꦔꦶꦪꦁꦓꦸꦫꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦩꦁꦏꦤꦸꦱꦁꦏꦼꦥ꧀ꦩꦮꦦꦶꦱꦗꦶꦈꦤ꧀ꦄꦪꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b097 a :TeksAksara ;
+    :jumlahKarakter 194 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦭꦸꦔꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦠꦺꦏꦫꦶꦲꦫꦺꦈꦥꦺꦈꦤ꧀ꦢꦔꦶꦪꦁꦓꦸꦫꦸꦕꦫꦺꦏꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸꦫꦲꦶꦪꦁꦱꦚ꧀ꦗꦪꦭꦩꦸꦤ꧀ꦏꦮꦶꦱꦺꦱꦏꦸꦱꦶꦪꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦄꦲꦶꦁꦤꦸꦫꦸꦠ꧀ꦕꦫꦺꦏꦱꦶꦪꦗꦨꦺꦈꦤ꧀ꦏꦸꦄꦲꦶꦁꦏꦮꦶꦱꦺꦱꦠꦸꦫꦸꦠ꧀ꦕꦫꦺꦏꦺꦁꦗꦄꦲꦶꦁꦮꦺꦤꦁꦤꦸꦢꦸꦃꦠꦤ꧀ꦏꦠꦸꦢꦸꦃꦗꦄꦲꦶꦁꦄꦤꦏ꧀ꦢꦺꦮꦠ"@su-x-cacarakan .
+
+:aksara_cph_b098 a :TeksAksara ;
+    :jumlahKarakter 53 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦁꦮꦸꦭꦤ꧀ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦱꦁꦦꦤ꧀ꦢꦮꦫꦶꦁꦏꦸꦤꦶꦔꦤ꧀ꦏꦮꦶꦱꦺꦱꦏꦸꦨꦠꦫꦢꦔꦶꦪꦁꦓꦸꦫꦸ"@su-x-cacarakan .
+
+:aksara_cph_b099 a :TeksAksara ;
+    :jumlahKarakter 27 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦁꦮꦸꦭꦤ꧀ꦢꦶꦗꦶꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦏꦗꦫꦎꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b100 a :TeksAksara ;
+    :jumlahKarakter 35 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦁꦠꦸꦩꦁꦒꦭ꧀ꦢꦶꦗꦶꦈꦤ꧀ꦓꦸꦫꦸꦲꦗꦶꦏꦭꦁꦓꦫꦢꦶꦨꦭꦩꦎꦲ"@su-x-cacarakan .
+
+:aksara_cph_b101 a :TeksAksara ;
+    :jumlahKarakter 24 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦁꦦꦸꦏꦶꦗꦢꦶꦓꦸꦫꦸꦲꦗꦶꦦꦒꦼꦂꦮꦺꦱꦶ"@su-x-cacarakan .
+
+:aksara_cph_b102 a :TeksAksara ;
+    :jumlahKarakter 37 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦱꦁꦩꦤꦶꦱꦿꦶꦢꦶꦗꦶꦈꦤ꧀ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦫꦲꦱꦺꦄꦢꦶꦦꦸꦤ꧀ꦠꦁ"@su-x-cacarakan .
+
+:aksara_cph_b103 a :TeksAksara ;
+    :jumlahKarakter 31 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦠꦸꦚ꧀ꦗꦸꦁꦦꦸꦠꦶꦃꦢꦶꦏꦲꦸꦫꦶꦦꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b104 a :TeksAksara ;
+    :jumlahKarakter 23 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦱꦸꦩꦗꦗꦃꦢꦶꦦꦒꦗꦲꦤ꧀"@su-x-cacarakan .
+
+:aksara_cph_b105 a :TeksAksara ;
+    :jumlahKarakter 23 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦦꦱꦸꦓꦶꦲꦤ꧀ꦢꦶꦨꦠꦸꦂ"@su-x-cacarakan .
+
+:aksara_cph_b106 a :TeksAksara ;
+    :jumlahKarakter 29 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦦꦢꦸꦫꦸꦔꦤ꧀ꦢꦶꦭꦼꦩ꧀ꦨꦸꦲꦸꦪꦸ"@su-x-cacarakan .
+
+:aksara_cph_b107 a :TeksAksara ;
+    :jumlahKarakter 22 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦢꦫꦎꦁꦢꦎꦁꦢꦶꦨꦭꦫꦗ"@su-x-cacarakan .
+
+:aksara_cph_b108 a :TeksAksara ;
+    :jumlahKarakter 25 ;
+    lexinfo:script :AksaraCacarakan ;
+    rdf:value "ꦨꦸꦪꦸꦡꦢꦺꦤ꧀ꦨꦠꦸꦠꦶꦲꦁꦢꦶꦏꦸꦤꦶꦔꦤ꧀"@su-x-cacarakan .
+
+:terjemah_cph_b001 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Inilah kisah Carita Parahiyangan."@id .
+
+:terjemah_cph_b002 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Resi Guru mengangkat Rajaputra."@id .
+
+:terjemah_cph_b003 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Rajaputra menikahkan Sang Kandiawan dengan Sang Kandiawati, mereka bersatu."@id .
+
+:terjemah_cph_b004 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Ia menamai dirinya Rahiyangta Déwaraja."@id .
+
+:terjemah_cph_b005 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Ketika memerintah dan menjadi resi, ia bernama Rahiyangta ri Medangjati, yaitu Sang Layuwatang, dia yang menciptakan Sanghiyang Watang Ageung."@id .
+
+:terjemah_cph_b006 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Ketika ia meninggalkan dunia dan menjadi manik sakurungan (permata dalam wadah), yang menyaksikannya adalah lima putra"@id .
+
+:terjemah_cph_b007 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Apatiyan, Sang Kusika, Sang Garga, Sang Mestri, Sang Purusa, Sang Putanjala yang juga disebut Sang Mangukuhan, Sang Karungkalah, Sang Katungmaralah, Sang Sandanggreba, Sang Wretikandayun"@id .
+
+:terjemah_cph_b008 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Ada burung Si Uwur-uwur dan burung Si Naragati yang hinggap di pertapaan Bagawat Resi Makandria"@id .
+
+:terjemah_cph_b009 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Mereka diberi makan oleh suaminya. Dipanggil oleh istrinya"@id .
+
+:terjemah_cph_b010 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata istrinya, 'Ayah kita, jika kita tidak diberi anak, sekarang Bagawat Resi Makandria"@id .
+
+:terjemah_cph_b011 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Bertapalah ayah, agar bisa diberi anak"@id .
+
+:terjemah_cph_b012 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Bagawat Resi Makandria, 'Diberi anak oleh siapa, jika istri juga tidak bisa"@id .
+
+:terjemah_cph_b013 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Kemudian berkata Bagawat Resi Makandria, 'Aku akan pergi ke Sang Resi Guru, ke Kéndan"@id .
+
+:terjemah_cph_b014 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Datanglah ia ke Kéndan"@id .
+
+:terjemah_cph_b015 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Sang Resi Guru, 'Ada apa Bagawat Resi Makandria, mengapa engkau datang ke sini?"@id .
+
+:terjemah_cph_b016 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Yang mulia, ada kabar kami, kami meminta petunjuk. Kami diganggu oleh Burung Si Uwur-uwur dan Si Naragati, ayah kami tidak diberi anak"@id .
+
+:terjemah_cph_b017 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Sang Resi Guru, 'Pergilah engkau dulu ke saudaramu lagi, anakku Pwah Aksari Jabung, pergilah mengikuti Bagawat Resi Makandria, untuk menemani bertapa, anakku"@id .
+
+:terjemah_cph_b018 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Pergilah Pwah Rababu, datang ke saudaranya, tidak diakui sebagai istri. Ternyata ia bidadari cantik, lalu ia menyebut dirinya Pwah Manjangandara, dan Bagawat Resi Makandria menyebut dirinya Rakéyan Kebowulan, mereka bersatu"@id .
+
+:terjemah_cph_b019 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Sang Resi Guru, 'Nah anakku, Pwah Sanghyang Sri! Pergilah kita menjadi saudara kandungmu, ke Pwah Aksari Jabung"@id .
+
+:terjemah_cph_b020 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Kemudian pergi Pwah Sanghyang Sri menjelma, ia menjadi Pwah Bungatak Mangaléngalé"@id .
+
+:terjemah_cph_b021 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Sang Mangukuhan 'Nah adik dua kita berburu pergi ke tegal"@id .
+
+:terjemah_cph_b022 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Setelah sampai di tengah tegal, terlihat Pwah Manjangandara dengan Rakéyan Kebowulan"@id .
+
+:terjemah_cph_b023 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Dikejar oleh sang pancaputra hasilnya sama siapa yang menombak dia lebih dulu yang mengenai dia hadiah"@id .
+
+:terjemah_cph_b024 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Kena tombak Sang Wretikandayun Kebowulan dengan Pwah Manjangandara"@id .
+
+:terjemah_cph_b025 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Lari ke pertapaannya datang mati Diikuti oleh Sang Wretikandayun"@id .
+
+:terjemah_cph_b026 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Pwah Bungatak Mangaléngalé ketemu mengunyah dengan Pwah Manjangandara oleh Sang Wretikandayun dibawa pulang ke Galuh ke Rahiyangta ri Medangjati"@id .
+
+:terjemah_cph_b027 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Lawasnya berkuasa lima belas tahun digantikan oleh Sang Wretikandayun di Galuh"@id .
+
+:terjemah_cph_b028 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Ditemani Pwah Bungatak Mangaléngalé"@id .
+
+:terjemah_cph_b029 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Maka Sang Mangukuhan menjadikan diri penggarap ladang. Sang Karungkalah menjadikan diri pengumpul hasil hutan. Sang Katungmaralah menjadikan diri penyadap. Sang Sandanggreba menjadikan diri pedagang"@id .
+
+:terjemah_cph_b030 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Oleh Sang Wretikandayun diangkatlah Sang Mangukuhan menjadi Rahiyangtang Kulikuli; Sang Karungkalah diangkat menjadi Rahiyangtang Surawulan; Sang Katungmaralah diangkat menjadi Rahiyangtang Pelesawi; Sang Sandanggreba diangkat menjadi Rahiyangtang Rawunglangit"@id .
+
+:terjemah_cph_b031 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Wretikandayun berkuasa di Galuh"@id .
+
+:terjemah_cph_b032 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Kemudian memerintah dan bertapa bergelar Rahiyangta ri Menir"@id .
+
+:terjemah_cph_b033 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Ketika wafat menjadi manik sakurungan, dialah yang menciptakan Purbatisti"@id .
+
+:terjemah_cph_b034 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkuasa delapan puluh tahun"@id .
+
+:terjemah_cph_b035 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Digantikan oleh Rahiyangtang Kulikuli, berkuasa delapan puluh tahun"@id .
+
+:terjemah_cph_b036 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Digantikan oleh Rahiyangtang Sarawulan, berkuasa enam tahun, yang ketujuh terkena musibah"@id .
+
+:terjemah_cph_b037 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Digantikan oleh Rahiyangtang Rawunglangit, berkuasa enam puluh tahun"@id .
+
+:terjemah_cph_b038 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Digantikan oleh Rahiyangtang Mandiminyak."@id .
+
+:terjemah_cph_b039 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Ada Rahiyangta ri Menir tiga bersaudara yang sulung bernama Rahiyang Sempakwaja berkuasa sebagai Batara Dangiyang Guru di Galunggung Rahiyangtang Kedul berkuasa sebagai Batara Hiyang Buyut di Denuh Rahiyangtang Mandiminyak berkuasa di Galuh."@id .
+
+:terjemah_cph_b040 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Sang Resi Guru, 'Kasihan aku kepada Rahiyang Sempakwaja tidak memiliki istri.'"@id .
+
+:terjemah_cph_b041 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Anakku Pwah Rababu! Kau ikut Rahiyang Sempakwaja agar dia menemani bertapa."@id .
+
+:terjemah_cph_b042 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Resi mengubah debu menjadi rumput putih berjalan mengikuti Rahiyang Sempakwaja sedang berburu."@id .
+
+:terjemah_cph_b043 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Terdengar bunyi gamelan bergema tanpa henti gamelan di Galuh."@id .
+
+:terjemah_cph_b044 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Pulang ke Galuh sambil menari."@id .
+
+:terjemah_cph_b045 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Setelah sampai di alun-alun besar berkata Rahiyangtang Mandiminyak 'Sang Patih siapa itu?'"@id .
+
+:terjemah_cph_b046 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Bujang yang menari di alun-alun besar.'"@id .
+
+:terjemah_cph_b047 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Itu bawa kain seperigi itu milikku Bawa dia kemari!'"@id .
+
+:terjemah_cph_b048 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Pergi sang patih ke alun-alun besar dibawa ke istana yaitu Pwah Rababu."@id .
+
+:terjemah_cph_b049 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Dinikahi oleh Rahiyangtang Mandiminyak dijadikan istri kasihan nah Pwah Rababu Diperistri"@id .
+
+:terjemah_cph_b050 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "lahirlah Sang Salah."@id .
+
+:terjemah_cph_b051 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Rahiyang Sempakwaja 'Rababu pergilah Kau bawa anak itu kepada Rahiyangtang Mandiminyak Antar pertemuanmu Sang Salahtwah'"@id .
+
+:terjemah_cph_b052 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Pergi Pwah Rababu ke Galuh."@id .
+
+:terjemah_cph_b053 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Aku diperintah oleh Rahiyang Sempakwaja membawa anak ini hasil kau menemui aku tadi'"@id .
+
+:terjemah_cph_b054 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Rahiyangtang Mandiminyak 'Anakku itu kau Sang Salah'"@id .
+
+:terjemah_cph_b055 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Rahiyangtang Mandiminyak 'Sang Patih oleh kau taruh dalam jambangan Bawa ke tegal'"@id .
+
+:terjemah_cph_b056 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Dibawa oleh sang patih ke tegal sekejap sang patih dari tegal keluar ikan ajaib terbang ke langit terdengar oleh Rahiyangtang Mandiminyak"@id .
+
+:terjemah_cph_b057 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Patih kejar lagi taruh dia anak kita'"@id .
+
+:terjemah_cph_b058 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Dikejar oleh sang patih ke tegal ketemu hidup Dibawa ke hadapan Rahiyangtang Mandiminyak Dinamai Sang Sénna"@id .
+
+:terjemah_cph_b059 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Masa pemerintahannya tujuh tahun Maka Rahiyangtang Mandiminyak digantikan oleh Sang Séna"@id .
+
+:terjemah_cph_b060 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Masa pemerintahannya tujuh tahun digulingkan oleh Rahiyang Purbasora Maka Sang Séna"@id .
+
+:terjemah_cph_b061 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "diasingkan ke Gunung Marapi diperistri Rakéyan Jambri"@id .
+
+:terjemah_cph_b062 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Setelah dewasa pergi ke Rahiyangtang Kedul ke Denuh minta dibunuh"@id .
+
+:terjemah_cph_b063 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Rahiyangtang Kedul \"Cucuku jangan kau rebut kekuasaan siapa tahu kau diketahui dari Galuh\""@id .
+
+:terjemah_cph_b064 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "\"Pergi kau ikuti Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan, dengan anak siapa itu kau?\""@id .
+
+:terjemah_cph_b065 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Rakéyan Jambri \"Aku anak Rahiyang Sang Séna. Digulingkan, diasingkan oleh Rahiyang Purbasora.\""@id .
+
+:terjemah_cph_b066 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "\"Kalau begitu, bawa kami asuh. Tapi jangan langgar perintahku. Semoga jangan terjadi perang;\""@id .
+
+:terjemah_cph_b067 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "\"jika kau melawan kami. Tapi kau pergi mengabdi, ikuti Tohaan di Sunda.\""@id .
+
+:terjemah_cph_b068 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Setelah sampai ke Tohaan di Sunda, lalu dikumpulkan menantu oleh Tohaan di Sunda."@id .
+
+:terjemah_cph_b069 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Dari situ ditinggalkan, mengikuti Rabuyut Sawal. Berkata Rabuyut Sawal \"Siapa kau?\""@id .
+
+:terjemah_cph_b070 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "\"Aku bekas istri Sang Séna. Aku minta pustaka bawa Rabuyut Sawal.\""@id .
+
+:terjemah_cph_b071 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "\"Isinya tentang ratu bala seribu; untuk mati, untuk sakti, pemberian Sang Resi Guru.\""@id .
+
+:terjemah_cph_b072 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Diberikan oleh Rabuyut Sawal."@id .
+
+:terjemah_cph_b073 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Dari situ pulang ke Galuh Rakéyan Jambri. Lalu berperang dengan Rahiyang Purbasora."@id .
+
+:terjemah_cph_b074 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Mati Rahiyang Purbasora."@id .
+
+:terjemah_cph_b075 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Masa pemerintahannya tujuh tahun. Digantikan oleh Rakéyan Jambri, yaitu Rahiyang Sanjaya."@id .
+
+:terjemah_cph_b076 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Rahiyang Sanjaya 'Sang Patih pergilah kau tanya kepada Batara Dangiyang Guru atas permintaan kami ini!"@id .
+
+:terjemah_cph_b077 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Setelah sang patih sampai di Galunggung berkata Batara Dangiyang Guru 'Ada apa kabarmu Sang Patih?"@id .
+
+:terjemah_cph_b078 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Yang mulia kami diperintah oleh Rahiyang Sanjaya meminta permintaan adik Rahiyang Purbasora.'"@id .
+
+:terjemah_cph_b079 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Tidak diberikan oleh Batara Dangiyang Guru. Berkata Batara Dangiyang Guru 'Rahiyang Sanjaya, pergilah rebutlah dirimu.'"@id .
+
+:terjemah_cph_b080 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Kalahkan Guruhaji Pagerwesi, kalahkan Guruhaji Mananggul, kalahkan Guruhaji Tepus, kalahkan Guruhaji Balitar."@id .
+
+:terjemah_cph_b081 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Pergi Rahiyang Sanjaya; kalahkan Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan."@id .
+
+:terjemah_cph_b082 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Rebutlah ilmu kesaktian, jika Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan, tidak mampu Dangiyang Guru."@id .
+
+:terjemah_cph_b083 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Rahiyang Sanjaya ke Kuningan, lalu berperang. Kalah Rahiyang Sanjaya."@id .
+
+:terjemah_cph_b084 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Jika kau kalahkan, dia sakti.' Rahiyang Sanjaya ke Kuningan, lalu berperang. Kalah Rahiyang Sanjaya."@id .
+
+:terjemah_cph_b085 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Dikejar, sampai di tanah Kuningan, mundur Rahiyang Sanjaya. 'Sayang aku semua di sini dikejar. Kalah kami.'"@id .
+
+:terjemah_cph_b086 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Kemudian pulang lagi ke Galuh, Rahiyang Sanjaya."@id .
+
+:terjemah_cph_b087 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Wulan, Sang Tumanggal pulang lagi ke Arilé."@id .
+
+:terjemah_cph_b088 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Rahiyang Sanjaya lalu menghadap Batara Dangiyang Guru. Berkata Batara Dangiyang Guru, 'Rahiyang Sanjaya, ada apa kabarmu datang ke sini?'"@id .
+
+:terjemah_cph_b089 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Ada kabar kami, kami diperintah, kalah kami, menyerah kami. Kami menang dengan menjadi, sebagai pengganti diurus oleh Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.'"@id .
+
+:terjemah_cph_b090 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Pulang lagi Rahiyang Sanjaya ke Galuh."@id .
+
+:terjemah_cph_b091 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Berkata Sang Wulan Sang Tumanggal Sang Pandawa di Kuningan Bawa persembahan pergi ke Galunggung hadiah sajugala ma palangka wulung kerbau setempahan beras sepadangan"@id .
+
+:terjemah_cph_b092 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Setelah mereka sampai di Galunggung berhenti di Pakembangan Ditemui oleh Pakembangan menghadap Batara Dangiyang Guru Berkata Dangiyang Guru \\\"Ada apa kabarmu?\\\""@id .
+
+:terjemah_cph_b093 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "\"Yang mulia Batara Dangiyang Guru! Ada Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\\\""@id .
+
+:terjemah_cph_b094 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "\"Bahagia sekali kau datang ke sini Pergilah kau ke Galuh Jemput Rahiyang Sanjaya bawa persembahan hadiah sajugala ma palangka wulung kerbau setempahan kuali besi beras sepadangan\\\""@id .
+
+:terjemah_cph_b095 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Setelah sampai di Galuh berkata Rahiyang Sanjaya \\\"Ada apa kabarmu Pakembangan?\\\""@id .
+
+:terjemah_cph_b096 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "\"Kami disuruh oleh Dangiyang Guru. Rahiyang Sanjaya yang pantas membawa persembahan. Ada Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\\\""@id .
+
+:terjemah_cph_b097 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Pergi Rahiyang Sanjaya Sampai di hadapan Dangiyang Guru berkata Batara Dangiyang Guru \\\"Rahiyang Sanjaya! Jika kau mampu menguasai Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan aku turut perkataanmu Jika berhasil aku menguasai turut perkataanmu Jika aku berwenang menunjuk yang tak tertunjuk Jika aku anak dewa\\\""@id .
+
+:terjemah_cph_b098 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan dikuasai oleh Batara Dangiyang Guru."@id .
+
+:terjemah_cph_b099 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Wulan dijadikan Guruhaji Kajaron."@id .
+
+:terjemah_cph_b100 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Tumanggal dijadikan Guruhaji Kalanggara di Balamoha."@id .
+
+:terjemah_cph_b101 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Puki jadi Guruhaji Pagerwesi."@id .
+
+:terjemah_cph_b102 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Sang Manisri dijadikan Buyuthadén Rahaséa di Puntang."@id .
+
+:terjemah_cph_b103 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Buyuthadén Tunjungputih di Kahuripan."@id .
+
+:terjemah_cph_b104 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Buyuthadén Sumajajah di Pagajahan."@id .
+
+:terjemah_cph_b105 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Buyuthadén Pasugihan di Batur."@id .
+
+:terjemah_cph_b106 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Buyuthadén Padurungan di Lembuhuyu."@id .
+
+:terjemah_cph_b107 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Buyuthadén Darongdong di Balaraja."@id .
+
+:terjemah_cph_b108 a :Terjemahan ;
+    :dariBahasa "su" ;
+    :keBahasa "id" ;
+    rdf:value "Buyuthadén Batutihang di Kuningan."@id .
+
+:translit_cph_b001 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ndéh nihan Carita Parahiyangan."@su-Latn .
+
+:translit_cph_b002 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Resi Guru mangyuga Rajaputra."@su-Latn .
+
+:translit_cph_b003 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Rajaputra miseuweukeun Sang Kandiawan lawan Sang Kandiawati, sida sapilanceukan."@su-Latn .
+
+:translit_cph_b004 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ngangaranan manéh Rahiyangta Déwaraja."@su-Latn .
+
+:translit_cph_b005 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Basa lumaku ngarajaresi ngangaranan manéh Rahiyangta ri Medangjati, inya Sang Layuwatang, nya nu nyieun Sanghiyang Watang Ageung."@su-Latn .
+
+:translit_cph_b006 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Basana angkat sabumi jadi manik sakurungan, nu miseuweukeun pancaputra"@su-Latn .
+
+:translit_cph_b007 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Apatiyan Sang Kusika, Sang Garga Sang Mestri, Sang Purusa, Sang Putanjala inya Sang Mangukuhan, Sang Karungkalah, Sang Katungmaralah, Sang Sandanggreba, Sang Wretikandayun"@su-Latn .
+
+:translit_cph_b008 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Hana paksi Si Uwur-uwur, paksi Si Naragati, nyayang di titrayatra Bagawat Resi Makandria"@su-Latn .
+
+:translit_cph_b009 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Dihakan anakna ku salakina. Diseuseul ku éwéna"@su-Latn .
+
+:translit_cph_b010 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék éwéna, 'Papa urang, lamun urang teu dianak, jeueung Bagawat Resi Makandria"@su-Latn .
+
+:translit_cph_b011 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ditapa sotéh papa, ja hanteu dianak"@su-Latn .
+
+:translit_cph_b012 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Bagawat Resi Makandria, 'Dianak ku waya, ja éwé ogé hanteu"@su-Latn .
+
+:translit_cph_b013 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ti inya carék Bagawat Resi Makandria, 'Aing dék leumpang ka Sang Resi Guru, ka Kéndan"@su-Latn .
+
+:translit_cph_b014 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Datang siya ka Kéndan"@su-Latn .
+
+:translit_cph_b015 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Sang Resi Guru, 'Na naha siya Bagawat Resi Makandria, mana siya datang ka dinih?"@su-Latn .
+
+:translit_cph_b016 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Pun samapun, aya béja kami pun, kami ménta pirabieun pun. Kéna kami kapupulihan ku Paksi Si Uwur-uwur, paksi Si Naragati, papa baruk urang hanteu di na anak"@su-Latn .
+
+:translit_cph_b017 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Sang Resi Guru, 'Leumpang siya ti heula ka batur siya deui, anaking Pwah Aksari Jabung, leumpang husir Bagawat Resi Makandria, na pideungeuneun satapa, anaking"@su-Latn .
+
+:translit_cph_b018 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Leumpang Pwah Rababu, datang ka baturna, teu diaku rabi. Nyeueung inya wedadari geulis, ti inya nyieun manéh Pwah Manjangandara, na Bagawat Resi Makandria nyieun manéh Rakéyan Kebowulan, sida pasanggaman"@su-Latn .
+
+:translit_cph_b019 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Sang Resi Guru, 'Étén anaking, Pwah Sanghiyang Sri! Leumpang kita ngajadi ka lanceuk siya, ka Pwah Aksari Jabung"@su-Latn .
+
+:translit_cph_b020 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ti inya leumpang Pwah Sanghiyang Sri ngajadi, inya Pwah Bungatak Mangaléngalé"@su-Latn .
+
+:translit_cph_b021 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Sang Mangukuhan, 'Nam adiing kalih, urang ngaboro leumpang ka tegal"@su-Latn .
+
+:translit_cph_b022 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sadatang ka tengah tegal, kasampak Pwah Manjangandara deung Rakéyan Kebowulan"@su-Latn .
+
+:translit_cph_b023 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Digérékeun ku sang pancaputra; beunangna samaya, asing nu numbak inya ti heula, nu ngeunaan inya, piratueun"@su-Latn .
+
+:translit_cph_b024 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Keuna ku tumbak Sang Wretikandayun, Kebowulan jeung Pwah Manjangandara"@su-Latn .
+
+:translit_cph_b025 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Lumpat ka patapaanana, datang paéh. Dituturkeun ku Sang Wretikandayun"@su-Latn .
+
+:translit_cph_b026 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Pwah Bungatak Mangaléngalé kasondong nginang deung Pwah Manjangandara; ku Sang Wretikandayun dibaan pulang ka Galuh, ka Rahiyangta ri Medangjati"@su-Latn .
+
+:translit_cph_b027 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Lawasniya adeg ratu lima welas tahun, disilihan ku Sang Wretikandayun di Galuh"@su-Latn .
+
+:translit_cph_b028 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "mirabi Pwah Bungatak Mangaléngalé"@su-Latn .
+
+:translit_cph_b029 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Na Sang Mangukuhan nyieun manéh panghuma. Sang Karungkalah nyieun manéh panggérék, Sang Katungmaralah nyieun manéh panyadap. Sang Sandanggreba nyieun manéh padagang"@su-Latn .
+
+:translit_cph_b030 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ku Sang Wretikandayun diadegkeun Sang Mangukuhan, Rahiyangtang Kulikuli; sang Karungkalah diadegkeun Rahiyangtang Surawulan; Sang Katungmaralah diadegkeun Rahiyangtang Pelesawi; Sang Sandanggreba diadegkeun Rahiyangtang Rawunglangit"@su-Latn .
+
+:translit_cph_b031 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Wretikandayun adeg di Galuh"@su-Latn .
+
+:translit_cph_b032 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ti inya lumaku ngarajaresi, ngangaranan manéh Rahiyangta ri Menir"@su-Latn .
+
+:translit_cph_b033 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Basana angkat sabumi jadi manik sakurungan, inya nu nyieunna Purbatisti"@su-Latn .
+
+:translit_cph_b034 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Lawasniya ratu salapan puluh tahun"@su-Latn .
+
+:translit_cph_b035 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Disilihan ku Rahiyangtang Kulikuli, lawasniya ratu dalapan puluh tahun"@su-Latn .
+
+:translit_cph_b036 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Disilihan ku Rahiyangtang Sarawulan, lawasniya ratu genep tahun, katujuhna panteg kana goréng twah"@su-Latn .
+
+:translit_cph_b037 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Disilihan ku Rahiyangtang Rawunglangit, lawasniya adeg ratu genep puluh tahun"@su-Latn .
+
+:translit_cph_b038 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Disilihan ku Rahiyangtang Mandiminyak."@su-Latn .
+
+:translit_cph_b039 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Seuweu Rahiyangta ri Menir, teluan sapilanceukan; anu cikal nya Rahiyang Sempakwaja, adeg Batara Dangiyang Guru di Galunggung; Rahiyangtang Kedul, adeg Batara Hiyang Buyut di Denuh; Rahiyangtang Mandiminyak adeg di Galuh."@su-Latn .
+
+:translit_cph_b040 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Sang Resi Guru, 'Karunya aing ka Rahiyang Sempakwaja hanteu diboga éwé.'"@su-Latn .
+
+:translit_cph_b041 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Anaking Pwah Rababu! Kita leumpang husir Rahiyang Sempakwaja, kéna inya pideungeuneun siya satapa."@su-Latn .
+
+:translit_cph_b042 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Resi ngagisik tipulung jadi jalalang bodas, leumpang ngahusir Rahiyang Sempakwaja, eukeur melit."@su-Latn .
+
+:translit_cph_b043 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ngareungeu tatabeuhan humung gumuruh tanpa parungon, tatabeuhan di Galuh."@su-Latn .
+
+:translit_cph_b044 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Pulang ka Galuh teter nu ngigel."@su-Latn .
+
+:translit_cph_b045 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sadatang ka buruan ageung, carék Rahiyangtang Mandiminyak, 'Sang Apatih, na saha éta?'"@su-Latn .
+
+:translit_cph_b046 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Béjana nu ngigel di buruan ageung.'"@su-Latn .
+
+:translit_cph_b047 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Éta bawa sinjang saparagi, iweu kéh pamalaan aing. Téhér bawa ku kita keudeukeudeu!'"@su-Latn .
+
+:translit_cph_b048 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Leumpang sang apatih ka buruan ageung, dibaan ka kadatwan na Pwah Rababu."@su-Latn .
+
+:translit_cph_b049 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Dipirabi ku Rahiyangtang Mandiminyak, dirabi kasiahan na Pwah rababu. Diseuweu"@su-Latn .
+
+:translit_cph_b050 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "patemuan, dingaranan Sang Salah."@su-Latn .
+
+:translit_cph_b051 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Rahiyang Sempakwaja, 'Rababu leumpang! Ku siya bwatkeun budak éta ka Rahiyangtang Mandimyak. Anteurkeun patemuan siya Sang Salahtwah.'"@su-Latn .
+
+:translit_cph_b052 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Leumpang Pwah Rababu ka Galuh."@su-Latn .
+
+:translit_cph_b053 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Aing dititah ku Rahiyang Sempakwaja mwatkeun budak éta, beunang siya ngeudeungeudeu aing téh.'"@su-Latn .
+
+:translit_cph_b054 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Rahiyangtang Mandiminyak, 'Anak aing tu kita, Sang Salah.'"@su-Latn .
+
+:translit_cph_b055 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Rahiyangtang Mandiminyak, 'Sang Apatih, ku siya teundeun kana jambangan. Bawa ka tegal!'"@su-Latn .
+
+:translit_cph_b056 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Dibawa ku sang apatih ka tegal, sapamungkur sang apatih, ti tegal metu ikang aprama tog ka langit, kabireungeuh ku Rahiyangtang Mandiminyak."@su-Latn .
+
+:translit_cph_b057 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Apatih, husir deui teundeun siya, budak ta!'"@su-Latn .
+
+:translit_cph_b058 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Dihusir ku sang apatih ka tegal, kasondong hirup. Dibaan ka hareupeun Rahiyangtang Mandiminyak. Dingaranan Sang Sénna."@su-Latn .
+
+:translit_cph_b059 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Lawasniya ratu tujuh tahun. Na Rahiyangtang Mandiminyak disilihan ku Sang Séna."@su-Latn .
+
+:translit_cph_b060 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Lawasniya ratu tujuh tahun, disilih-jungkat ku Rahiyang Purbasora. Na Sang Séna"@su-Latn .
+
+:translit_cph_b061 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "diintarkeun ka Gunung Marapi, diseuweu Rakéyan Jambri."@su-Latn .
+
+:translit_cph_b062 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ageung sakamantrian, lunga ka Rahiyangtang Kedul, ka Denuh, ménta dibunikeun."@su-Latn .
+
+:translit_cph_b063 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Rahiyangtang Kedul, \"Putu aing mumul kapangkukan ku siya, sugan siya kanyahoan ku ti Galuh.\""@su-Latn .
+
+:translit_cph_b064 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Leumpang siya husir Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan, deung anak saha tu siya?"@su-Latn .
+
+:translit_cph_b065 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Rakéyan Jambri, \"Aing anak Rahiyang Sang Séna. Dijungkat, diintarkeun ku Rahiyang Purbasora.\""@su-Latn .
+
+:translit_cph_b066 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "\"Lamun kitu, mawa boga kami ngasuhan. Ngan mulah mo sambut samaya aing. Moga ulah meunang prangan;\""@su-Latn .
+
+:translit_cph_b067 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "\"lamun siya ngalaga prang ka kami. Ngan siya leumpang maratkeun, husir Tohaan di Sunda.\""@su-Latn .
+
+:translit_cph_b068 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sadatang ka Tohaan di Sunda, tuluy dipulung minantu ku Tohaan di Sunda."@su-Latn .
+
+:translit_cph_b069 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ti inya ditinggalkeun, ngahusir Rabuyut Sawal. Carék Rabuyut Sawal, \"Saha siya?\""@su-Latn .
+
+:translit_cph_b070 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "\"Aing pun seuweu Sang Séna. Aing nanyakeun pustaka bawa Rabuyut Sawal.\""@su-Latn .
+
+:translit_cph_b071 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "\"Eusina ma ratuning bala sariwu; pakeun séda, pakeun sakti, paméré Sang Resi Guru.\""@su-Latn .
+
+:translit_cph_b072 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Dibikeun ku Rabuyut Sawal."@su-Latn .
+
+:translit_cph_b073 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ti inya pulang ka Galuh Rakéyan Jambri. Tuluy diprang deung Rahiyang Purbasora."@su-Latn .
+
+:translit_cph_b074 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Paéh Rahiyang Purbasora."@su-Latn .
+
+:translit_cph_b075 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Lawasniya ratu tujuh tahun. Disilihan ku Rakéyan Jambri, inya Rahiyang Sanjaya."@su-Latn .
+
+:translit_cph_b076 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Rahiyang Sanjaya, 'Sang Apatih, leumpang siya, nanya ka Batara Dangiyang Guru ku piparintaheun urang inih!"@su-Latn .
+
+:translit_cph_b077 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sadatang sang apatih ka Galunggung, carék Batara Dangiyang Guru, 'Na naha béja siya, Sang Apatih?'"@su-Latn .
+
+:translit_cph_b078 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Pun, kami dititah ku Rahiyang Sanjaya ménta piparintaheun, adi Rahiyang Purbasora.'"@su-Latn .
+
+:translit_cph_b079 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Hanteu dibikeun ku Batara Dangiyang Guru. Carék Batara Dangiyang Guru, 'Rahiyang Sanjaya, leumpang nyandogé manéh.'"@su-Latn .
+
+:translit_cph_b080 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Éléhkeun Guruhaji Pagerwesi, éléhkeun Guruhaji Mananggul, éléhkeun Guruhaji Tepus, éléhkeun Guruhaji Balitar."@su-Latn .
+
+:translit_cph_b081 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Lunga Rahiyang Sanjaya; éléhkeun Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan."@su-Latn .
+
+:translit_cph_b082 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Nyandogé na kasaktian, kénana ta Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan, hanteu kawisésa Dangiyang Guru."@su-Latn .
+
+:translit_cph_b083 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Rahiyang Sanjaya ka Kuningan, tuluy diprang. Éléh Rahiyang Sanjaya."@su-Latn .
+
+:translit_cph_b084 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Mana ingéléhkeun, inya sakti. Rahiyang Sanjaya ka Kuningan, tuluy diprang. Éléh Rahiyang Sanjaya."@su-Latn .
+
+:translit_cph_b085 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Digérékan, teka ring loh Kuningan, undur Rahiyang Sanjaya. 'Dara aing para dinih, digérékan. Éléh pun kami.'"@su-Latn .
+
+:translit_cph_b086 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Ti inya pulang deui ka Galuh, Rahiyang Sanjaya."@su-Latn .
+
+:translit_cph_b087 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Wulan, Sang Tumanggal pulang deui ka Arilé."@su-Latn .
+
+:translit_cph_b088 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Rahiyang Sanjaya tuluy marék ka Batara Dangiyang Guru. Carék Batara Dangiyang Guru, 'Rahiyang Sanjaya, naha béja siya datang ka dinih?'"@su-Latn .
+
+:translit_cph_b089 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Aya pun béja kami, pun kami dipiwarang, éléh pun kami, supén pun kami. Kami meunang ku jadi, pun gumanti diboroan ku Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan.'"@su-Latn .
+
+:translit_cph_b090 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Pulang deui Rahiyang Sanjaya ka Galuh."@su-Latn .
+
+:translit_cph_b091 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Carék Sang Wulan, Sang Tumanggal, Sang pandawa ring Kuningan, 'Mawa pisajieun leumpang ka Galunggung, widihan sajugala ma, palangka wulung, munding satempahan, bras sapadangan.'"@su-Latn .
+
+:translit_cph_b092 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sateka siya ka Galunggung, mandeg ring Pakembangan. Kasondong ku Pakembangan, majar ka Batara Dangiyang Guru. Carék Dangiyang Guru, \\\"Naha béja siya?\\\""@su-Latn .
+
+:translit_cph_b093 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "\"Pun Batara Dangiyang Guru! Aya Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\\\""@su-Latn .
+
+:translit_cph_b094 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "\"Bagéa amat, siya datang ka dinih. Leumpang siya ka Galuh. Ala Rahiyang Sanjaya, mangka mawa pisajieun; widihan sajugala ma, saha palangka wulung, munding satémpahan, kawali wesi, bras sapadangan.\\\""@su-Latn .
+
+:translit_cph_b095 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sadatang siya ka Galuh, carék Rahiyang Sanjaya, \\\"Naha béja siya, Pakembangan?\\\""@su-Latn .
+
+:translit_cph_b096 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "\"Kami pun disuruh ku Dangiyang Guru. Rahiyang Sanjaya mangka nu sangkep mawa pisajieun. Aya Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan.\\\""@su-Latn .
+
+:translit_cph_b097 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Lunga Rahiyang Sanjaya. Téka ri hareupeun Dangiyang Guru, carék Batara Dangiyang Guru, \\\"Rahiyang Sanjaya! Lamun kawisésa ku siya Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan, aing nurut carék siya. Ja beunang ku aing kawisésa, turut carékéng! Ja aing wenang nuduh tan katuduh. Ja aing anak déwata.\\\""@su-Latn .
+
+:translit_cph_b098 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan kawisésa ku Batara Dangiyang Guru."@su-Latn .
+
+:translit_cph_b099 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Wulan dijieun Guruhaji Kajaron."@su-Latn .
+
+:translit_cph_b100 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Tumanggal dijieun Guruhaji Kalanggara di Balamoha."@su-Latn .
+
+:translit_cph_b101 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Puki jadi Guruhaji Pagerwesi."@su-Latn .
+
+:translit_cph_b102 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Sang Manisri dijieun Buyuthadén Rahaséa, di Puntang."@su-Latn .
+
+:translit_cph_b103 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Buyuthadén Tunjungputih di Kahuripan."@su-Latn .
+
+:translit_cph_b104 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Buyuthadén Sumajajah di Pagajahan."@su-Latn .
+
+:translit_cph_b105 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Buyuthadén Pasugihan di Batur."@su-Latn .
+
+:translit_cph_b106 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Buyuthadén Padurungan di Lembuhuyu."@su-Latn .
+
+:translit_cph_b107 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Buyuthadén Darongdong di Balaraja."@su-Latn .
+
+:translit_cph_b108 a :Transliterasi ;
+    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
+    rdf:value "Buyuthadén Batutihang di Kuningan."@su-Latn .
+
+:naskahSunda02 a :Manuskrip ;
+    :ditulisMenggunakan :AksaraCacarakan ;
+    :lokasiPenyimpanan "Naskah koleksi pribadi" ;
+    :periode "Abad ke-16" ;
+    dcterms:alternative "Carita Parahyangan"@su ;
+    dcterms:creator "Anonim" ;
+    dcterms:language "su" ;
+    dcterms:title "Carita Parahiyangan"@su .
+
+:AksaraCacarakan a :SistemTulisan ;
+    rdfs:label "Aksara Cacarakan"@id ;
+    :berasalDariWilayah "Tatar Sunda"@id ;
+    :merupakanVarianDari :AksaraSundaKuno .
+

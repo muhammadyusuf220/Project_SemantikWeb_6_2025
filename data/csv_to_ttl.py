@@ -1,72 +1,81 @@
 import csv
+from rdflib import Graph, URIRef, Literal, Namespace
+from rdflib.namespace import RDF, RDFS, DCTERMS, XSD
 
-def generate_turtle_from_csv(csv_file, output_file):
-    with open(csv_file, newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f, delimiter=',')
-        data = list(reader)
+def csv_to_turtle(input_csv, output_ttl):
+    # Initialize RDF Graph
+    g = Graph()
+    
+    # Define namespaces
+    ns = Namespace("http://contoh.org/ontology#")
+    lexinfo = Namespace("http://www.lexinfo.net/ontology/2.0/lexinfo#")
+    
+    # Bind prefixes
+    g.bind("", ns)
+    g.bind("rdf", RDF)
+    g.bind("rdfs", RDFS)
+    g.bind("dcterms", DCTERMS)
+    g.bind("lexinfo", lexinfo)
+    g.bind("xsd", XSD)
+    
+    # Add manuscript declaration
+    manuscript = ns.naskahSunda02
+    g.add((manuscript, RDF.type, ns.Manuskrip))
+    g.add((manuscript, DCTERMS.title, Literal("Carita Parahiyangan", lang="su")))
+    g.add((manuscript, DCTERMS.alternative, Literal("Carita Parahyangan", lang="su")))
+    g.add((manuscript, DCTERMS.creator, Literal("Anonim")))
+    g.add((manuscript, DCTERMS.language, Literal("su")))
+    g.add((manuscript, ns.ditulisMenggunakan, ns.AksaraCacarakan))
+    g.add((manuscript, ns.periode, Literal("Abad ke-16")))
+    g.add((manuscript, ns.lokasiPenyimpanan, Literal("Naskah koleksi pribadi")))
+    
+    # Add Aksara Cacarakan declaration
+    g.add((ns.AksaraCacarakan, RDF.type, ns.SistemTulisan))
+    g.add((ns.AksaraCacarakan, RDFS.label, Literal("Aksara Cacarakan", lang="id")))
+    g.add((ns.AksaraCacarakan, ns.berasalDariWilayah, Literal("Tatar Sunda", lang="id")))
+    g.add((ns.AksaraCacarakan, ns.merupakanVarianDari, ns.AksaraSundaKuno))
+    
+    # Process CSV file
+    with open(input_csv, 'r', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            # Create URIs for each resource
+            baris_uri = ns[row['id'].replace("-", "_")]
+            aksara_uri = ns[f"aksara_{row['id'].replace('-', '_').lower()}"]
+            translit_uri = ns[f"translit_{row['id'].replace('-', '_').lower()}"]
+            terjemah_uri = ns[f"terjemah_{row['id'].replace('-', '_').lower()}"]
+            
+            # Add baris naskah triples
+            g.add((baris_uri, RDF.type, ns.BarisNaskah))
+            g.add((baris_uri, ns.isFromManuscript, manuscript))
+            g.add((baris_uri, ns.mengandungAksara, aksara_uri))
+            g.add((baris_uri, ns.hasTransliteration, translit_uri))
+            g.add((baris_uri, ns.hasTranslation, terjemah_uri))
+            g.add((baris_uri, ns.urutan, Literal(row['id'].split("-")[1][1:], datatype=XSD.integer)))
+            g.add((baris_uri, DCTERMS.identifier, Literal(row['id'])))
+            
+            # Add aksara triples
+            g.add((aksara_uri, RDF.type, ns.TeksAksara))
+            g.add((aksara_uri, RDF.value, Literal(row['aksara'], lang="su-x-cacarakan")))
+            g.add((aksara_uri, lexinfo.script, ns.AksaraCacarakan))
+            g.add((aksara_uri, ns.jumlahKarakter, Literal(len(row['aksara']), datatype=XSD.integer)))
+            
+            # Add transliterasi triples
+            g.add((translit_uri, RDF.type, ns.Transliterasi))
+            g.add((translit_uri, RDF.value, Literal(row['transliterasi'], lang="su-Latn")))
+            g.add((translit_uri, ns.menggunakanAturan, Literal("Aturan Transliterasi Cacarakan-Latin 2025")))
+            
+            # Add terjemahan triples
+            g.add((terjemah_uri, RDF.type, ns.Terjemahan))
+            g.add((terjemah_uri, RDF.value, Literal(row['terjemahan'], lang="id")))
+            g.add((terjemah_uri, ns.keBahasa, Literal("id")))
+            g.add((terjemah_uri, ns.dariBahasa, Literal("su")))
+    
+    # Serialize to Turtle format
+    with open(output_ttl, 'w', encoding='utf-8') as ttlfile:
+        ttlfile.write(g.serialize(format='turtle', encoding='utf-8').decode('utf-8'))
 
-    with open(output_file, 'w', encoding='utf-8') as out:
-        # Prefix RDF
-        out.write('''@prefix : <http://contoh.org/ontology#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-### DEKLARASI UTAMA ###
-:naskahSunda01 a :Manuskrip ;
-    dcterms:title "Carita Parahiyangan"@su ;
-    dcterms:alternative "Carita Parahyangan"@su ;
-    dcterms:creator "Anonim" ;
-    dcterms:language "su" ;
-    :ditulisMenggunakan :AksaraCacarakan ;
-    :periode "Abad ke-16" ;
-    :lokasiPenyimpanan "Naskah koleksi pribadi" .
-
-:AksaraCacarakan a :SistemTulisan ;
-    rdfs:label "Aksara Cacarakan"@id ;
-    :berasalDariWilayah "Tatar Sunda"@id ;
-    :merupakanVarianDari :AksaraSundaKuno .
-
-### BAGIAN I TEKS ###
-''')
-
-        for row in data:
-            urutan = row['urutan'].strip()
-            baris_id = f"baris{urutan.zfill(3)}"
-            aksara_id = f"aksara_{baris_id}"
-            translit_id = f"translit_{baris_id}"
-            terjemah_id = f"terjemah_{baris_id}"
-            identifier = row['id'].strip()
-            aksara = row['aksara'].strip().replace('"', '\\"')
-            transliterasi = row['transliterasi'].strip().replace('"', '\\"')
-            terjemahan = row['terjemahan'].strip().replace('"', '\\"')
-            jumlah_karakter = len(aksara)
-
-            out.write(f'''
-:{baris_id} a :BarisNaskah ;
-    :isFromManuscript :naskahSunda01 ;
-    :mengandungAksara :{aksara_id} ;
-    :hasTransliteration :{translit_id} ;
-    :hasTranslation :{terjemah_id} ;
-    :urutan "{urutan}"^^xsd:integer ;
-    dcterms:identifier "{identifier}" .
-
-:{aksara_id} a :TeksAksara ;
-    rdf:value "{aksara}"@su-x-cacarakan ;
-    lexinfo:script :AksaraCacarakan ;
-    :jumlahKarakter "{jumlah_karakter}"^^xsd:integer .
-
-:{translit_id} a :Transliterasi ;
-    rdf:value "{transliterasi}"@su-Latn ;
-    :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" .
-
-:{terjemah_id} a :Terjemahan ;
-    rdf:value "{terjemahan}"@id ;
-    :keBahasa "id" ;
-    :dariBahasa "su" .
-''')
-
-# Contoh pemakaian:
-generate_turtle_from_csv("data.csv", "naskah_sunda.ttl")
+if __name__ == "__main__":
+    # Example usage:
+    csv_to_turtle('data/data.csv', 'data/output.ttl')
+    print("Turtle files generated successfully!")
