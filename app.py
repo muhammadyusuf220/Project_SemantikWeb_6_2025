@@ -5,7 +5,7 @@ import re
 import requests
 
 # Konfigurasi halaman
-st.set_page_config(page_title="Mesin Pencarian Naskah Cacarakan", layout="wide")
+st.set_page_config(page_title="Mesin Pencarian Naskah Carita Parahyangan", layout="wide")
 
 # Konfigurasi Apache Jena Fuseki
 FUSEKI_ENDPOINT = "http://localhost:3030/CaritaParahyangan/sparql"
@@ -95,18 +95,32 @@ else:
 
 menu = st.sidebar.radio(
     "Pilih Jenis Pencarian",
-    ["Pencarian Umum", "Pencarian Lanjutan", "Jelajah Data", "Statistik", "Pengaturan"]
+    ["Beranda", "Pencarian Umum", "Pencarian Lanjutan", "Jelajah Data", "Statistik", "Pengaturan"]
 )
 
 # Header aplikasi
-st.title("🔍 Mesin Pencarian Naskah Cacarakan")
-st.markdown("""
-Portal pencarian berbasis web semantik untuk mengeksplorasi naskah Sunda kuno dalam Aksara Cacarakan.
-Menggunakan Apache Jena Fuseki sebagai triplestore.
-""")
+st.title("🔍 Mesin Pencarian Naskah Carita Parahyangan")
+
+# Halaman Beranda
+if menu == "Beranda":
+    st.markdown("""
+    ## Selamat Datang di Portal Naskah Cacarakan
+    
+    Portal pencarian berbasis web semantik untuk mengeksplorasi naskah Sunda kuno Carita Parahyangan dalam Aksara Cacarakan.
+    Menggunakan Apache Jena Fuseki sebagai triplestore.
+    """)
+    
+    st.markdown("""
+    ### Fitur Utama:
+    - **Pencarian Umum**: Cari berdasarkan kata kunci dalam aksara, transliterasi, atau terjemahan
+    - **Pencarian Lanjutan**: Filter hasil berdasarkan kriteria tertentu
+    - **Jelajah Data**: Telusuri seluruh koleksi naskah
+    - **Statistik**: Lihat analisis data naskah
+    """)
+
 
 # Halaman Pencarian Umum
-if menu == "Pencarian Umum":
+elif menu == "Pencarian Umum":
     st.header("Pencarian Kata Kunci")
     
     if not connection_status:
@@ -474,4 +488,4 @@ elif menu == "Pengaturan":
 
 # Footer
 st.markdown("---")
-st.markdown("🏛️ **Portal Web Semantik Naskah Cacarakan** - Menggunakan Apache Jena Fuseki sebagai triplestore dan SPARQL untuk query semantik.")
+st.markdown("🏛️ **Portal Web Semantik Naskah Sunda Kuno** - Menggunakan Apache Jena Fuseki sebagai triplestore dan SPARQL untuk query semantik.")

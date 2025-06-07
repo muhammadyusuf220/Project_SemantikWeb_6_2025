@@ -1867,32 +1867,32 @@
 :terjemah_cph_b092 a :Terjemahan ;
     :dariBahasa "su" ;
     :keBahasa "id" ;
-    rdf:value "Setelah mereka sampai di Galunggung berhenti di Pakembangan Ditemui oleh Pakembangan menghadap Batara Dangiyang Guru Berkata Dangiyang Guru \\\"Ada apa kabarmu?\\\""@id .
+    rdf:value "Setelah mereka sampai di Galunggung berhenti di Pakembangan Ditemui oleh Pakembangan menghadap Batara Dangiyang Guru Berkata Dangiyang Guru \"Ada apa kabarmu?\""@id .
 
 :terjemah_cph_b093 a :Terjemahan ;
     :dariBahasa "su" ;
     :keBahasa "id" ;
-    rdf:value "\"Yang mulia Batara Dangiyang Guru! Ada Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\\\""@id .
+    rdf:value "\"Yang mulia Batara Dangiyang Guru! Ada Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\""@id .
 
 :terjemah_cph_b094 a :Terjemahan ;
     :dariBahasa "su" ;
     :keBahasa "id" ;
-    rdf:value "\"Bahagia sekali kau datang ke sini Pergilah kau ke Galuh Jemput Rahiyang Sanjaya bawa persembahan hadiah sajugala ma palangka wulung kerbau setempahan kuali besi beras sepadangan\\\""@id .
+    rdf:value "\"Bahagia sekali kau datang ke sini Pergilah kau ke Galuh Jemput Rahiyang Sanjaya bawa persembahan hadiah sajugala ma palangka wulung kerbau setempahan kuali besi beras sepadangan\""@id .
 
 :terjemah_cph_b095 a :Terjemahan ;
     :dariBahasa "su" ;
     :keBahasa "id" ;
-    rdf:value "Setelah sampai di Galuh berkata Rahiyang Sanjaya \\\"Ada apa kabarmu Pakembangan?\\\""@id .
+    rdf:value "Setelah sampai di Galuh berkata Rahiyang Sanjaya \"Ada apa kabarmu Pakembangan?\""@id .
 
 :terjemah_cph_b096 a :Terjemahan ;
     :dariBahasa "su" ;
     :keBahasa "id" ;
-    rdf:value "\"Kami disuruh oleh Dangiyang Guru. Rahiyang Sanjaya yang pantas membawa persembahan. Ada Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\\\""@id .
+    rdf:value "\"Kami disuruh oleh Dangiyang Guru. Rahiyang Sanjaya yang pantas membawa persembahan. Ada Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\""@id .
 
 :terjemah_cph_b097 a :Terjemahan ;
     :dariBahasa "su" ;
     :keBahasa "id" ;
-    rdf:value "Pergi Rahiyang Sanjaya Sampai di hadapan Dangiyang Guru berkata Batara Dangiyang Guru \\\"Rahiyang Sanjaya! Jika kau mampu menguasai Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan aku turut perkataanmu Jika berhasil aku menguasai turut perkataanmu Jika aku berwenang menunjuk yang tak tertunjuk Jika aku anak dewa\\\""@id .
+    rdf:value "Pergi Rahiyang Sanjaya Sampai di hadapan Dangiyang Guru berkata Batara Dangiyang Guru \"Rahiyang Sanjaya! Jika kau mampu menguasai Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan aku turut perkataanmu Jika berhasil aku menguasai turut perkataanmu Jika aku berwenang menunjuk yang tak tertunjuk Jika aku anak dewa\""@id .
 
 :terjemah_cph_b098 a :Terjemahan ;
     :dariBahasa "su" ;
@@ -2315,27 +2315,27 @@
 
 :translit_cph_b092 a :Transliterasi ;
     :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
-    rdf:value "Sateka siya ka Galunggung, mandeg ring Pakembangan. Kasondong ku Pakembangan, majar ka Batara Dangiyang Guru. Carék Dangiyang Guru, \\\"Naha béja siya?\\\""@su-Latn .
+    rdf:value "Sateka siya ka Galunggung, mandeg ring Pakembangan. Kasondong ku Pakembangan, majar ka Batara Dangiyang Guru. Carék Dangiyang Guru, \"Naha béja siya?\""@su-Latn .
 
 :translit_cph_b093 a :Transliterasi ;
     :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
-    rdf:value "\"Pun Batara Dangiyang Guru! Aya Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\\\""@su-Latn .
+    rdf:value "\"Pun Batara Dangiyang Guru! Aya Sang Wulan, Sang Tumanggal, Sang Pandawa di Kuningan.\""@su-Latn .
 
 :translit_cph_b094 a :Transliterasi ;
     :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
-    rdf:value "\"Bagéa amat, siya datang ka dinih. Leumpang siya ka Galuh. Ala Rahiyang Sanjaya, mangka mawa pisajieun; widihan sajugala ma, saha palangka wulung, munding satémpahan, kawali wesi, bras sapadangan.\\\""@su-Latn .
+    rdf:value "\"Bagéa amat, siya datang ka dinih. Leumpang siya ka Galuh. Ala Rahiyang Sanjaya, mangka mawa pisajieun; widihan sajugala ma, saha palangka wulung, munding satémpahan, kawali wesi, bras sapadangan.\""@su-Latn .
 
 :translit_cph_b095 a :Transliterasi ;
     :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
-    rdf:value "Sadatang siya ka Galuh, carék Rahiyang Sanjaya, \\\"Naha béja siya, Pakembangan?\\\""@su-Latn .
+    rdf:value "Sadatang siya ka Galuh, carék Rahiyang Sanjaya, \"Naha béja siya, Pakembangan?\""@su-Latn .
 
 :translit_cph_b096 a :Transliterasi ;
     :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
-    rdf:value "\"Kami pun disuruh ku Dangiyang Guru. Rahiyang Sanjaya mangka nu sangkep mawa pisajieun. Aya Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan.\\\""@su-Latn .
+    rdf:value "\"Kami pun disuruh ku Dangiyang Guru. Rahiyang Sanjaya mangka nu sangkep mawa pisajieun. Aya Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan.\""@su-Latn .
 
 :translit_cph_b097 a :Transliterasi ;
     :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
-    rdf:value "Lunga Rahiyang Sanjaya. Téka ri hareupeun Dangiyang Guru, carék Batara Dangiyang Guru, \\\"Rahiyang Sanjaya! Lamun kawisésa ku siya Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan, aing nurut carék siya. Ja beunang ku aing kawisésa, turut carékéng! Ja aing wenang nuduh tan katuduh. Ja aing anak déwata.\\\""@su-Latn .
+    rdf:value "Lunga Rahiyang Sanjaya. Téka ri hareupeun Dangiyang Guru, carék Batara Dangiyang Guru, \"Rahiyang Sanjaya! Lamun kawisésa ku siya Sang Wulan, Sang Tumanggal, Sang Pandawa ring Kuningan, aing nurut carék siya. Ja beunang ku aing kawisésa, turut carékéng! Ja aing wenang nuduh tan katuduh. Ja aing anak déwata.\""@su-Latn .
 
 :translit_cph_b098 a :Transliterasi ;
     :menggunakanAturan "Aturan Transliterasi Cacarakan-Latin 2025" ;
