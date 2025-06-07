@@ -1,0 +1,7 @@
+SEMANTIK WEB NASKAH CARITA PARAHYANGAN
+AKSARA CACARAKAN -> LATIN -> BAHASA INDONESIA
+
+Nama Anggota:
+1. Muhammad Yusuf Adhi Surya - 140810220027
+2. Muhammad Nabil Indiharto - 140810220067
+3. Devalco Aghazzan Muslion- 140810220079
