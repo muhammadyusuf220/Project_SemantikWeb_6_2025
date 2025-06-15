@@ -1,0 +1,11 @@
+==== Pustaka Python yang Dibutuhkan ====
+streamlit>=1.35.0           # Untuk membangun antarmuka web
+rdflib>=7.0.0               # Untuk membaca dan memproses data RDF
+SPARQLWrapper>=1.8.5        # Untuk menjalankan query SPARQL ke Fuseki
+pandas>=2.0.0               # Untuk pengolahan data tabular
+requests>=2.30.0            # Untuk mengirim permintaan HTTP
+
+==== Kebutuhan Sistem (Instalasi Manual) ====
+Java JDK versi 17 atau lebih tinggi     # Diperlukan untuk menjalankan Apache Jena Fuseki
+Apache Jena Fuseki versi 4.8.0 ke atas  # Digunakan sebagai SPARQL endpoint dan penyimpanan RDF
+Protégé (versi terbaru)                 # Digunakan untuk membuat dan memvisualisasikan ontologi OWL
