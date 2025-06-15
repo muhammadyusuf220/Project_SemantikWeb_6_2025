@@ -1,6 +1,6 @@
-# 📚 Sistem Pencarian Semantik Naskah Sunda Aksara Cacarakan
+# 📚 Sistem Pencarian Semantik Naskah Sunda Kuno Aksara Cacarakan
 
-Sistem ini merupakan aplikasi berbasis web untuk melakukan pencarian semantik terhadap baris-baris naskah kuno Sunda beraksara Cacarakan. Dengan menggabungkan teknologi Semantic Web seperti RDF, Ontologi, dan SPARQL, pengguna dapat menelusuri isi naskah berdasarkan aksara asli, transliterasi latin, dan terjemahan Bahasa Indonesia.
+Sistem ini merupakan aplikasi berbasis web untuk melakukan pencarian semantik terhadap baris-baris naskah kuno Sunda beraksara Cacarakan yaitu Carita Parahyangan. Dengan menggabungkan teknologi Semantic Web seperti RDF, Ontologi, dan SPARQL, pengguna dapat menelusuri isi naskah berdasarkan aksara asli, transliterasi latin, dan terjemahan Bahasa Indonesia.
 
 ---
 
