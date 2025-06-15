@@ -91,7 +91,7 @@ streamlit run app.py
 
 ---
 
-## 📦 Panduan Penggunaan Aplikasi
+## 📘 Panduan Penggunaan Aplikasi
 Untuk menjalankan aplikasi ini, caranya cukup mudah, ikuti langkah per langkah dibawah berikut ini : 
 1. Jalankan Streamlit dengan perintah “streamlit run ‘nama_projek’.py”, misalnya [streamlit run app.py]
 2. Berikutnya, biasanya akan otomatis terbuka di browser yaitu ke http://localhost:8501, ini artinya aplikasi sudah berjalan di lokal.
@@ -106,10 +106,10 @@ Untuk menjalankan aplikasi ini, caranya cukup mudah, ikuti langkah per langkah d
 
 ## 📈 Hasil yang Diharapkan
 
-- ✅ RDF dataset yang merepresentasikan struktur naskah Cacarakan secara semantik
+- ✅ RDF dataset yang merepresentasikan struktur naskah Carita Parahyangan dengan Aksara Cacarakan secara semantik
 - ✅ Ontologi yang dapat dibuka dan divisualisasikan di Protégé
 - ✅ Antarmuka pencarian berbasis web yang menghubungkan pengguna dengan data RDF menggunakan SPARQL
-- ✅ Laporan proyek akhir yang menjelaskan arsitektur, desain ontologi, dan evaluasi sistem
+- ✅ Laporan proyek akhir yang menjelaskan projek secara jelas
 
 ---
 
