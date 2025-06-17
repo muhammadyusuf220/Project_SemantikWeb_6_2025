@@ -104,6 +104,34 @@ Untuk menjalankan aplikasi ini, caranya cukup mudah, ikuti langkah per langkah d
 9. Itulah langkah-langkah sederhana yang merupakan panduan singkat tentang aplikasi web yang kami dibuat.
 
 
+## 📈 Contoh Hasil Web
+
+### 1. Tampilan Beranda/Menu Utama
+![Image](https://github.com/user-attachments/assets/d31d6855-24ca-4629-bce6-9a0c610a7f7d)
+
+### 2. Tampilan Pencarian Umum
+- User Input Kata Kunci dan Bisa Cari Dalam 4 Pilihan (Aksara, Transliterasi, Terjemahan, atau Semua)
+  ![Image](https://github.com/user-attachments/assets/d31d6855-24ca-4629-bce6-9a0c610a7f7d)
+- Ini Tampilan Ketika User Input Kata Kunci dan Ditampilkan Semua
+  ![Image](https://github.com/user-attachments/assets/c1376547-8679-418a-8444-de1d66eac0ed)
+
+### 3. Tampilan Pencarian Lanjutan
+![Image](https://github.com/user-attachments/assets/90957ee8-b219-4083-95b8-a1a0b9a55d92)
+
+### 4. Tampilan Jelajah Data
+![Image](https://github.com/user-attachments/assets/3e65050c-aca6-4fb5-b653-5936b156a7c8)
+
+### 5. Tampilan Statistik
+- Ini Bagian Informasi Statistik Data Berbentuk Informasi 
+  ![Image](https://github.com/user-attachments/assets/22387f7a-4bcf-4f6f-90bb-d77b75b7191b)
+- Ini Bagian Informasi Statistik Data Berbentuk Tabel Grafik 
+  ![Image](https://github.com/user-attachments/assets/ea9a2846-6dbb-4fd1-99a7-e8c62e8002c3)
+
+### 6. Tampilan Pengaturan
+![Image](https://github.com/user-attachments/assets/244c0590-e9c5-4126-93b6-c8d19db8921f)
+
+---
+
 ## 📈 Hasil yang Diharapkan
 
 - ✅ RDF dataset yang merepresentasikan struktur naskah Carita Parahyangan dengan Aksara Cacarakan secara semantik
