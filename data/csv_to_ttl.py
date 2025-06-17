@@ -77,5 +77,5 @@ def csv_to_turtle(input_csv, output_ttl):
 
 if __name__ == "__main__":
     # Example usage:
-    csv_to_turtle('data/data.csv', 'data/output.ttl')
+    csv_to_turtle('data.csv', 'output.ttl')
     print("Turtle files generated successfully!")
