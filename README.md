@@ -111,9 +111,9 @@ Untuk menjalankan aplikasi ini, caranya cukup mudah, ikuti langkah per langkah d
 
 ### 2. Tampilan Pencarian Umum
 - User Input Kata Kunci dan Bisa Cari Dalam 4 Pilihan (Aksara, Transliterasi, Terjemahan, atau Semua)
-  ![Image](https://github.com/user-attachments/assets/d31d6855-24ca-4629-bce6-9a0c610a7f7d)
+  ![Image](https://github.com/user-attachments/assets/54a63fde-590d-4c8e-824a-6d5e0d632653)
 - Ini Tampilan Ketika User Input Kata Kunci dan Ditampilkan Semua
-  ![Image](https://github.com/user-attachments/assets/c1376547-8679-418a-8444-de1d66eac0ed)
+  ![Image](https://github.com/user-attachments/assets/8b9673dc-4c41-4749-b229-cb114bccbacd)
 
 ### 3. Tampilan Pencarian Lanjutan
 ![Image](https://github.com/user-attachments/assets/90957ee8-b219-4083-95b8-a1a0b9a55d92)
