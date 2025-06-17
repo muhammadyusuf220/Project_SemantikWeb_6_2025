@@ -32,8 +32,7 @@ def csv_to_turtle(input_csv, output_ttl):
     # Add Aksara Cacarakan declaration
     g.add((ns.AksaraCacarakan, RDF.type, ns.SistemTulisan))
     g.add((ns.AksaraCacarakan, RDFS.label, Literal("Aksara Cacarakan", lang="id")))
-    g.add((ns.AksaraCacarakan, ns.berasalDariWilayah, Literal("Tatar Sunda", lang="id")))
-    g.add((ns.AksaraCacarakan, ns.merupakanVarianDari, ns.AksaraSundaKuno))
+    g.add((ns.AksaraCacarakan, ns.merupakanVarianDari, ns.AksaraJawa))
     
     # Process CSV file
     with open(input_csv, 'r', encoding='utf-8') as csvfile:

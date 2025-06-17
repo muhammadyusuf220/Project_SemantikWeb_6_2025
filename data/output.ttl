@@ -2392,6 +2392,5 @@
 
 :AksaraCacarakan a :SistemTulisan ;
     rdfs:label "Aksara Cacarakan"@id ;
-    :berasalDariWilayah "Tatar Sunda"@id ;
-    :merupakanVarianDari :AksaraSundaKuno .
+    :merupakanVarianDari :AksaraJawa .
 
